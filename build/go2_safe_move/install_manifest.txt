@@ -1,0 +1,16 @@
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/lib/go2_safe_move/go2_safe_move
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/package_run_dependencies/go2_safe_move
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/parent_prefix_path/go2_safe_move
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/ament_prefix_path.sh
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/ament_prefix_path.dsv
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/path.sh
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/path.dsv
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.bash
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.sh
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.zsh
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.dsv
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/package.dsv
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/packages/go2_safe_move
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/cmake/go2_safe_moveConfig.cmake
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/cmake/go2_safe_moveConfig-version.cmake
+/home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/package.xml

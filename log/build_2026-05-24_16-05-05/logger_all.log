@@ -1,0 +1,283 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'go2_lidar_filter']
+[0.057s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['go2_lidar_filter'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f4699937fd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f4699937a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f4699937a30>>)
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.132s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.132s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yaorz/unitree_go2_ws'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_filter) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_lidar_filter' with type 'ros.ament_cmake' and name 'go2_lidar_filter'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'ros'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extensions ['cmake', 'python']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'cmake'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'python'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extensions ['python_setup_py']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot) by extension 'python_setup_py'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_lidar_snapshot/go2_lidar_snapshot) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_lidar_snapshot/go2_lidar_snapshot' with type 'ros.ament_cmake' and name 'go2_lidar_snapshot'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extensions ['cmake', 'python']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'cmake'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'python'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extensions ['python_setup_py']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move) by extension 'python_setup_py'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_safe_move/go2_safe_move) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_safe_move/go2_safe_move' with type 'ros.ament_cmake' and name 'go2_safe_move'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_sport_test/go2_sport_test) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_sport_test/go2_sport_test' with type 'ros.ament_cmake' and name 'go2_sport_test'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_state_logger/go2_state_logger) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_state_logger/go2_state_logger' with type 'ros.ament_cmake' and name 'go2_state_logger'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/helloworld/helloworld) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/helloworld/helloworld' with type 'ros.ament_cmake' and name 'helloworld'
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.157s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'go2_lidar_snapshot' in 'src/go2_lidar_snapshot/go2_lidar_snapshot'
+[0.157s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'go2_safe_move' in 'src/go2_safe_move/go2_safe_move'
+[0.157s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'go2_sport_test' in 'src/go2_sport_test/go2_sport_test'
+[0.157s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'go2_state_logger' in 'src/go2_state_logger/go2_state_logger'
+[0.157s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'helloworld' in 'src/helloworld/helloworld'
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.157s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yaorz/unitree_go2_ws/install
+[0.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yaorz/unitree_ros2/cyclonedds_ws/install
+[0.159s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 275 installed packages in /opt/ros/humble
+[0.167s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'cmake_target' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.193s] Level 5:colcon.colcon_core.verb:set package 'go2_lidar_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.193s] DEBUG:colcon.colcon_core.verb:Building package 'go2_lidar_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter', 'merge_install': False, 'path': '/home/yaorz/unitree_go2_ws/src/go2_lidar_filter', 'symlink_install': False, 'test_result_base': None}
+[0.193s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.194s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yaorz/unitree_go2_ws/src/go2_lidar_filter' with build type 'ament_cmake'
+[0.194s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yaorz/unitree_go2_ws/src/go2_lidar_filter'
+[0.196s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.196s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.204s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_lidar_filter -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_lidar_filter
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_lidar_filter -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_lidar_filter
+[0.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_filter -- -j16 -l16
+[3.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_filter -- -j16 -l16
+[3.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_filter
+[3.084s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_lidar_filter)
+[3.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_filter
+[3.087s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter' for CMake module files
+[3.088s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter' for CMake config files
+[3.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_lidar_filter', 'cmake_prefix_path')
+[3.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/hook/cmake_prefix_path.ps1'
+[3.089s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/hook/cmake_prefix_path.dsv'
+[3.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/hook/cmake_prefix_path.sh'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/bin'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib/pkgconfig/go2_lidar_filter.pc'
+[3.091s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib/python3.10/site-packages'
+[3.092s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/bin'
+[3.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.ps1'
+[3.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.dsv'
+[3.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.sh'
+[3.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.bash'
+[3.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.zsh'
+[3.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/colcon-core/packages/go2_lidar_filter)
+[3.098s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_lidar_filter)
+[3.098s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter' for CMake module files
+[3.098s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter' for CMake config files
+[3.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_lidar_filter', 'cmake_prefix_path')
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/hook/cmake_prefix_path.ps1'
+[3.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/hook/cmake_prefix_path.dsv'
+[3.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/hook/cmake_prefix_path.sh'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/bin'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib/pkgconfig/go2_lidar_filter.pc'
+[3.101s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib/python3.10/site-packages'
+[3.102s] Level 1:colcon.colcon_core.environment:checking '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/bin'
+[3.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.ps1'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.dsv'
+[3.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.sh'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.bash'
+[3.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.zsh'
+[3.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/colcon-core/packages/go2_lidar_filter)
+[3.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.105s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.115s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.115s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.131s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.132s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yaorz/unitree_go2_ws/install/local_setup.ps1'
+[3.133s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yaorz/unitree_go2_ws/install/_local_setup_util_ps1.py'
+[3.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yaorz/unitree_go2_ws/install/setup.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yaorz/unitree_go2_ws/install/local_setup.sh'
+[3.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yaorz/unitree_go2_ws/install/_local_setup_util_sh.py'
+[3.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yaorz/unitree_go2_ws/install/setup.sh'
+[3.142s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yaorz/unitree_go2_ws/install/local_setup.bash'
+[3.142s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yaorz/unitree_go2_ws/install/setup.bash'
+[3.144s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yaorz/unitree_go2_ws/install/local_setup.zsh'
+[3.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yaorz/unitree_go2_ws/install/setup.zsh'

@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_state_logger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_state_logger -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target go2_state_logger[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/go2_state_logger.dir/src/go2_state_logger.cpp.o[0m
+[6.624s] [100%] [32m[1mLinking CXX executable go2_state_logger[0m
+[6.978s] [100%] Built target go2_state_logger
+[6.988s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_state_logger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_state_logger -- -j16 -l16
+[6.997s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_state_logger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_state_logger
+[7.002s] -- Install configuration: ""
+[7.002s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger
+[7.006s] -- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger" to ""
+[7.006s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/package_run_dependencies/go2_state_logger
+[7.006s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/parent_prefix_path/go2_state_logger
+[7.006s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.sh
+[7.006s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.dsv
+[7.006s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.sh
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.dsv
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.bash
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.sh
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.zsh
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.dsv
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.dsv
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/packages/go2_state_logger
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig.cmake
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig-version.cmake
+[7.007s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.xml
+[7.009s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_state_logger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_state_logger

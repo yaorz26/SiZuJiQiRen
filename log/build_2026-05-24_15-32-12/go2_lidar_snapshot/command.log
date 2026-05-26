@@ -1,0 +1,4 @@
+Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot -- -j16 -l16
+Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot -- -j16 -l16
+Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot
+Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot

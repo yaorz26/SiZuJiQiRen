@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target go2_lidar_snapshot[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go2_lidar_snapshot.dir/src/go2_lidar_snapshot.cpp.o[0m
+[100%] [32m[1mLinking CXX executable go2_lidar_snapshot[0m
+[100%] Built target go2_lidar_snapshot
+-- Install configuration: ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/lib/go2_lidar_snapshot/go2_lidar_snapshot
+-- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/lib/go2_lidar_snapshot/go2_lidar_snapshot" to ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/ament_index/resource_index/package_run_dependencies/go2_lidar_snapshot
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/ament_index/resource_index/parent_prefix_path/go2_lidar_snapshot
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/ament_prefix_path.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/ament_prefix_path.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/path.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/path.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.bash
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.zsh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/package.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/ament_index/resource_index/packages/go2_lidar_snapshot
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/cmake/go2_lidar_snapshotConfig.cmake
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/cmake/go2_lidar_snapshotConfig-version.cmake
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/package.xml

@@ -1,0 +1,66 @@
+[0.009s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_lidar_filter -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_lidar_filter
+[0.053s] -- The C compiler identification is GNU 11.4.0
+[0.091s] -- The CXX compiler identification is GNU 11.4.0
+[0.096s] -- Detecting C compiler ABI info
+[0.154s] -- Detecting C compiler ABI info - done
+[0.164s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.164s] -- Detecting C compile features
+[0.164s] -- Detecting C compile features - done
+[0.169s] -- Detecting CXX compiler ABI info
+[0.239s] -- Detecting CXX compiler ABI info - done
+[0.250s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.251s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.454s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.489s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.547s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.558s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.565s] -- Looking for pthread.h
+[0.625s] -- Looking for pthread.h - found
+[0.625s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.684s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.685s] -- Found Threads: TRUE  
+[0.717s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.770s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.770s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yaorz/unitree_go2_ws/src/go2_lidar_filter/include>
+[0.770s] -- Configured cppcheck exclude dirs and/or files: 
+[0.770s] -- Added test 'lint_cmake' to check CMake code style
+[0.771s] -- Added test 'uncrustify' to check C / C++ code style
+[0.771s] -- Configured uncrustify additional arguments: 
+[0.771s] -- Added test 'xmllint' to check XML markup files
+[0.772s] -- Configuring done
+[0.778s] -- Generating done
+[0.780s] -- Build files have been written to: /home/yaorz/unitree_go2_ws/build/go2_lidar_filter
+[0.785s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_lidar_filter -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_lidar_filter
+[0.787s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_filter -- -j16 -l16
+[0.828s] [ 50%] [32mBuilding CXX object CMakeFiles/go2_lidar_filter.dir/src/go2_lidar_filter.cpp.o[0m
+[2.777s] [100%] [32m[1mLinking CXX executable go2_lidar_filter[0m
+[2.862s] [100%] Built target go2_lidar_filter
+[2.872s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_filter -- -j16 -l16
+[2.880s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_filter
+[2.886s] -- Install configuration: ""
+[2.886s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib/go2_lidar_filter/go2_lidar_filter
+[2.886s] -- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_lidar_filter/lib/go2_lidar_filter/go2_lidar_filter" to ""
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/ament_index/resource_index/package_run_dependencies/go2_lidar_filter
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/ament_index/resource_index/parent_prefix_path/go2_lidar_filter
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/environment/ament_prefix_path.sh
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/environment/ament_prefix_path.dsv
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/environment/path.sh
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/environment/path.dsv
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/local_setup.bash
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/local_setup.sh
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/local_setup.zsh
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/local_setup.dsv
+[2.887s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.dsv
+[2.888s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/ament_index/resource_index/packages/go2_lidar_filter
+[2.888s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/cmake/go2_lidar_filterConfig.cmake
+[2.888s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/cmake/go2_lidar_filterConfig-version.cmake
+[2.888s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_filter/share/go2_lidar_filter/package.xml
+[2.889s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_filter

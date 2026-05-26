@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target hello[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   17 |   [01;31m[Krclcpp[m[K:Publisher<unitree_api::msg::Request>::SharedPtr publisher_;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:[m[K In constructor ‘[01m[KHelloWorld::HelloWorld()[m[K’:
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+    9 |     [01;31m[Kpublisher_[m[K = this->create_publisher<unitree_api::msg::Request>("/api/sport/request", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:12:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kls[m[K’ was not declared in this scope
+   12 |       [01;31m[Kls[m[K,
+      |       [01;31m[K^~[m[K
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:[m[K In member function ‘[01m[Kvoid HelloWorld::on_timer()[m[K’:
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:24:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct unitree_api::msg::Request_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kcommand[m[K’
+   24 |     message.[01;31m[Kcommand[m[K = "Hello, ROS2!";
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/yaorz/unitree_go2_ws/src/helloworld/helloworld/src/hello.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   25 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/hello.dir/build.make:76：CMakeFiles/hello.dir/src/hello.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hello.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

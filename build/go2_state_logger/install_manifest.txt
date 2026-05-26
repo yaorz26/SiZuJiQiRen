@@ -1,0 +1,16 @@
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/package_run_dependencies/go2_state_logger
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/parent_prefix_path/go2_state_logger
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.sh
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.dsv
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.sh
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.dsv
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.bash
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.sh
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.zsh
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.dsv
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.dsv
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/packages/go2_state_logger
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig.cmake
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig-version.cmake
+/home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.xml

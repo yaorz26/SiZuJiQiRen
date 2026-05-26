@@ -1,0 +1,10 @@
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/uninstall.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/go2_sport_test_uninstall.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/go2_sport_test.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/test.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/edit_cache.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/rebuild_cache.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/list_install_components.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/install.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/install/local.dir
+/home/yaorz/unitree_go2_ws/build/go2_sport_test/CMakeFiles/install/strip.dir

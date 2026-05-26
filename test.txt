@@ -1,0 +1,62 @@
+yaorz@yaorz-Yilong15Pro-Series-GM5HG0A:~/unitree_go2_ws$ colcon build --packages-select go2_lidar_snapshot
+Starting >>> go2_lidar_snapshot
+--- stderr: go2_lidar_snapshot                             
+/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp: In constructor ‘Go2LidarSnapshot::Go2LidarSnapshot()’:
+/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:26:30: error: no matching function for call to ‘max(int, long int)’
+   26 |     sample_stride_ = std::max(1, this->declare_parameter<int>("sample_stride", 1));
+      |                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:63,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:26:30: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘long int’)
+   26 |     sample_stride_ = std::max(1, this->declare_parameter<int>("sample_stride", 1));
+      |                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/memory:63,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153,
+                 from /home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:1:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:26:30: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘long int’)
+   26 |     sample_stride_ = std::max(1, this->declare_parameter<int>("sample_stride", 1));
+      |                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:1:
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)’
+ 3461 |     max(initializer_list<_Tp> __l)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:26:30: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   26 |     sample_stride_ = std::max(1, this->declare_parameter<int>("sample_stride", 1));
+      |                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/algorithm:62,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:1:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot/src/go2_lidar_snapshot.cpp:26:30: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+   26 |     sample_stride_ = std::max(1, this->declare_parameter<int>("sample_stride", 1));
+      |                      ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/go2_lidar_snapshot.dir/build.make:76：CMakeFiles/go2_lidar_snapshot.dir/src/go2_lidar_snapshot.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/go2_lidar_snapshot.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2
+---
+Failed   <<< go2_lidar_snapshot [3.95s, exited with code 2]
+
+Summary: 0 packages finished [4.15s]
+  1 package failed: go2_lidar_snapshot
+  1 package had stderr output: go2_lidar_snapshot

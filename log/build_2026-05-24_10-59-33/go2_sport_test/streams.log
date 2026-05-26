@@ -1,0 +1,67 @@
+[0.009s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_sport_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_sport_test/go2_sport_test -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_sport_test
+[0.070s] -- The C compiler identification is GNU 11.4.0
+[0.127s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.200s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.204s] -- Detecting CXX compiler ABI info
+[0.270s] -- Detecting CXX compiler ABI info - done
+[0.273s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.274s] -- Detecting CXX compile features - done
+[0.281s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.384s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.458s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.496s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.501s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.508s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.522s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.572s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.574s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.589s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.597s] -- Looking for pthread.h
+[0.660s] -- Looking for pthread.h - found
+[0.661s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.720s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.720s] -- Found Threads: TRUE  
+[0.762s] -- Found unitree_api: 0.0.0 (/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.785s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.845s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.845s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yaorz/unitree_go2_ws/src/go2_sport_test/go2_sport_test/include>
+[0.845s] -- Configured cppcheck exclude dirs and/or files: 
+[0.846s] -- Added test 'lint_cmake' to check CMake code style
+[0.846s] -- Added test 'uncrustify' to check C / C++ code style
+[0.846s] -- Configured uncrustify additional arguments: 
+[0.847s] -- Added test 'xmllint' to check XML markup files
+[0.848s] -- Configuring done
+[0.854s] -- Generating done
+[0.856s] -- Build files have been written to: /home/yaorz/unitree_go2_ws/build/go2_sport_test
+[0.862s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_sport_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_sport_test/go2_sport_test -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_sport_test
+[0.864s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_sport_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_sport_test -- -j16 -l16
+[0.905s] [ 50%] [32mBuilding CXX object CMakeFiles/go2_sport_test.dir/src/go2_sport_test.cpp.o[0m
+[3.717s] [100%] [32m[1mLinking CXX executable go2_sport_test[0m
+[3.875s] [100%] Built target go2_sport_test
+[3.883s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_sport_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_sport_test -- -j16 -l16
+[3.891s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_sport_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_sport_test
+[3.896s] -- Install configuration: ""
+[3.896s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/lib/go2_sport_test/go2_sport_test
+[3.897s] -- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_sport_test/lib/go2_sport_test/go2_sport_test" to ""
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/ament_index/resource_index/package_run_dependencies/go2_sport_test
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/ament_index/resource_index/parent_prefix_path/go2_sport_test
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/environment/ament_prefix_path.sh
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/environment/ament_prefix_path.dsv
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/environment/path.sh
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/environment/path.dsv
+[3.897s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/local_setup.bash
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/local_setup.sh
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/local_setup.zsh
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/local_setup.dsv
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/package.dsv
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/ament_index/resource_index/packages/go2_sport_test
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/cmake/go2_sport_testConfig.cmake
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/cmake/go2_sport_testConfig-version.cmake
+[3.898s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_sport_test/share/go2_sport_test/package.xml
+[3.900s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_sport_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_sport_test

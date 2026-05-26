@@ -1,0 +1,12 @@
+[01m[K/home/yaorz/unitree_go2_ws/src/go2_state_logger/go2_state_logger/src/go2_state_logger.cpp:[m[K In member function ‘[01m[Kvoid Go2StateLogger::on_sport_state(unitree_go::msg::SportModeState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yaorz/unitree_go2_ws/src/go2_state_logger/go2_state_logger/src/go2_state_logger.cpp:94:37:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kunitree_go::msg::SportModeState_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kunitree_go::msg::TimeSpec_<std::allocator<void> >[m[K’} to ‘[01m[Kconst Time&[m[K’ {aka ‘[01m[Kconst builtin_interfaces::msg::Time_<std::allocator<void> >&[m[K’}
+   94 |     write_row(stamp_to_seconds([01;31m[Kmsg->stamp[m[K));
+      |                                [01;31m[K~~~~~^~~~~[m[K
+      |                                     [01;31m[K|[m[K
+      |                                     [01;31m[Kunitree_go::msg::SportModeState_<std::allocator<void> >::_stamp_type {aka unitree_go::msg::TimeSpec_<std::allocator<void> >}[m[K
+[01m[K/home/yaorz/unitree_go2_ws/src/go2_state_logger/go2_state_logger/src/go2_state_logger.cpp:63:72:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstatic double Go2StateLogger::stamp_to_seconds(const Time&)[m[K’
+   63 |   static double stamp_to_seconds([01;36m[Kconst builtin_interfaces::msg::Time & stamp[m[K) {
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/go2_state_logger.dir/build.make:76：CMakeFiles/go2_state_logger.dir/src/go2_state_logger.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/go2_state_logger.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,4 @@
+source;share/helloworld/local_setup.bash
+source;share/helloworld/local_setup.dsv
+source;share/helloworld/local_setup.sh
+source;share/helloworld/local_setup.zsh

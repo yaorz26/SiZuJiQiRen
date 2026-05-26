@@ -1,0 +1,2 @@
+source;share/go2_lidar_snapshot/environment/ament_prefix_path.sh
+source;share/go2_lidar_snapshot/environment/path.sh

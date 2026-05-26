@@ -1,0 +1,7 @@
+x_min -2.73338
+x_max 4.594
+y_min -2.54486
+y_max 3.3837
+resolution 0.05
+width 147
+height 119

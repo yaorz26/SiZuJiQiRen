@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target hello[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello.dir/src/hello.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello[0m
+[100%] Built target hello
+-- Install configuration: ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/lib/helloworld/hello
+-- Set runtime path of "/home/yaorz/unitree_go2_ws/install/helloworld/lib/helloworld/hello" to ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/ament_index/resource_index/package_run_dependencies/helloworld
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/ament_index/resource_index/parent_prefix_path/helloworld
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/environment/ament_prefix_path.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/environment/path.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/environment/path.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/local_setup.bash
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/local_setup.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/local_setup.zsh
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/local_setup.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/package.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/ament_index/resource_index/packages/helloworld
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/cmake/helloworldConfig.cmake
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/cmake/helloworldConfig-version.cmake
+-- Installing: /home/yaorz/unitree_go2_ws/install/helloworld/share/helloworld/package.xml

@@ -1,0 +1,26 @@
+[0.009s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_safe_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_safe_move -- -j16 -l16
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target go2_safe_move[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/go2_safe_move.dir/src/go2_safe_move.cpp.o[0m
+[2.857s] [100%] [32m[1mLinking CXX executable go2_safe_move[0m
+[2.978s] [100%] Built target go2_safe_move
+[2.988s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_safe_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_safe_move -- -j16 -l16
+[2.996s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_safe_move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_safe_move
+[3.000s] -- Install configuration: ""
+[3.001s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_safe_move/lib/go2_safe_move/go2_safe_move
+[3.002s] -- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_safe_move/lib/go2_safe_move/go2_safe_move" to ""
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/package_run_dependencies/go2_safe_move
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/parent_prefix_path/go2_safe_move
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/ament_prefix_path.sh
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/ament_prefix_path.dsv
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/path.sh
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/path.dsv
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.bash
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.sh
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.zsh
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.dsv
+[3.002s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/package.dsv
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/packages/go2_safe_move
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/cmake/go2_safe_moveConfig.cmake
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/cmake/go2_safe_moveConfig-version.cmake
+[3.002s] -- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/package.xml
+[3.003s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_safe_move' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_safe_move

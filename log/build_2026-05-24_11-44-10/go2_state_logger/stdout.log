@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target go2_state_logger[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go2_state_logger.dir/src/go2_state_logger.cpp.o[0m
+[100%] [32m[1mLinking CXX executable go2_state_logger[0m
+[100%] Built target go2_state_logger
+-- Install configuration: ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger
+-- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger" to ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/package_run_dependencies/go2_state_logger
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/parent_prefix_path/go2_state_logger
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.bash
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.sh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.zsh
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/packages/go2_state_logger
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig.cmake
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig-version.cmake
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.xml

@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (-) JobUnselected: {'identifier': 'go2_safe_move'}
+[0.000194] (-) JobUnselected: {'identifier': 'go2_sport_test'}
+[0.000204] (-) JobUnselected: {'identifier': 'helloworld'}
+[0.000215] (go2_state_logger) JobQueued: {'identifier': 'go2_state_logger', 'dependencies': OrderedDict()}
+[0.000226] (go2_state_logger) JobStarted: {'identifier': 'go2_state_logger'}
+[0.007142] (go2_state_logger) JobProgress: {'identifier': 'go2_state_logger', 'progress': 'cmake'}
+[0.007978] (go2_state_logger) JobProgress: {'identifier': 'go2_state_logger', 'progress': 'build'}
+[0.008035] (go2_state_logger) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yaorz/unitree_go2_ws/build/go2_state_logger', '--', '-j16', '-l16'], 'cwd': '/home/yaorz/unitree_go2_ws/build/go2_state_logger', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yaorz'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yaorz'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1731'), ('SYSTEMD_EXEC_PID', '1989'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43573'), ('COLCON_PREFIX_PATH', '/home/yaorz/unitree_go2_ws/install:/home/yaorz/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'yaorz'), ('JOURNAL_STREAM', '8:9594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yaorz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yaorz/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yaorz/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yaorz-Yilong15Pro-Series-GM5HG0A:@/tmp/.ICE-unix/1957,unix/yaorz-Yilong15Pro-Series-GM5HG0A:/tmp/.ICE-unix/1957'), ('INVOCATION_ID', 'c1c0cd7ce3d54dbc9232da7c9dc8991f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8d09b989d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/yaorz/unitree_go2_ws/build/go2_state_logger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.047129] (go2_state_logger) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target go2_state_logger\x1b[0m\n'}
+[0.061559] (go2_state_logger) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/go2_state_logger.dir/src/go2_state_logger.cpp.o\x1b[0m\n'}
+[0.099485] (-) TimerEvent: {}
+[0.199768] (-) TimerEvent: {}
+[0.300085] (-) TimerEvent: {}
+[0.400375] (-) TimerEvent: {}
+[0.500674] (-) TimerEvent: {}
+[0.600972] (-) TimerEvent: {}
+[0.701284] (-) TimerEvent: {}
+[0.801593] (-) TimerEvent: {}
+[0.901869] (-) TimerEvent: {}
+[1.002163] (-) TimerEvent: {}
+[1.102488] (-) TimerEvent: {}
+[1.202781] (-) TimerEvent: {}
+[1.303082] (-) TimerEvent: {}
+[1.403359] (-) TimerEvent: {}
+[1.503642] (-) TimerEvent: {}
+[1.603939] (-) TimerEvent: {}
+[1.704228] (-) TimerEvent: {}
+[1.804528] (-) TimerEvent: {}
+[1.904820] (-) TimerEvent: {}
+[2.005109] (-) TimerEvent: {}
+[2.105413] (-) TimerEvent: {}
+[2.205715] (-) TimerEvent: {}
+[2.305990] (-) TimerEvent: {}
+[2.406289] (-) TimerEvent: {}
+[2.506585] (-) TimerEvent: {}
+[2.606859] (-) TimerEvent: {}
+[2.707157] (-) TimerEvent: {}
+[2.807452] (-) TimerEvent: {}
+[2.907751] (-) TimerEvent: {}
+[3.008052] (-) TimerEvent: {}
+[3.108336] (-) TimerEvent: {}
+[3.208640] (-) TimerEvent: {}
+[3.308934] (-) TimerEvent: {}
+[3.409228] (-) TimerEvent: {}
+[3.509506] (-) TimerEvent: {}
+[3.609810] (-) TimerEvent: {}
+[3.710215] (-) TimerEvent: {}
+[3.810555] (-) TimerEvent: {}
+[3.910838] (-) TimerEvent: {}
+[4.011121] (-) TimerEvent: {}
+[4.111422] (-) TimerEvent: {}
+[4.211738] (-) TimerEvent: {}
+[4.312037] (-) TimerEvent: {}
+[4.412321] (-) TimerEvent: {}
+[4.512617] (-) TimerEvent: {}
+[4.612918] (-) TimerEvent: {}
+[4.713189] (-) TimerEvent: {}
+[4.813467] (-) TimerEvent: {}
+[4.913731] (-) TimerEvent: {}
+[5.014017] (-) TimerEvent: {}
+[5.114289] (-) TimerEvent: {}
+[5.214566] (-) TimerEvent: {}
+[5.314850] (-) TimerEvent: {}
+[5.415137] (-) TimerEvent: {}
+[5.515417] (-) TimerEvent: {}
+[5.615716] (-) TimerEvent: {}
+[5.716000] (-) TimerEvent: {}
+[5.816280] (-) TimerEvent: {}
+[5.916580] (-) TimerEvent: {}
+[6.016860] (-) TimerEvent: {}
+[6.117144] (-) TimerEvent: {}
+[6.217424] (-) TimerEvent: {}
+[6.317703] (-) TimerEvent: {}
+[6.417987] (-) TimerEvent: {}
+[6.518274] (-) TimerEvent: {}
+[6.618590] (-) TimerEvent: {}
+[6.623672] (go2_state_logger) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable go2_state_logger\x1b[0m\n'}
+[6.718724] (-) TimerEvent: {}
+[6.819067] (-) TimerEvent: {}
+[6.919431] (-) TimerEvent: {}
+[6.977981] (go2_state_logger) StdoutLine: {'line': b'[100%] Built target go2_state_logger\n'}
+[6.988469] (go2_state_logger) CommandEnded: {'returncode': 0}
+[6.989249] (go2_state_logger) JobProgress: {'identifier': 'go2_state_logger', 'progress': 'install'}
+[6.996921] (go2_state_logger) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yaorz/unitree_go2_ws/build/go2_state_logger'], 'cwd': '/home/yaorz/unitree_go2_ws/build/go2_state_logger', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yaorz'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yaorz'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.120.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1731'), ('SYSTEMD_EXEC_PID', '1989'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43573'), ('COLCON_PREFIX_PATH', '/home/yaorz/unitree_go2_ws/install:/home/yaorz/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'yaorz'), ('JOURNAL_STREAM', '8:9594'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yaorz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yaorz/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/yaorz/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yaorz-Yilong15Pro-Series-GM5HG0A:@/tmp/.ICE-unix/1957,unix/yaorz-Yilong15Pro-Series-GM5HG0A:/tmp/.ICE-unix/1957'), ('INVOCATION_ID', 'c1c0cd7ce3d54dbc9232da7c9dc8991f'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx5'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8d09b989d4.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/yaorz/unitree_go2_ws/build/go2_state_logger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[7.001821] (go2_state_logger) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.001993] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger\n'}
+[7.006094] (go2_state_logger) StdoutLine: {'line': b'-- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_state_logger/lib/go2_state_logger/go2_state_logger" to ""\n'}
+[7.006285] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/package_run_dependencies/go2_state_logger\n'}
+[7.006374] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/parent_prefix_path/go2_state_logger\n'}
+[7.006496] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.sh\n'}
+[7.006568] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/ament_prefix_path.dsv\n'}
+[7.006670] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.sh\n'}
+[7.006744] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/environment/path.dsv\n'}
+[7.006844] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.bash\n'}
+[7.006914] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.sh\n'}
+[7.006997] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.zsh\n'}
+[7.007063] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/local_setup.dsv\n'}
+[7.007157] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.dsv\n'}
+[7.007254] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/ament_index/resource_index/packages/go2_state_logger\n'}
+[7.007368] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig.cmake\n'}
+[7.007459] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/cmake/go2_state_loggerConfig-version.cmake\n'}
+[7.007523] (go2_state_logger) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_state_logger/share/go2_state_logger/package.xml\n'}
+[7.008937] (go2_state_logger) CommandEnded: {'returncode': 0}
+[7.017680] (go2_state_logger) JobEnded: {'identifier': 'go2_state_logger', 'rc': 0}
+[7.018295] (-) EventReactorShutdown: {}

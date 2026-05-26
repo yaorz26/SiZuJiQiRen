@@ -1,0 +1,4 @@
+Invoking command in '/home/yaorz/unitree_go2_ws/build/helloworld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/helloworld/helloworld -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/helloworld
+Invoked command in '/home/yaorz/unitree_go2_ws/build/helloworld' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/helloworld/helloworld -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/helloworld
+Invoking command in '/home/yaorz/unitree_go2_ws/build/helloworld': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/helloworld -- -j16 -l16
+Invoked command in '/home/yaorz/unitree_go2_ws/build/helloworld' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/helloworld -- -j16 -l16

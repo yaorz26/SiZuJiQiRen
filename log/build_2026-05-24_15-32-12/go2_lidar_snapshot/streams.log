@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot -- -j16 -l16
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target go2_lidar_snapshot[0m
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/go2_lidar_snapshot.dir/src/go2_lidar_snapshot.cpp.o[0m
+[4.915s] [100%] [32m[1mLinking CXX executable go2_lidar_snapshot[0m
+[5.164s] [100%] Built target go2_lidar_snapshot
+[5.174s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot -- -j16 -l16
+[5.182s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot
+[5.186s] -- Install configuration: ""
+[5.186s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/lib/go2_lidar_snapshot/go2_lidar_snapshot
+[5.189s] -- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/lib/go2_lidar_snapshot/go2_lidar_snapshot" to ""
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/ament_index/resource_index/package_run_dependencies/go2_lidar_snapshot
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/ament_index/resource_index/parent_prefix_path/go2_lidar_snapshot
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/ament_prefix_path.sh
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/ament_prefix_path.dsv
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/path.sh
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/environment/path.dsv
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.bash
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.sh
+[5.189s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.zsh
+[5.190s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/local_setup.dsv
+[5.190s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/package.dsv
+[5.190s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/ament_index/resource_index/packages/go2_lidar_snapshot
+[5.190s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/cmake/go2_lidar_snapshotConfig.cmake
+[5.190s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/cmake/go2_lidar_snapshotConfig-version.cmake
+[5.190s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot/share/go2_lidar_snapshot/package.xml
+[5.192s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot

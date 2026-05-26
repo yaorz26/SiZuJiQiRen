@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target go2_safe_move[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/go2_safe_move.dir/src/go2_safe_move.cpp.o[0m
+[100%] [32m[1mLinking CXX executable go2_safe_move[0m
+[100%] Built target go2_safe_move
+-- Install configuration: ""
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_safe_move/lib/go2_safe_move/go2_safe_move
+-- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_safe_move/lib/go2_safe_move/go2_safe_move" to ""
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/package_run_dependencies/go2_safe_move
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/parent_prefix_path/go2_safe_move
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/path.sh
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/environment/path.dsv
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.bash
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.sh
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.zsh
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/local_setup.dsv
+-- Installing: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/package.dsv
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/ament_index/resource_index/packages/go2_safe_move
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/cmake/go2_safe_moveConfig.cmake
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/cmake/go2_safe_moveConfig-version.cmake
+-- Up-to-date: /home/yaorz/unitree_go2_ws/install/go2_safe_move/share/go2_safe_move/package.xml

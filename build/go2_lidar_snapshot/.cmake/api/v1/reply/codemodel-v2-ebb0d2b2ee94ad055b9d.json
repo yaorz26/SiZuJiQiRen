@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-084f29482efd6798f6b0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "go2_lidar_snapshot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_lidar_snapshot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_lidar_snapshot-7b7a12bbe0774c322e4d.json",
+					"name" : "go2_lidar_snapshot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_lidar_snapshot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_lidar_snapshot_uninstall-977cb98a0006dc42bcd0.json",
+					"name" : "go2_lidar_snapshot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-6730991c0fc6e06ca091.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yaorz/unitree_go2_ws/build/go2_lidar_snapshot",
+		"source" : "/home/yaorz/unitree_go2_ws/src/go2_lidar_snapshot/go2_lidar_snapshot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
