@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (-) JobUnselected: {'identifier': 'go2_lidar_filter'}
+[0.000568] (-) JobUnselected: {'identifier': 'go2_lidar_snapshot'}
+[0.000601] (-) JobUnselected: {'identifier': 'go2_safe_move'}
+[0.000624] (-) JobUnselected: {'identifier': 'go2_sport_test'}
+[0.000644] (-) JobUnselected: {'identifier': 'go2_state_logger'}
+[0.000675] (-) JobUnselected: {'identifier': 'helloworld'}
+[0.000699] (go2_tf_bridge) JobQueued: {'identifier': 'go2_tf_bridge', 'dependencies': OrderedDict()}
+[0.000757] (go2_tf_bridge) JobStarted: {'identifier': 'go2_tf_bridge'}
+[0.009050] (go2_tf_bridge) JobProgress: {'identifier': 'go2_tf_bridge', 'progress': 'cmake'}
+[0.009528] (go2_tf_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/yaorz/unitree_go2_ws/src/go2_tf_bridge', '-DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge'], 'cwd': '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/yaorz'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yaorz'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/tcf.json","messagesFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/0958016b2af9f09bb4257e0df4a95e2f90590f9f/nls.messages.json","corruptMarkerFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"8a51db726da852292d1c80f7afa92629.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/tcf.json","_cacheRoot":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/0958016b2af9f09bb4257e0df4a95e2f90590f9f","_corruptedFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yaorz'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-73db1348-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1709'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1994'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5637'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'yaorz'), ('JOURNAL_STREAM', '8:5932'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'yaorz'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yaorz/.codex/tmp/arg0/codex-arg0Q1y1qM:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yaorz/.vscode/extensions/openai.chatgpt-26.519.32039-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/yaorz:@/tmp/.ICE-unix/1940,unix/yaorz:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', '6358470bdbfb46c39c6eb731bfc439af'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx5'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e6732-ca26-7b93-b3de-6708b3fa4dbd'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/yaorz/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble'), ('VSCODE_PID', '5637')]), 'shell': False}
+[0.074941] (go2_tf_bridge) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099822] (-) TimerEvent: {}
+[0.130169] (go2_tf_bridge) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.137541] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199573] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199875] (-) TimerEvent: {}
+[0.212614] (go2_tf_bridge) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.213150] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.214022] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.219087] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.292915] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.299957] (-) TimerEvent: {}
+[0.305156] (go2_tf_bridge) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.305713] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.306627] (go2_tf_bridge) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.315866] (go2_tf_bridge) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400088] (-) TimerEvent: {}
+[0.416817] (go2_tf_bridge) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.491789] (go2_tf_bridge) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.500167] (-) TimerEvent: {}
+[0.522274] (go2_tf_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.526634] (go2_tf_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.533223] (go2_tf_bridge) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.543556] (go2_tf_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.555463] (go2_tf_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.584806] (go2_tf_bridge) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.597831] (go2_tf_bridge) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600235] (-) TimerEvent: {}
+[0.627588] (go2_tf_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.629290] (go2_tf_bridge) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.643636] (go2_tf_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.650799] (go2_tf_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.700353] (-) TimerEvent: {}
+[0.714456] (go2_tf_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.714699] (go2_tf_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.774050] (go2_tf_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.774528] (go2_tf_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800462] (-) TimerEvent: {}
+[0.801846] (go2_tf_bridge) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.874605] (go2_tf_bridge) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.900567] (-) TimerEvent: {}
+[0.926021] (go2_tf_bridge) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.926216] (go2_tf_bridge) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yaorz/unitree_go2_ws/src/go2_tf_bridge/include>\n'}
+[0.926302] (go2_tf_bridge) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.926622] (go2_tf_bridge) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.927329] (go2_tf_bridge) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.927468] (go2_tf_bridge) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.927714] (go2_tf_bridge) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.928952] (go2_tf_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.936331] (go2_tf_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[0.938899] (go2_tf_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/yaorz/unitree_go2_ws/build/go2_tf_bridge\n'}
+[0.945060] (go2_tf_bridge) CommandEnded: {'returncode': 0}
+[0.946822] (go2_tf_bridge) JobProgress: {'identifier': 'go2_tf_bridge', 'progress': 'build'}
+[0.946871] (go2_tf_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge', '--', '-j16', '-l16'], 'cwd': '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/yaorz'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yaorz'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/tcf.json","messagesFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/0958016b2af9f09bb4257e0df4a95e2f90590f9f/nls.messages.json","corruptMarkerFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"8a51db726da852292d1c80f7afa92629.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/tcf.json","_cacheRoot":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/0958016b2af9f09bb4257e0df4a95e2f90590f9f","_corruptedFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yaorz'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-73db1348-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1709'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1994'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5637'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'yaorz'), ('JOURNAL_STREAM', '8:5932'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'yaorz'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yaorz/.codex/tmp/arg0/codex-arg0Q1y1qM:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yaorz/.vscode/extensions/openai.chatgpt-26.519.32039-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/yaorz:@/tmp/.ICE-unix/1940,unix/yaorz:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', '6358470bdbfb46c39c6eb731bfc439af'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx5'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e6732-ca26-7b93-b3de-6708b3fa4dbd'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/yaorz/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble'), ('VSCODE_PID', '5637')]), 'shell': False}
+[0.993678] (go2_tf_bridge) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/go2_tf_bridge.dir/src/go2_tf_bridge.cpp.o\n'}
+[1.000669] (-) TimerEvent: {}
+[1.100881] (-) TimerEvent: {}
+[1.201113] (-) TimerEvent: {}
+[1.301337] (-) TimerEvent: {}
+[1.401565] (-) TimerEvent: {}
+[1.501787] (-) TimerEvent: {}
+[1.602036] (-) TimerEvent: {}
+[1.702267] (-) TimerEvent: {}
+[1.802502] (-) TimerEvent: {}
+[1.902734] (-) TimerEvent: {}
+[2.002966] (-) TimerEvent: {}
+[2.103198] (-) TimerEvent: {}
+[2.203440] (-) TimerEvent: {}
+[2.303681] (-) TimerEvent: {}
+[2.403919] (-) TimerEvent: {}
+[2.504151] (-) TimerEvent: {}
+[2.604385] (-) TimerEvent: {}
+[2.704618] (-) TimerEvent: {}
+[2.804879] (-) TimerEvent: {}
+[2.905115] (-) TimerEvent: {}
+[3.005354] (-) TimerEvent: {}
+[3.105581] (-) TimerEvent: {}
+[3.205815] (-) TimerEvent: {}
+[3.306042] (-) TimerEvent: {}
+[3.406278] (-) TimerEvent: {}
+[3.506536] (-) TimerEvent: {}
+[3.606790] (-) TimerEvent: {}
+[3.707028] (-) TimerEvent: {}
+[3.807290] (-) TimerEvent: {}
+[3.907523] (-) TimerEvent: {}
+[4.007779] (-) TimerEvent: {}
+[4.108016] (-) TimerEvent: {}
+[4.208235] (-) TimerEvent: {}
+[4.308451] (-) TimerEvent: {}
+[4.408649] (-) TimerEvent: {}
+[4.508878] (-) TimerEvent: {}
+[4.609134] (-) TimerEvent: {}
+[4.709330] (-) TimerEvent: {}
+[4.809560] (-) TimerEvent: {}
+[4.909758] (-) TimerEvent: {}
+[5.009979] (-) TimerEvent: {}
+[5.110175] (-) TimerEvent: {}
+[5.210416] (-) TimerEvent: {}
+[5.310632] (-) TimerEvent: {}
+[5.410887] (-) TimerEvent: {}
+[5.511113] (-) TimerEvent: {}
+[5.611361] (-) TimerEvent: {}
+[5.711589] (-) TimerEvent: {}
+[5.791924] (go2_tf_bridge) StdoutLine: {'line': b'[100%] Linking CXX executable go2_tf_bridge\n'}
+[5.811728] (-) TimerEvent: {}
+[5.911984] (-) TimerEvent: {}
+[6.012216] (-) TimerEvent: {}
+[6.044581] (go2_tf_bridge) StdoutLine: {'line': b'[100%] Built target go2_tf_bridge\n'}
+[6.053873] (go2_tf_bridge) CommandEnded: {'returncode': 0}
+[6.054969] (go2_tf_bridge) JobProgress: {'identifier': 'go2_tf_bridge', 'progress': 'install'}
+[6.061126] (go2_tf_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge'], 'cwd': '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/yaorz'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'yaorz'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'codex_vscode'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/tcf.json","messagesFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/0958016b2af9f09bb4257e0df4a95e2f90590f9f/nls.messages.json","corruptMarkerFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"8a51db726da852292d1c80f7afa92629.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/tcf.json","_cacheRoot":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/0958016b2af9f09bb4257e0df4a95e2f90590f9f","_corruptedFile":"/home/yaorz/.config/Code/clp/8a51db726da852292d1c80f7afa92629.zh-cn/corrupted.info"}'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('XDG_SESSION_TYPE', 'x11'), ('DEBUG', 'release'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yaorz'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('DESKTOP_SESSION', 'ubuntu'), ('VSCODE_IPC_HOOK', '/run/user/1000/vscode-73db1348-1.12-main.sock'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1709'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1994'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5637'), ('VSCODE_CRASH_REPORTER_PROCESS_TYPE', 'extensionHost'), ('COLCON_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx5'), ('LOGNAME', 'yaorz'), ('JOURNAL_STREAM', '8:5932'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'yaorz'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yaorz/.codex/tmp/arg0/codex-arg0Q1y1qM:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yaorz/.vscode/extensions/openai.chatgpt-26.519.32039-linux-x64/bin/linux-x86_64'), ('SESSION_MANAGER', 'local/yaorz:@/tmp/.ICE-unix/1940,unix/yaorz:/tmp/.ICE-unix/1940'), ('INVOCATION_ID', '6358470bdbfb46c39c6eb731bfc439af'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx5'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '019e6732-ca26-7b93-b3de-6708b3fa4dbd'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx5'), ('PWD', '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('VSCODE_CODE_CACHE_PATH', '/home/yaorz/.config/Code/CachedData/0958016b2af9f09bb4257e0df4a95e2f90590f9f'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble'), ('VSCODE_PID', '5637')]), 'shell': False}
+[6.066302] (go2_tf_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.066484] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/lib/go2_tf_bridge/go2_tf_bridge\n'}
+[6.069097] (go2_tf_bridge) StdoutLine: {'line': b'-- Set runtime path of "/home/yaorz/unitree_go2_ws/install/go2_tf_bridge/lib/go2_tf_bridge/go2_tf_bridge" to ""\n'}
+[6.069245] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/ament_index/resource_index/package_run_dependencies/go2_tf_bridge\n'}
+[6.069354] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/ament_index/resource_index/parent_prefix_path/go2_tf_bridge\n'}
+[6.069462] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/environment/ament_prefix_path.sh\n'}
+[6.069573] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/environment/ament_prefix_path.dsv\n'}
+[6.069717] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/environment/path.sh\n'}
+[6.069815] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/environment/path.dsv\n'}
+[6.069920] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/local_setup.bash\n'}
+[6.069948] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/local_setup.sh\n'}
+[6.070014] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/local_setup.zsh\n'}
+[6.070083] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/local_setup.dsv\n'}
+[6.070161] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/package.dsv\n'}
+[6.070280] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/ament_index/resource_index/packages/go2_tf_bridge\n'}
+[6.070393] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/cmake/go2_tf_bridgeConfig.cmake\n'}
+[6.070469] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/cmake/go2_tf_bridgeConfig-version.cmake\n'}
+[6.070556] (go2_tf_bridge) StdoutLine: {'line': b'-- Installing: /home/yaorz/unitree_go2_ws/install/go2_tf_bridge/share/go2_tf_bridge/package.xml\n'}
+[6.112836] (-) TimerEvent: {}
+[6.213419] (-) TimerEvent: {}
+[6.313978] (-) TimerEvent: {}
+[6.414275] (-) TimerEvent: {}
+[6.514822] (-) TimerEvent: {}
+[6.615134] (-) TimerEvent: {}
+[6.715765] (-) TimerEvent: {}
+[6.816449] (-) TimerEvent: {}
+[6.917069] (-) TimerEvent: {}
+[7.017727] (-) TimerEvent: {}
+[7.118372] (-) TimerEvent: {}
+[7.219344] (-) TimerEvent: {}
+[7.319948] (-) TimerEvent: {}
+[7.420249] (-) TimerEvent: {}
+[7.520983] (-) TimerEvent: {}
+[7.621310] (-) TimerEvent: {}
+[7.721909] (-) TimerEvent: {}
+[7.822552] (-) TimerEvent: {}
+[7.923178] (-) TimerEvent: {}
+[8.023520] (-) TimerEvent: {}
+[8.124139] (-) TimerEvent: {}
+[8.224477] (-) TimerEvent: {}
+[8.325085] (-) TimerEvent: {}
+[8.425416] (-) TimerEvent: {}
+[8.525715] (-) TimerEvent: {}
+[8.626021] (-) TimerEvent: {}
+[8.726302] (-) TimerEvent: {}
+[8.826601] (-) TimerEvent: {}
+[8.927184] (-) TimerEvent: {}
+[9.027454] (-) TimerEvent: {}
+[9.128018] (-) TimerEvent: {}
+[9.228597] (-) TimerEvent: {}
+[9.329220] (-) TimerEvent: {}
+[9.429612] (-) TimerEvent: {}
+[9.530366] (-) TimerEvent: {}
+[9.630670] (-) TimerEvent: {}
+[9.730959] (-) TimerEvent: {}
+[9.831555] (-) TimerEvent: {}
+[9.932190] (-) TimerEvent: {}
+[10.032758] (-) TimerEvent: {}
+[10.133078] (-) TimerEvent: {}
+[10.233380] (-) TimerEvent: {}
+[10.333701] (-) TimerEvent: {}
+[10.434358] (-) TimerEvent: {}
+[10.534696] (-) TimerEvent: {}
+[10.635035] (-) TimerEvent: {}
+[10.735353] (-) TimerEvent: {}
+[10.835985] (-) TimerEvent: {}
+[10.936353] (-) TimerEvent: {}
+[11.036982] (-) TimerEvent: {}
+[11.137636] (-) TimerEvent: {}
+[11.238282] (-) TimerEvent: {}
+[11.338683] (-) TimerEvent: {}
+[11.439340] (-) TimerEvent: {}
+[11.539684] (-) TimerEvent: {}
+[11.640006] (-) TimerEvent: {}
+[11.740337] (-) TimerEvent: {}
+[11.840956] (-) TimerEvent: {}
+[11.941300] (-) TimerEvent: {}
+[12.041980] (-) TimerEvent: {}
+[12.142625] (-) TimerEvent: {}
+[12.243281] (-) TimerEvent: {}
+[12.343622] (-) TimerEvent: {}
+[12.444195] (-) TimerEvent: {}
+[12.544763] (-) TimerEvent: {}
+[12.645081] (-) TimerEvent: {}
+[12.745656] (-) TimerEvent: {}
+[12.845984] (-) TimerEvent: {}
+[12.946316] (-) TimerEvent: {}
+[13.046606] (-) TimerEvent: {}
+[13.147182] (-) TimerEvent: {}
+[13.247485] (-) TimerEvent: {}
+[13.347839] (-) TimerEvent: {}
+[13.448497] (-) TimerEvent: {}
+[13.549161] (-) TimerEvent: {}
+[13.649502] (-) TimerEvent: {}
+[13.749946] (-) TimerEvent: {}
+[13.850608] (-) TimerEvent: {}
+[13.951259] (-) TimerEvent: {}
+[14.052112] (-) TimerEvent: {}
+[14.152631] (-) TimerEvent: {}
+[14.253033] (-) TimerEvent: {}
+[14.353402] (-) TimerEvent: {}
+[14.454003] (-) TimerEvent: {}
+[14.554320] (-) TimerEvent: {}
+[14.654641] (-) TimerEvent: {}
+[14.755007] (-) TimerEvent: {}
+[14.855360] (-) TimerEvent: {}
+[14.955716] (-) TimerEvent: {}
+[15.056362] (-) TimerEvent: {}
+[15.156989] (-) TimerEvent: {}
+[15.257640] (-) TimerEvent: {}
+[15.358286] (-) TimerEvent: {}
+[15.458971] (-) TimerEvent: {}
+[15.559679] (-) TimerEvent: {}
+[15.659986] (-) TimerEvent: {}
+[15.760560] (-) TimerEvent: {}
+[15.860832] (-) TimerEvent: {}
+[15.961153] (-) TimerEvent: {}
+[16.061762] (-) TimerEvent: {}
+[16.162460] (-) TimerEvent: {}
+[16.262811] (-) TimerEvent: {}
+[16.363210] (-) TimerEvent: {}
+[16.463467] (-) TimerEvent: {}
+[16.564118] (-) TimerEvent: {}
+[16.664464] (-) TimerEvent: {}
+[16.764813] (-) TimerEvent: {}
+[16.865420] (-) TimerEvent: {}
+[16.965983] (-) TimerEvent: {}
+[17.066649] (-) TimerEvent: {}
+[17.167075] (-) TimerEvent: {}
+[17.267783] (-) TimerEvent: {}
+[17.368435] (-) TimerEvent: {}
+[17.469092] (-) TimerEvent: {}
+[17.569758] (-) TimerEvent: {}
+[17.670141] (-) TimerEvent: {}
+[17.770786] (-) TimerEvent: {}
+[17.871162] (-) TimerEvent: {}
+[17.971793] (-) TimerEvent: {}
+[18.072711] (-) TimerEvent: {}
+[18.173383] (-) TimerEvent: {}
+[18.273995] (-) TimerEvent: {}
+[18.374489] (-) TimerEvent: {}
+[18.475000] (-) TimerEvent: {}
+[18.575567] (-) TimerEvent: {}
+[18.675879] (-) TimerEvent: {}
+[18.776586] (-) TimerEvent: {}
+[18.876877] (-) TimerEvent: {}
+[18.977238] (-) TimerEvent: {}
+[19.077893] (-) TimerEvent: {}
+[19.178276] (-) TimerEvent: {}
+[19.278965] (-) TimerEvent: {}
+[19.379358] (-) TimerEvent: {}
+[19.480007] (-) TimerEvent: {}
+[19.580381] (-) TimerEvent: {}
+[19.680725] (-) TimerEvent: {}
+[19.781025] (-) TimerEvent: {}
+[19.881324] (-) TimerEvent: {}
+[19.981671] (-) TimerEvent: {}
+[20.082293] (-) TimerEvent: {}
+[20.182629] (-) TimerEvent: {}
+[20.283235] (-) TimerEvent: {}
+[20.383558] (-) TimerEvent: {}
+[20.484117] (-) TimerEvent: {}
+[20.584491] (-) TimerEvent: {}
+[20.684775] (-) TimerEvent: {}
+[20.785598] (-) TimerEvent: {}
+[20.886171] (-) TimerEvent: {}
+[20.986744] (-) TimerEvent: {}
+[21.087313] (-) TimerEvent: {}
+[21.187959] (-) TimerEvent: {}
+[21.288320] (-) TimerEvent: {}
+[21.388698] (-) TimerEvent: {}
+[21.489402] (-) TimerEvent: {}
+[21.590076] (-) TimerEvent: {}
+[21.690408] (-) TimerEvent: {}
+[21.791121] (-) TimerEvent: {}
+[21.891405] (-) TimerEvent: {}
+[21.992041] (-) TimerEvent: {}
+[22.092401] (-) TimerEvent: {}
+[22.192779] (-) TimerEvent: {}
+[22.293434] (-) TimerEvent: {}
+[22.394148] (-) TimerEvent: {}
+[22.494816] (-) TimerEvent: {}
+[22.595235] (-) TimerEvent: {}
+[22.695924] (-) TimerEvent: {}
+[22.796591] (-) TimerEvent: {}
+[22.897394] (-) TimerEvent: {}
+[22.997791] (-) TimerEvent: {}
+[23.098659] (-) TimerEvent: {}
+[23.199267] (-) TimerEvent: {}
+[23.299850] (-) TimerEvent: {}
+[23.400482] (-) TimerEvent: {}
+[23.501120] (-) TimerEvent: {}
+[23.601779] (-) TimerEvent: {}
+[23.702158] (-) TimerEvent: {}
+[23.802745] (-) TimerEvent: {}
+[23.903370] (-) TimerEvent: {}
+[24.003977] (-) TimerEvent: {}
+[24.104604] (-) TimerEvent: {}
+[24.205252] (-) TimerEvent: {}
+[24.305915] (-) TimerEvent: {}
+[24.406209] (-) TimerEvent: {}
+[24.506795] (-) TimerEvent: {}
+[24.607120] (-) TimerEvent: {}
+[24.707410] (-) TimerEvent: {}
+[24.807655] (-) TimerEvent: {}
+[24.907933] (-) TimerEvent: {}
+[25.008210] (-) TimerEvent: {}
+[25.108495] (-) TimerEvent: {}
+[25.208782] (-) TimerEvent: {}
+[25.309364] (-) TimerEvent: {}
+[25.409704] (-) TimerEvent: {}
+[25.510267] (-) TimerEvent: {}
+[25.610552] (-) TimerEvent: {}
+[25.710961] (-) TimerEvent: {}
+[25.811283] (-) TimerEvent: {}
+[25.911591] (-) TimerEvent: {}
+[26.012148] (-) TimerEvent: {}
+[26.112785] (-) TimerEvent: {}
+[26.213179] (-) TimerEvent: {}
+[26.313803] (-) TimerEvent: {}
+[26.414150] (-) TimerEvent: {}
+[26.514774] (-) TimerEvent: {}
+[26.615161] (-) TimerEvent: {}
+[26.715459] (-) TimerEvent: {}
+[26.815715] (-) TimerEvent: {}
+[26.915997] (-) TimerEvent: {}
+[27.016303] (-) TimerEvent: {}
+[27.116636] (-) TimerEvent: {}
+[27.216941] (-) TimerEvent: {}
+[27.317233] (-) TimerEvent: {}
+[27.417550] (-) TimerEvent: {}
+[27.518137] (-) TimerEvent: {}
+[27.618372] (-) TimerEvent: {}
+[27.718674] (-) TimerEvent: {}
+[27.819256] (-) TimerEvent: {}
+[27.919838] (-) TimerEvent: {}
+[28.020446] (-) TimerEvent: {}
+[28.120897] (-) TimerEvent: {}
+[28.221256] (-) TimerEvent: {}
+[28.321562] (-) TimerEvent: {}
+[28.421827] (-) TimerEvent: {}
+[28.522083] (-) TimerEvent: {}
+[28.622329] (-) TimerEvent: {}
+[28.722612] (-) TimerEvent: {}
+[28.822906] (-) TimerEvent: {}
+[28.923245] (-) TimerEvent: {}
+[29.023554] (-) TimerEvent: {}
+[29.123849] (-) TimerEvent: {}
+[29.224168] (-) TimerEvent: {}
+[29.324450] (-) TimerEvent: {}
+[29.424990] (-) TimerEvent: {}
+[29.525260] (-) TimerEvent: {}
+[29.625554] (-) TimerEvent: {}
+[29.725847] (-) TimerEvent: {}
+[29.826361] (-) TimerEvent: {}
+[29.926677] (-) TimerEvent: {}
+[30.025899] (go2_tf_bridge) CommandEnded: {'returncode': 0}
+[30.026732] (-) TimerEvent: {}
+[30.066500] (go2_tf_bridge) JobEnded: {'identifier': 'go2_tf_bridge', 'rc': 0}
+[30.066945] (-) EventReactorShutdown: {}

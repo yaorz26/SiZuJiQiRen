@@ -1,0 +1,6 @@
+Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_tf_bridge -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge
+Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_tf_bridge -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge
+Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_tf_bridge -- -j16 -l16
+Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_tf_bridge -- -j16 -l16
+Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_tf_bridge
+Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_tf_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_tf_bridge

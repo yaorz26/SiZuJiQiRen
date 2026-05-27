@@ -1,0 +1,49 @@
+[0.010s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_slam_bringup': CMAKE_PREFIX_PATH=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_go2_ws/install/go2_state_logger:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot:/home/yaorz/unitree_go2_ws/install/go2_lidar_filter:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_slam_bringup -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_slam_bringup
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.100s] -- The CXX compiler identification is GNU 11.4.0
+[0.105s] -- Detecting C compiler ABI info
+[0.164s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.234s] -- Detecting CXX compiler ABI info - done
+[0.238s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.238s] -- Detecting CXX compile features
+[0.238s] -- Detecting CXX compile features - done
+[0.241s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.339s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.431s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.484s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.484s] -- Added test 'lint_cmake' to check CMake code style
+[0.484s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.485s] -- Added test 'xmllint' to check XML markup files
+[0.486s] -- Configuring done
+[0.488s] -- Generating done
+[0.489s] -- Build files have been written to: /home/yaorz/unitree_go2_ws/build/go2_slam_bringup
+[30.031s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_slam_bringup' returned '0': CMAKE_PREFIX_PATH=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_go2_ws/install/go2_state_logger:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot:/home/yaorz/unitree_go2_ws/install/go2_lidar_filter:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake /home/yaorz/unitree_go2_ws/src/go2_slam_bringup -DCMAKE_INSTALL_PREFIX=/home/yaorz/unitree_go2_ws/install/go2_slam_bringup
+[30.033s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_slam_bringup': CMAKE_PREFIX_PATH=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_go2_ws/install/go2_state_logger:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot:/home/yaorz/unitree_go2_ws/install/go2_lidar_filter:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_slam_bringup -- -j16 -l16
+[30.072s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_slam_bringup' returned '0': CMAKE_PREFIX_PATH=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_go2_ws/install/go2_state_logger:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot:/home/yaorz/unitree_go2_ws/install/go2_lidar_filter:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake --build /home/yaorz/unitree_go2_ws/build/go2_slam_bringup -- -j16 -l16
+[30.080s] Invoking command in '/home/yaorz/unitree_go2_ws/build/go2_slam_bringup': CMAKE_PREFIX_PATH=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_go2_ws/install/go2_state_logger:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot:/home/yaorz/unitree_go2_ws/install/go2_lidar_filter:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_slam_bringup
+[30.084s] -- Install configuration: ""
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/config
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/config/pointcloud_to_laserscan.yaml
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/config/slam_toolbox.yaml
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/launch
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/launch/go2_slam.launch.py
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/ament_index/resource_index/package_run_dependencies/go2_slam_bringup
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/ament_index/resource_index/parent_prefix_path/go2_slam_bringup
+[30.085s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/environment/ament_prefix_path.sh
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/environment/ament_prefix_path.dsv
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/environment/path.sh
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/environment/path.dsv
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/local_setup.bash
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/local_setup.sh
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/local_setup.zsh
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/local_setup.dsv
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/package.dsv
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/ament_index/resource_index/packages/go2_slam_bringup
+[30.086s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/cmake/go2_slam_bringupConfig.cmake
+[30.087s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/cmake/go2_slam_bringupConfig-version.cmake
+[30.087s] -- Installing: /home/yaorz/unitree_go2_ws/install/go2_slam_bringup/share/go2_slam_bringup/package.xml
+[30.088s] Invoked command in '/home/yaorz/unitree_go2_ws/build/go2_slam_bringup' returned '0': CMAKE_PREFIX_PATH=/home/yaorz/unitree_go2_ws/install/go2_tf_bridge:/home/yaorz/unitree_go2_ws/install/helloworld:/home/yaorz/unitree_go2_ws/install/go2_state_logger:/home/yaorz/unitree_go2_ws/install/go2_sport_test:/home/yaorz/unitree_go2_ws/install/go2_safe_move:/home/yaorz/unitree_go2_ws/install/go2_lidar_snapshot:/home/yaorz/unitree_go2_ws/install/go2_lidar_filter:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/yaorz/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/yaorz/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/yaorz/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble /usr/bin/cmake --install /home/yaorz/unitree_go2_ws/build/go2_slam_bringup
