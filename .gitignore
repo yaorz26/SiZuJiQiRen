@@ -1,0 +1,48 @@
+# ROS 2 / colcon generated workspace files.
+/build/
+/install/
+/log/
+
+# Python caches and local environments.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and editor temporary files.
+.env
+.env.*
+!.env.example
+*.swp
+*.swo
+*~
+
+# Recordings and large experiment outputs belong on the Elements drive.
+/bags/
+/data/
+/datasets/
+/experiments/
+/maps/
+/outputs/
+/recordings/
+/videos/
+*.bag
+*.db3
+*.db3-shm
+*.db3-wal
+*.mcap
+/*.csv
+/*.ply
+/*.pcd
+/*.pgm
+/go2_*_occupancy_meta.txt
+/frames_*.gv
+/frames_*.pdf
+
+# Downloaded installers, duplicate source archives, and old build transcripts.
+/vendor/debs/
+/src/helloworld/helloworld.zip
+/test.txt
