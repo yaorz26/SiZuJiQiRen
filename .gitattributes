@@ -1,0 +1,3 @@
+# Keep third-party dependencies byte-for-byte identical to the Debian packages.
+vendor/robin_map/** linguist-vendored -whitespace
+vendor/ros_humble_sophus/** linguist-vendored -whitespace

@@ -20,7 +20,7 @@ slam_toolbox:
     map_update_interval: 2.0
     resolution: 0.03
     min_laser_range: 0.2
-    max_laser_range: 6.0
+    max_laser_range: 5.0
     minimum_time_interval: 0.2
     transform_timeout: 0.2
     tf_buffer_duration: 30.0
@@ -32,7 +32,7 @@ slam_toolbox:
     minimum_travel_distance: 0.2
     minimum_travel_heading: 0.2
     scan_buffer_size: 10
-    scan_buffer_maximum_scan_distance: 6.0
+    scan_buffer_maximum_scan_distance: 5.0
     link_match_minimum_response_fine: 0.1
     link_scan_maximum_distance: 1.5
     loop_search_maximum_distance: 3.0

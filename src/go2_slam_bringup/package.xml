@@ -10,6 +10,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <exec_depend>go2_tf_bridge</exec_depend>
+  <exec_depend>go2_cloud_map_projector</exec_depend>
   <exec_depend>pointcloud_to_laserscan</exec_depend>
   <exec_depend>slam_toolbox</exec_depend>
 
