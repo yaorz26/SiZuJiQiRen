@@ -129,6 +129,25 @@ integration provides supporting evidence of about 71 degrees; it is not a
 surveyed map reference. The straight run's net displacement magnitude differs from odometry by
 about 0.12 m, so the chain and map saving checks do not establish metric accuracy.
 
+### Stationary drift and angle prior
+
+Two 641 s stationary bags (charged A/B) showed odometry yaw drift of -3.46 and
+-3.76 degrees while a multi-start 2D ICP on `cloud_base` measured less than 0.1
+degree of physical rotation and 6-23 mm translation. With the earlier angle prior
+(`angle_variance_penalty=0.005`, `minimum_angle_penalty=0.1`), `map->odom` yaw
+stayed at zero and the map frame shifted by 9 cm over the run. Relaxing the prior
+to 0.1/0.3 corrected 2.4 of 3.8 degrees, reduced the map-frame shift to 5.9 cm,
+and kept turn yaw within 0.55/1.22 degrees of odometry on the new and old turn
+bags. The residual 1.39 degrees is still above the 1 degree target, and the turn
+differences have no independent angle reference.
+
+Use [analyze_stationary_drift.py](../../scripts/analyze_stationary_drift.py) and
+[analyze_stationary_icp.py](../../scripts/analyze_stationary_icp.py) on finished
+bags after sourcing ROS. Raw gyro integration is not a reliable long-baseline
+reference: the same A/B bags integrated to +106.7/+21.5 degrees before bias
+removal. Full evidence and limitations are in
+[docs/offline_analysis_2026-10-24.md](../../docs/offline_analysis_2026-10-24.md).
+
 The recorded cloud gaps are retained and reported; no missing scans are fabricated.
 Short straight/turn recordings produce partial maps, not a complete laboratory
 map or a loop-closure accuracy result. Do not merge independently recorded runs

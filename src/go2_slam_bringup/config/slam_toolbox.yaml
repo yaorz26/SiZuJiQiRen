@@ -54,13 +54,19 @@ slam_toolbox:
     loop_search_space_resolution: 0.05
     loop_search_space_smear_deviation: 0.03
 
+    # The 10-minute stationary bags showed about -0.36 deg/min of odometry yaw
+    # drift while lidar ICP measured <0.1 deg of physical rotation. With the
+    # previous angle prior (0.005/0.1) map->odom yaw stayed at zero and the
+    # map frame drifted 9 cm. 0.1/0.3 corrected 2.4 of 3.8 deg and reduced
+    # that translation to 5.9 cm; turn regressions stayed within 0.55/1.22 deg
+    # of odometry. See docs/offline_analysis_2026-10-24.md.
     distance_variance_penalty: 0.1
-    angle_variance_penalty: 0.005
+    angle_variance_penalty: 0.1
 
     fine_search_angle_offset: 0.00349
     coarse_search_angle_offset: 0.349
     coarse_angle_resolution: 0.0349
-    minimum_angle_penalty: 0.1
+    minimum_angle_penalty: 0.3
     minimum_distance_penalty: 0.2
     use_response_expansion: true
     # Accumulated scans and repeated observations support a two-pass evidence gate.
