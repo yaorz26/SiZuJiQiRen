@@ -94,7 +94,8 @@ Use `--reference` with one map and an independently measured length file to chec
 selected distances. The empty template is `scripts/config/map_reference_template.json`.
 Measurement uncertainty, the operator and method are required; unknown map
 endpoints remain pending. Passing a few lengths does not establish navigation
-readiness. Follow `docs/next_robot_session.md` for the next physical test.
+readiness. Follow the single project plan at `../../docs/PLAN.md` for the next
+physical test; archived guidance is not normative.
 
 ## Initial indoor profile and limits
 

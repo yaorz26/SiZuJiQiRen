@@ -1,12 +1,12 @@
 # Go2 多机器人协同探索与共同建图：每周一个周末实机日的推进规划
 
-修订日期：2026-10-10。需求依据：[requirement.md](requirement.md)。
+修订日期：2026-10-10。需求依据：[requirement.md](../../requirement.md)。
 
 已确认约束：2026 年 12 月结项、开发人数 2 人、每周周六或周日约 8 小时能够实际接触机器狗。目前只有 1 台，后续预计可用 2 台，第二台到场日期未确认。本文替代此前按频繁现场调参安排的版本。
 
 2026-10-10 更新：今天能够使用 1 台 Go2，首轮 D1 提前到今天，执行 [今日任务单](today_tasks_2026-10-10.md)。后续表格保留原有验收窗口，10/17 或 10/18 优先用于 D1 缺口补采；今天数据合格且下次候选离线通过时，可开展 D2。后续阶段按实际通过结果调整，不假设第二台会提前到场。
 
-当日离线完善：回放已增加完整精度地图保存与失败检查，质量评估仍将源连续性和独立几何标为未完成。下一现场优先执行 [充电后的静止对照与地图验证卡](/home/yaorz/unitree_go2_ws/docs/next_robot_session.md)，当前三组量化成果见 [离线质量结果](/home/yaorz/unitree_go2_ws/docs/offline_quality_2026-10-10.md)。
+当日离线完善：回放已增加完整精度地图保存与失败检查，质量评估仍将源连续性和独立几何标为未完成。下一现场优先执行 [充电后的静止对照与地图验证卡](/home/yaorz/unitree_go2_ws/docs/archive/2026-10-10/next_robot_session.md)，当前三组量化成果见 [离线质量结果](/home/yaorz/unitree_go2_ws/docs/offline_quality_2026-10-10.md)。
 
 原计划使用 10/17 或 10/18 起的 7 个周末：前 3 次集中验证单机；第二台最迟从第 4 次开始到场时，第 4–6 次完成双机基础、协同演示和对照，第 7 次保留重试。加上今天已有一次可用机会，后续周末仍需预约。11 月 30 日交付代码、视频、PPT 与实验素材；12 月用于复现、必要修复和答辩。
 
@@ -56,10 +56,10 @@
 
 相关代码依据：
 
-- [KISS 启动配置](../src/go2_kiss_icp_bringup/launch/go2_kiss_icp.launch.py)、[投影参数](../src/go2_kiss_icp_bringup/config/kiss_map_projector.yaml)。
-- [TF 桥接](../src/go2_tf_bridge/src/go2_tf_bridge.cpp)：当前默认把姿态压成平面，点云预处理需要评估完整姿态转换。
-- [地图投影](../src/go2_cloud_map_projector/src/go2_cloud_map_projector.cpp)：适合现有感知展示，需要补足导航地图语义。
-- [运动程序](../src/go2_safe_move/go2_safe_move/src/go2_safe_move.cpp)、[状态记录](../src/go2_state_logger/go2_state_logger/src/go2_state_logger.cpp)。
+- [KISS 启动配置](../../../src/go2_kiss_icp_bringup/launch/go2_kiss_icp.launch.py)、[投影参数](../../../src/go2_kiss_icp_bringup/config/kiss_map_projector.yaml)。
+- [TF 桥接](../../../src/go2_tf_bridge/src/go2_tf_bridge.cpp)：当前默认把姿态压成平面，点云预处理需要评估完整姿态转换。
+- [地图投影](../../../src/go2_cloud_map_projector/src/go2_cloud_map_projector.cpp)：适合现有感知展示，需要补足导航地图语义。
+- [运动程序](../../../src/go2_safe_move/go2_safe_move/src/go2_safe_move.cpp)、[状态记录](../../../src/go2_state_logger/go2_state_logger/src/go2_state_logger.cpp)。
 
 ## 3. 技术主线与系统结构
 
@@ -401,6 +401,6 @@ D7 前不增加新硬件、SLAM 后端或自动配准。第二场景、更多重
 
 ## 12. 本次规划的依据与验证范围
 
-依据本工作区需求、源代码、安装包信息、历史构建日志和现有实验数据制定。多智能体仿真能力在 [交接文档](../helper/UBUNTU_CODEX_HANDOFF.md) 中有记录，但对应仿真工程不在本工作区；第一周确认其位置、版本和可复用范围，按第 4 节的恢复预算与轻量模拟方案实施。模拟结果、真实轨迹回放和实机结果分别报告。
+依据本工作区需求、源代码、安装包信息、历史构建日志和现有实验数据制定。多智能体仿真能力在 [交接文档](UBUNTU_CODEX_HANDOFF.md) 中有记录，但对应仿真工程不在本工作区；第一周确认其位置、版本和可复用范围，按第 4 节的恢复预算与轻量模拟方案实施。模拟结果、真实轨迹回放和实机结果分别报告。
 
 此前外部文档检索服务不可用，未核验最新外部软件版本；本次修订重点是已确认的场地/设备约束与验证排期。路线以本地已安装 Humble 环境和现有源码能力为基准；新增 Nav2 组件、DDS 桥接工具或地图对齐库在引入时分别验证发行版兼容性、许可证和运行接口，不直接按最新发行版配置。

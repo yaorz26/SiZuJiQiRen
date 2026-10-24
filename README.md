@@ -3,6 +3,9 @@
 面向 Ubuntu / ROS 2 Humble 的 Go2 实验工作区，包含状态记录、点云处理、
 TF 桥接、SLAM 启动配置和现场数据采集脚本。
 
+项目计划只维护 [docs/PLAN.md](docs/PLAN.md)；历史计划与指导见
+[归档目录](docs/archive/README.md)，不再作为行动依据。
+
 ## 获取代码
 
 ```bash
@@ -27,10 +30,10 @@ git submodule update --init --recursive
 | `src/go2_tf_bridge` | 里程计与 TF 桥接 |
 | `src/go2_lidar_snapshot`、`src/go2_lidar_filter` | 点云保存和过滤 |
 | `src/go2_state_logger` | 机器人状态记录 |
-| `src/go2_slam_bringup` | 二维 SLAM 与三维点云地图投影启动配置 |
+| `src/go2_slam_bringup` | 时钟对齐、运动补偿扫描与二维 SLAM 启动配置 |
 | `src/go2_cloud_map_projector` | 将三维点云投影为二维占据栅格 |
-| `src/go2_kiss_icp_bringup` | Go2 KISS-ICP 里程计与地图投影配置 |
-| `scripts/record_d1.sh` | 单机现场原始数据录制及元数据保存 |
+| `src/go2_kiss_icp_bringup` | Go2 KISS-ICP 里程计与地图投影配置（候选路线） |
+| `scripts/` | 现场录制、连续性观察、回放、地图保存与质量评估 |
 
 ## 构建与运行
 
@@ -38,19 +41,21 @@ git submodule update --init --recursive
 运动和状态接口包还依赖本机已安装的 Unitree ROS 2 消息与 API；先加载
 当前已经验证可用的 Go2 环境。
 
-建图包的具体构建参数、启动方式和输入话题说明见
-[KISS-ICP 使用说明](KISS_ICP_NEXT_STEPS.md)。首次构建后加载
+建图包的启动方式、输入话题和当前限制见
+[go2_slam_bringup README](src/go2_slam_bringup/README.md)。首次构建后加载
 `install/setup.bash`。构建产物会在本地生成，由 Git 忽略。
 
-## 现场任务与数据管理
+KISS-ICP 是候选里程计路线，其构建与运行说明已归档：
+[KISS_ICP_NEXT_STEPS.md](docs/archive/2026-10-10/KISS_ICP_NEXT_STEPS.md)。
 
-- [项目需求](docs/requirement.md)
-- [每周推进规划](docs/successful_progress_plan.md)
-- [现场测试卡与检查表](docs/field_session_checklist.md)
-- [2026-10-10 单机采集任务](docs/today_tasks_2026-10-10.md)
-- [2026-10-10 单机静止测试记录](docs/stationary_test_2026-10-10.md)
-- [已有环境与进展交接](helper/UBUNTU_CODEX_HANDOFF.md)
-- [Git 管理约定与历史数据索引](docs/git_management.md)
+## 计划、记录与数据管理
+
+- [项目计划（唯一计划）](docs/PLAN.md)
+- [原始需求](docs/requirement.md)
+- [2026-10-10 实机测试记录](docs/stationary_test_2026-10-10.md)
+- [2026-10-10 SLAM 状态与质量限制](docs/slam_status_2026-10-10.md)
+- [2026-10-10 数据索引](docs/data_index_2026-10-10.yaml)
+- [历史计划与指导（归档）](docs/archive/README.md)
 
 录制、点云、地图、视频和大规模实验数据优先保存到
 `/media/yaorz/Elements/unitree_go2`。默认采集入口检查外盘挂载、可用空间

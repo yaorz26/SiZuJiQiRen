@@ -333,6 +333,8 @@ current_robot_state: Charged stationary A/B tests finished; no agent recording/S
   remains; robot operator retains control
 diagnosis_document: /home/yaorz/unitree_go2_ws/docs/diagnosis_2026-10-10.md
 latest_quality_evaluation: /media/yaorz/Elements/unitree_go2/slam_quality/2026-10-10/165031_533318
-next_robot_session: /home/yaorz/unitree_go2_ws/docs/next_robot_session.md
+next_robot_session: /home/yaorz/unitree_go2_ws/docs/archive/2026-10-10/next_robot_session.md
+current_plan: /home/yaorz/unitree_go2_ws/docs/PLAN.md
+archived_guidance: /home/yaorz/unitree_go2_ws/docs/archive/README.md
 latest_charged_validation: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_validation_summary.json
 latest_live_snapshot: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_live_B_171139/verified_snapshot_172346_764617

@@ -14,4 +14,4 @@
 - `robin_map/usr/share/doc/robin-map-dev/copyright`
 
 指定这两份本地 CMake 配置即可构建；系统仍需安装 ROS 2 Humble、Eigen3
-和 TBB。完整命令见根目录 [KISS-ICP 使用说明](../KISS_ICP_NEXT_STEPS.md)。
+和 TBB。完整命令见归档的 [KISS-ICP 使用说明](../docs/archive/2026-10-10/KISS_ICP_NEXT_STEPS.md)。

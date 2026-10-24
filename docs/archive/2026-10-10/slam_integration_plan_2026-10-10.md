@@ -122,7 +122,7 @@ slam_toolbox → /map + map → odom
 
 下一次实际接触机器狗时，优先验收离线已通过的实时链路：机器人先静止，确认扫描/地图有效后才安排由用户遥控的小范围建图路径。完整闭环和到点导航另行验收；本阶段没有完整 Nav2，也没有已验证的自主导航结果。
 
-若本阶段完成，再进入速度桥接与停车验证、Nav2 到点、单机自主探索，按 [总体规划](/home/yaorz/unitree_go2_ws/docs/successful_progress_plan.md) 逐级推进。今天不同时展开第二条 SLAM 后端或复杂协同算法。
+若本阶段完成，再进入速度桥接与停车验证、Nav2 到点、单机自主探索，按 [总体规划](/home/yaorz/unitree_go2_ws/docs/archive/2026-10-10/successful_progress_plan.md) 逐级推进。今天不同时展开第二条 SLAM 后端或复杂协同算法。
 
 ## 8. 实施依据
 
