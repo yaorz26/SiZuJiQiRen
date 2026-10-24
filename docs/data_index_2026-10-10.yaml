@@ -1,0 +1,338 @@
+session_id: 2026-10-10_D1
+storage_root: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1
+policy: Raw bags read-only; large derived outputs stay on Elements drive
+known_limitations:
+- Robot source time about 2173 s earlier than PC record time; recalibrate each run
+- Original robot sensor streams had no TF; server SLAM publishes dynamic map/odom/base_link
+  TF
+- Cloud continuity degrades in long runs; latest manual turn source gap up to 8.67
+  s
+- One active SQLite inspection caused recorder abort; recovered prefix preserved separately
+- Independent ground truth and independent-device backup not completed
+- Full loop not collected
+runs:
+- name: stationary_smoke_113647_4906
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/stationary_smoke_113647_4906
+  duration_s: 60.972926265
+  message_count: 46438
+  input_topics:
+  - /utlidar/robot_odom
+  - /utlidar/cloud_deskewed
+  - /utlidar/imu
+  - /utlidar/cloud
+  - /utlidar/cloud_base
+  - /sportmodestate
+  - /lf/sportmodestate
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/stationary_smoke_113647_4906/bag_validation.json
+- name: manual_straight_01_114311_8130
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/manual_straight_01_114311_8130
+  duration_s: 100.017674827
+  message_count: 75660
+  input_topics:
+  - /utlidar/robot_odom
+  - /utlidar/cloud_deskewed
+  - /utlidar/imu
+  - /utlidar/cloud
+  - /utlidar/cloud_base
+  - /sportmodestate
+  - /lf/sportmodestate
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/manual_straight_01_114311_8130/motion_validation.json
+- name: manual_turn_01_114932_9423
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/manual_turn_01_114932_9423
+  duration_s: 164.329767648
+  message_count: 120720
+  input_topics:
+  - /utlidar/robot_odom
+  - /utlidar/cloud_deskewed
+  - /utlidar/imu
+  - /utlidar/cloud
+  - /utlidar/cloud_base
+  - /sportmodestate
+  - /lf/sportmodestate
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/manual_turn_01_114932_9423/motion_validation.json
+- name: quality_static_light_01_133702_39899
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_static_light_01_133702_39899
+  classification: stationary; initial continuous light pilot
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_static_light_01_133702_39899/bag
+  duration_s: 71.475528101
+  message_count: 53341
+  bag_size_mib: 95.92578125
+  input_topics:
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud_base
+  - /utlidar/cloud
+  - /utlidar/imu
+  - /utlidar/robot_odom
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_static_light_01_133702_39899/motion_validation.json
+  cloud_base_quality:
+    messages: 1052
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 0.07222751528024673
+    clouds_with_relative_times_over_3s: 0
+    received_hz: 14.71832427055942
+    source_interval_s:
+      median: 0.066962719
+      maximum: 0.081669569
+      gaps_over_025s: 0
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.066991889
+      maximum: 0.075353109
+      gaps_over_025s: 0
+      nonincreasing: 0
+- name: quality_turn_staged_01_134537_49731
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_staged_01_134537_49731
+  classification: stationary waiting; timed clean stop; operator did not confirm movement
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_staged_01_134537_49731/bag
+  duration_s: 341.303304979
+  message_count: 309492
+  bag_size_mib: 363.0390625
+  input_topics:
+  - /tf
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud_base
+  - /utlidar/cloud
+  - /utlidar/imu
+  - /utlidar/robot_odom
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_staged_01_134537_49731/motion_validation.json
+  cloud_base_quality:
+    messages: 3494
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 6.7687859535217285
+    clouds_with_relative_times_over_3s: 4
+    received_hz: 10.237228731831301
+    source_interval_s:
+      median: 0.066996336
+      maximum: 6.778004647
+      gaps_over_025s: 192
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.067185269
+      maximum: 6.855492386
+      gaps_over_025s: 190
+      nonincreasing: 0
+- name: quality_turn_staged_02_140457_51947
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_staged_02_140457_51947
+  classification: RECOVERED PREFIX after SQLite lock abort; no measurable turn; original
+    preserved
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_staged_02_140457_51947/recovered_bag
+  duration_s: 487.583443319
+  message_count: 410218
+  bag_size_mib: 409.66015625
+  input_topics:
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud_base
+  - /utlidar/cloud
+  - /utlidar/imu
+  - /utlidar/robot_odom
+  - /tf
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_staged_02_140457_51947/motion_validation.json
+  cloud_base_quality:
+    messages: 3387
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 9.806716918945312
+    clouds_with_relative_times_over_3s: 25
+    received_hz: 6.946503304018191
+    source_interval_s:
+      median: 0.067029953
+      maximum: 9.815974951
+      gaps_over_025s: 332
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.06748237900000001
+      maximum: 9.809894415
+      gaps_over_025s: 340
+      nonincreasing: 0
+- name: quality_static_resilient_01_142512_55501
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_static_resilient_01_142512_55501
+  classification: stationary; resilient recorder clean stop; source gaps persist without
+    live SLAM
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_static_resilient_01_142512_55501/bag
+  duration_s: 72.647682922
+  message_count: 49679
+  bag_size_mib: 62.33984375
+  input_topics:
+  - /utlidar/robot_odom
+  - /utlidar/cloud_base
+  - /utlidar/imu
+  - /utlidar/cloud
+  - /lf/sportmodestate
+  - /sportmodestate
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_static_resilient_01_142512_55501/motion_validation.json
+  cloud_base_quality:
+    messages: 539
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 6.100261688232422
+    clouds_with_relative_times_over_3s: 3
+    received_hz: 7.419369459845138
+    source_interval_s:
+      median: 0.0671709775
+      maximum: 6.103489876
+      gaps_over_025s: 53
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.0675379985
+      maximum: 6.373991596
+      gaps_over_025s: 50
+      nonincreasing: 0
+- name: quality_turn_final_01_143300_56186
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_final_01_143300_56186
+  classification: remote manual turn completed; source continuity below target; not
+    a complete map
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_final_01_143300_56186/bag
+  duration_s: 356.975731404
+  message_count: 289296
+  bag_size_mib: 291.5625
+  input_topics:
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud_base
+  - /utlidar/cloud
+  - /utlidar/imu
+  - /utlidar/lidar_state
+  - /utlidar/robot_odom
+  - /tf
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/quality_turn_final_01_143300_56186/motion_validation.json
+  cloud_base_quality:
+    messages: 2369
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 8.662503242492676
+    clouds_with_relative_times_over_3s: 22
+    received_hz: 6.636305472875221
+    source_interval_s:
+      median: 0.06707119950000001
+      maximum: 8.666267395
+      gaps_over_025s: 270
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.067659628
+      maximum: 8.667136684
+      gaps_over_025s: 270
+      nonincreasing: 0
+- name: charged_static_A_165710_77486
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_A_165710_77486
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_A_165710_77486/bag
+  classification: charged stationary A; no server SLAM
+  duration_s: 641.081327745
+  message_count: 493984
+  bag_size_mib: 879.0703125
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_A_165710_77486/motion_validation.json
+  input_topics:
+  - /utlidar/robot_odom
+  - /utlidar/lidar_state
+  - /utlidar/imu
+  - /utlidar/cloud
+  - /utlidar/cloud_base
+  - /sportmodestate
+  - /lf/sportmodestate
+  - /lf/lowstate
+  cloud_base_quality:
+    messages: 9373
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 0.5672352313995361
+    clouds_with_relative_times_over_3s: 0
+    received_hz: 14.620609888872409
+    source_interval_s:
+      median: 0.066976428
+      maximum: 0.592982054
+      gaps_over_025s: 10
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.06701898549999999
+      maximum: 0.571104056
+      gaps_over_025s: 10
+      nonincreasing: 0
+  power_state_recorded: true
+- name: charged_static_B_171141_80715
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_B_171141_80715
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_B_171141_80715/bag
+  classification: charged stationary B; live server SLAM
+  duration_s: 641.400590048
+  message_count: 621513
+  bag_size_mib: 885.09765625
+  validation_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_B_171141_80715/motion_validation.json
+  input_topics:
+  - /tf
+  - /lf/lowstate
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud_base
+  - /utlidar/cloud
+  - /utlidar/imu
+  - /utlidar/lidar_state
+  - /utlidar/robot_odom
+  cloud_base_quality:
+    messages: 9280
+    empty_clouds: 0
+    invalid_relative_time_clouds: 0
+    maximum_relative_point_time_s: 0.685748815536499
+    clouds_with_relative_times_over_3s: 0
+    received_hz: 14.46833717334984
+    source_interval_s:
+      median: 0.066983461
+      maximum: 0.860021591
+      gaps_over_025s: 30
+      nonincreasing: 0
+    receive_interval_s:
+      median: 0.067078962
+      maximum: 0.732938503
+      gaps_over_025s: 29
+      nonincreasing: 0
+  power_state_recorded: true
+latest_live_slam_run: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/live_slam_143522
+latest_replay_run: /media/yaorz/Elements/unitree_go2/slam_validation/2026-10-10/quality_turn_final_01_143300_56186_164606_889645
+continuity_observations:
+- name: continuity_A_150837
+  phase: baseline_no_slam
+  duration_s: 300.0120752570001
+  report: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_A_150837/report.json
+  source_snapshot: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_A_150837/check_go2_continuity.py
+  method: passive ROS subscriptions; no raw bag
+- name: continuity_B_151517
+  phase: with_slam
+  duration_s: 300.0121280530002
+  report: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_B_151517/report.json
+  source_snapshot: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_B_151517/check_go2_continuity.py
+  method: passive ROS subscriptions; no raw bag
+- name: continuity_C_after_restart_160523
+  phase: after_user_power_cycle
+  status: partial_due_to_user_reported_low_battery_and_disconnect
+  planned_duration_s: 600
+  online_cloud_span_s: 92.26684808599748
+  received_hz_during_online_span: 14.512254702273808
+  maximum_source_gap_s: 0.3298006057739258
+  source_gap_fraction_over_025s: 0.0037341299477221808
+  report: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_C_after_restart_160523/report.json
+  online_prefix_interpretation: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_C_after_restart_160523/validated_online_prefix.json
+  source_snapshot: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_C_after_restart_160523/check_go2_continuity.py
+  method: Passive subscriptions; ended after user reported low battery and removed
+    connection; disconnected windows excluded
+- name: charged_continuity_A_165711
+  phase: charged_static_A
+  report: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_continuity_A_165711/report.json
+  assessment: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_continuity_A_165711/assessment.json
+  duration_s: 620.0063686529975
+  status: passed
+- name: charged_continuity_B_171142
+  phase: charged_static_B
+  report: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_continuity_B_171142/report.json
+  assessment: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_continuity_B_171142/assessment.json
+  duration_s: 620.00402656
+  status: passed
+continuity_summary: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_D1_go2_1/continuity_ABC_summary.json
+current_robot_state: Charged stationary A/B tests finished; no agent recording/SLAM/monitor
+  remains; robot operator retains control
+diagnosis_document: /home/yaorz/unitree_go2_ws/docs/diagnosis_2026-10-10.md
+latest_quality_evaluation: /media/yaorz/Elements/unitree_go2/slam_quality/2026-10-10/165031_533318
+next_robot_session: /home/yaorz/unitree_go2_ws/docs/next_robot_session.md
+latest_charged_validation: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_validation_summary.json
+latest_live_snapshot: /media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_live_B_171139/verified_snapshot_172346_764617
