@@ -1,0 +1,4 @@
+{
+  "description": "Fill only independently measured distances and corresponding endpoints in one saved map frame. Empty measurements mean geometry has not been checked.",
+  "measurements": []
+}

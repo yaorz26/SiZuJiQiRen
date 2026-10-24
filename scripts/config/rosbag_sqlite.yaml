@@ -1,0 +1,9 @@
+# Local external-drive recording: tolerate transient locks and recover transactions.
+write:
+  pragmas:
+    - journal_mode = WAL
+    - synchronous = NORMAL
+    - busy_timeout = 5000
+read:
+  pragmas:
+    - busy_timeout = 5000
