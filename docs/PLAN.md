@@ -41,7 +41,7 @@
 | 十分钟静止输入连续性 | 通过（充电后 A/B，620 s） | [charged_validation](charged_validation_2026-10-10.md) |
 | 实时/回放 SLAM、栅格与位姿图保存、逐格重载 | 通过 | [charged_validation](charged_validation_2026-10-10.md)、[offline_quality](offline_quality_2026-10-10.md) |
 | 地图几何与独立距离测量 | **未通过** | 无卷尺真值；[offline_quality](offline_quality_2026-10-10.md) |
-| 静止位姿稳定 | **未通过/待查** | 服务器估计约 0.102 m、4.30° 变化；原厂朝向约 3.46–3.77° |
+| 静止位姿稳定 | **物理静止通过；服务器估计未通过** | 雷达 ICP 实测 <0.1°、6–23 mm；里程计偏航 −3.46/−3.76°；基线地图框架平移 0.090 m；详见 [离线分析](offline_analysis_2026-10-24.md) |
 | 闭环 | **未采集**；`do_loop_closing` 关闭 | [slam_status](slam_status_2026-10-10.md) |
 | 速度桥接、超时停车、控制权 | **未开始** | 规划项 |
 | Nav2 到点、自主探索 | **未开始** | 当前仅有 `nav2_map_server`/`nav2_msgs` 等，缺 `nav2_bringup` 与完整导航栈 |
@@ -116,7 +116,7 @@ KISS-ICP 仍是候选里程计路线，不属于当前主线；构建说明见[�
 
 1. 接入、身份、电量、链路与话题核对；短时静止冒烟。
 2. A：约 10 分钟仅采集，保持固定姿态/场景，记录 `/lf/lowstate` 电源原值。
-3. B：相同条件约 10 分钟，启用服务器 SLAM；结束后保存实时地图快照与位姿图。
+3. B：相同条件约 10 分钟，启用服务器 SLAM；结束后保存实时地图快照与位姿图，并拍摄结束姿态标记。
 4. 用卷尺测两段可辨认的固定距离（墙边/门框），记录测量者、方法、不确定度、照片与端点标记。
 5. 条件允许时，由用户遥控短直行 + 小转向 + 小闭环，回到地面标记起点；本机只录制。
 6. 结束后检查原始包、报告、地图重载、元数据，复制备份。
@@ -186,7 +186,8 @@ KISS-ICP 仍是候选里程计路线，不属于当前主线；构建说明见[�
 |---|---|---|
 | G1 输入 | 完整在线 10 分钟：平均点云 ≥12 Hz；>0.25 s 源间隔占比 <1%；最大源间隔 ≤1 s；记录本机 UDP/网卡新增错误 | 三项同时满足 |
 | G2 几何 | 至少 2 段独立卷尺距离（约 1–3 m），地图端点误差 ≤0.10 m | 需测量者、方法、不确定度、端点与照片 |
-| G2b 位姿稳定 | 10 分钟静止：服务器估计平移变化 <0.05 m、偏航变化 <1° | 调查目标；未达到需给出原因与影响 |
+| G2b1 物理静止 | 10 分钟静止：雷达 ICP 相对转动 <0.5°、平移 <5 cm；有条件时用地面标记/照片复核 | 机载 ICP 不是外部真值；记录方法与场景 |
+| G2b2 估计稳定 | 10 分钟静止：地图位姿偏航变化 <1°、`map→odom` 平移变化 <5 cm | 基线 3.78°/9.0 cm 未通过；候选 1.39°/5.9 cm 待验证 |
 | G3 控制 | 6 次动作试验；命令超时/进程退出/人工接管均发出停车请求；报告延迟与实际停稳距离 | 全部有记录 |
 | G4 导航起步 | ≥3 个登记任务，成功 ≥2；终点误差 ≤0.3 m | 记录失败与超时 |
 | G5 导航批量/探索 | 累计 8–10 个任务，成功率 ≥90%；5–10 分钟探索有地图增长与目标重选 | 以实机为准 |
@@ -212,8 +213,10 @@ KISS-ICP 仍是候选里程计路线，不属于当前主线；构建说明见[�
 ### 前提
 
 - 机器人充满电并记录开始电量；用户全程持有遥控器，运动由用户启动。
+- 地面贴标记或画线，固定相机视角；开始/结束各拍一张，作为物理静止的外部参照。
 - `enp2s0` 有线链路恢复；Elements 挂载且可写；相机、卷尺、地面标记、备份盘到位。
 - 候选版本已完成构建与测试（10/24 已通过 17 项包测试 + 7 项离线测试）。
+- 当前离线候选配置：`angle_variance_penalty=0.1`、`minimum_angle_penalty=0.3`；若明天转向/闭环异常，回退基线 `0.005/0.1`（git `373e866`）。
 
 ### 建议流程与预算
 
@@ -268,6 +271,10 @@ python3 scripts/save_live_slam.py \
 离线检查（录制关闭后）：
 
 ```bash
+python3 scripts/analyze_stationary_drift.py /absolute/path/to/run/bag \
+  --output /media/yaorz/Elements/unitree_go2/analysis/2026-10-25/drift_B
+python3 scripts/analyze_stationary_icp.py /absolute/path/to/run/bag \
+  --output /media/yaorz/Elements/unitree_go2/analysis/2026-10-25/icp_B
 python3 scripts/summarize_motion_bag.py /absolute/path/to/run
 python3 scripts/assess_continuity_report.py /absolute/path/to/observation
 python3 scripts/run_slam_replay.py /absolute/path/to/run/bag --rate 1
@@ -292,11 +299,12 @@ python3 scripts/evaluate_slam_run.py /absolute/path/to/replay_output \
 
 - [x] 提交 10/10 代码、脚本、记录与数据索引。
 - [x] 归档旧计划/指导，建立本文件作为唯一计划。
-- [ ] 用充电 A/B 数据跑回放与质量评估，复现约 0.102 m / 4.30° 的静止变化。
-- [ ] 判断变化主要来自原厂偏航、扫描匹配还是 TF/时间；给出明天是否调整 `slam_toolbox` 参数的结论。
-- [ ] 准备明天的测量模板、照片编号、地图端点选点流程。
-- [ ] 核对明天命令、输出目录、Elements 写入与独立备份设备。
-- [ ] 确认机器人充电、线缆、网口和现场布置。
+- [x] 用充电 A/B 数据跑回放与质量评估，分解 0.102 m / 4.30° 的来源。
+- [x] 判断变化来源：雷达 ICP 实测机器人基本未动，偏航漂移来自里程计，SLAM 未纠正；候选角度先验已测试。
+- [x] 创建明天用的测量记录文件：`/media/yaorz/Elements/unitree_go2/analysis/2026-10-24/measurement_2026-10-25.json`。
+- [x] 核对明天命令、输出目录与 Elements 写入。
+- [ ] 准备独立备份设备；确认机器人充电、线缆、网口和现场布置。
+- [x] 新增离线分析报告与两个分析脚本；将候选配置写入默认配置并提交。
 
 ## 10. 离线工作分解
 
@@ -343,3 +351,4 @@ python3 scripts/evaluate_slam_run.py /absolute/path/to/replay_output \
 ## 14. 变更记录
 
 - 2026-10-24：建立唯一计划；取代并归档 10/10 期计划与指导；确定 S1–S6 窗口、G1–G7 门、11/08 双机资源门和保底方案。
+- 2026-10-24 离线分析：确认十分钟静止时机器人实际未转，偏航漂移来自里程计；将 G2b 拆为物理静止与估计稳定；候选角度先验 0.1/0.3 通过静止改善与两组转向回归，详见 [分析报告](offline_analysis_2026-10-24.md)。
