@@ -1,0 +1,113 @@
+{
+  "evaluated_at": "2026-10-24T14:52:32.200065+08:00",
+  "evaluator_sha256": "3b49c410641e46b7d9291c8c4c507cfbb9b52788e1550af6bc59f34387fa9b72",
+  "reports": [
+    {
+      "run_path": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428",
+      "source_bag": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_B_171141_80715/bag",
+      "source_quality_report": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_B_171141_80715/motion_validation.json",
+      "pipeline": {
+        "status": "passed",
+        "checks": {
+          "replay_report_success": true,
+          "map_saved": true,
+          "posegraph_serialized": true,
+          "posegraph_files_present": true,
+          "reloaded_cells_match": true,
+          "saved_classes_match_report": true,
+          "saved_dimensions_match_report": true,
+          "saved_resolution_matches_report": true,
+          "saved_origin_matches_report": true
+        }
+      },
+      "source_continuity": {
+        "status": "passed",
+        "observed_sample": "passed",
+        "duration_verified": true,
+        "duration_s": 641.400590048,
+        "received_hz": 14.46833717334984,
+        "maximum_source_gap_s": 0.860021591,
+        "interval_fraction_over_025s": 0.0032331070158422245,
+        "checks": {
+          "frequency": true,
+          "maximum_source_gap": true,
+          "gap_fraction": true,
+          "strictly_increasing_source_time": true,
+          "nonempty_clouds": true
+        },
+        "thresholds": {
+          "minimum_hz": 12.0,
+          "maximum_gap_s": 1.0,
+          "maximum_fraction_of_intervals_over_025s": 0.01,
+          "minimum_observation_duration_s": 600.0,
+          "meaning": "Provisional project gates, not vendor specifications"
+        }
+      },
+      "map_geometry": {
+        "resolution_m": 0.029999999329447746,
+        "origin_xy_yaw": [
+          -0.3286644413389409,
+          -2.0566665076926403,
+          0.0
+        ],
+        "image_path": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/maps/map.pgm",
+        "width": 151,
+        "height": 147
+      },
+      "saved_geometry_verification": {
+        "status": "passed",
+        "original_origin_xy_yaw": [
+          -0.3286644413389409,
+          -2.0566665076926403,
+          0.0
+        ],
+        "saved_origin_xy_yaw": [
+          -0.3286644413389409,
+          -2.0566665076926403,
+          0.0
+        ]
+      },
+      "observed_map": {
+        "cells": {
+          "unknown": 14102,
+          "free": 6698,
+          "occupied": 1397
+        },
+        "area_m2": {
+          "unknown": 12.691799432632333,
+          "free": 6.028199730518463,
+          "occupied": 1.2572999437943106
+        },
+        "known_fraction_of_saved_extent": 0.36468892192638647,
+        "free_components_four_neighbors": 189,
+        "largest_free_component_cells": 6355,
+        "largest_free_component_area_m2": 5.719499744318428,
+        "limitations": [
+          "Saved extent is not a surveyed environment boundary",
+          "Free-cell connectivity does not apply a robot footprint or clearance"
+        ]
+      },
+      "graph_vertices": 63,
+      "motion_consistency": {
+        "reference": "Input odometry, not independent ground truth",
+        "yaw_difference_deg": 0.00787279011507902,
+        "net_displacement_magnitude_difference_m": 0.07787102259600567
+      },
+      "independent_distances": {
+        "status": "pending",
+        "measurements": [],
+        "limitations": [
+          "Endpoints are manually selected and must represent the same physical feature",
+          "A few lengths do not establish full-map geometry, loop accuracy or navigation readiness"
+        ]
+      },
+      "acceptance": "validation_incomplete",
+      "navigation_readiness": "not_verified",
+      "remaining": [
+        "Ten-minute continuous input validation",
+        "Independent map and closed-route measurements",
+        "Robot footprint, clearance and navigation tests"
+      ]
+    }
+  ]
+}

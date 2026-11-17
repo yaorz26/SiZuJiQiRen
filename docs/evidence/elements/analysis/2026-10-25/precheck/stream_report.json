@@ -1,0 +1,272 @@
+{
+  "observed_at": "2026-10-25T11:05:24.572732+08:00",
+  "duration_s": 15.000947187999941,
+  "method": "Passive subscriptions; frequency reflects reception during this observation",
+  "streams": {
+    "/utlidar/cloud": {
+      "count": 221,
+      "frames": {
+        "utlidar_lidar": 221
+      },
+      "payload_bytes": 10075904,
+      "max_receive_gap_s": 0.07356589500000155,
+      "stamp_backwards": 0,
+      "first_source_stamp": 1792895227.6635983,
+      "last_source_stamp": 1792895242.597346,
+      "source_to_pc_time_offset_s": 2281.9327754974365,
+      "latest_sample": {
+        "points": 1426,
+        "payload_bytes": 45632,
+        "finite_samples": 130,
+        "sample_xyz_min": [
+          -2.98626446723938,
+          -1.5749809741973877,
+          0.04449815675616264
+        ],
+        "sample_xyz_max": [
+          0.908496081829071,
+          2.508612871170044,
+          1.2160578966140747
+        ],
+        "fields": [
+          {
+            "name": "x",
+            "offset": 0,
+            "datatype": 7
+          },
+          {
+            "name": "y",
+            "offset": 4,
+            "datatype": 7
+          },
+          {
+            "name": "z",
+            "offset": 8,
+            "datatype": 7
+          },
+          {
+            "name": "intensity",
+            "offset": 16,
+            "datatype": 7
+          },
+          {
+            "name": "ring",
+            "offset": 20,
+            "datatype": 4
+          },
+          {
+            "name": "time",
+            "offset": 24,
+            "datatype": 7
+          }
+        ]
+      },
+      "observed_hz": 14.73240304297516,
+      "payload_mib_per_s": 0.6405682747194695,
+      "active_receive_hz": 14.726652696917037,
+      "publishers_discovered": 1
+    },
+    "/utlidar/cloud_base": {
+      "count": 221,
+      "frames": {
+        "base_link": 221
+      },
+      "payload_bytes": 4505760,
+      "max_receive_gap_s": 0.07372952399998667,
+      "stamp_backwards": 0,
+      "first_source_stamp": 1792895227.6635983,
+      "last_source_stamp": 1792895242.597346,
+      "source_to_pc_time_offset_s": 2281.9334111213684,
+      "latest_sample": {
+        "points": 609,
+        "payload_bytes": 19488,
+        "finite_samples": 153,
+        "sample_xyz_min": [
+          -0.9113727807998657,
+          -1.6583623886108398,
+          -0.41972073912620544
+        ],
+        "sample_xyz_max": [
+          4.331282615661621,
+          2.550013542175293,
+          0.7963230013847351
+        ],
+        "fields": [
+          {
+            "name": "x",
+            "offset": 0,
+            "datatype": 7
+          },
+          {
+            "name": "y",
+            "offset": 4,
+            "datatype": 7
+          },
+          {
+            "name": "z",
+            "offset": 8,
+            "datatype": 7
+          },
+          {
+            "name": "intensity",
+            "offset": 16,
+            "datatype": 7
+          },
+          {
+            "name": "ring",
+            "offset": 20,
+            "datatype": 4
+          },
+          {
+            "name": "time",
+            "offset": 24,
+            "datatype": 7
+          }
+        ]
+      },
+      "observed_hz": 14.73240304297516,
+      "payload_mib_per_s": 0.2864504176994935,
+      "active_receive_hz": 14.726988120376962,
+      "publishers_discovered": 1
+    },
+    "/utlidar/robot_odom": {
+      "count": 2232,
+      "frames": {
+        "odom": 2232
+      },
+      "payload_bytes": 0,
+      "max_receive_gap_s": 0.028006350999930874,
+      "stamp_backwards": 0,
+      "first_source_stamp": 1792895227.710495,
+      "last_source_stamp": 1792895242.7053742,
+      "source_to_pc_time_offset_s": 2281.8601157665253,
+      "child_frame_id": "base_link",
+      "first_pose": {
+        "position": [
+          0.0018880831776186824,
+          0.0016621648101136088,
+          0.3119947910308838
+        ],
+        "quaternion_xyzw": [
+          -0.009778468869626522,
+          -0.0006057016435079277,
+          0.019121622666716576,
+          0.9997692108154297
+        ]
+      },
+      "latest_pose": {
+        "position": [
+          0.0017769058467820287,
+          0.0005229694652371109,
+          0.3120344281196594
+        ],
+        "quaternion_xyzw": [
+          -0.009468341246247292,
+          -0.0007255534292198718,
+          0.0168912410736084,
+          0.9998124241828918
+        ]
+      },
+      "observed_hz": 148.7906044883283,
+      "payload_mib_per_s": 0.0,
+      "active_receive_hz": 148.79568399229336,
+      "publishers_discovered": 1
+    },
+    "/utlidar/imu": {
+      "count": 3748,
+      "frames": {
+        "utlidar_imu": 3748
+      },
+      "payload_bytes": 0,
+      "max_receive_gap_s": 0.012553366000020105,
+      "stamp_backwards": 0,
+      "first_source_stamp": 1792895227.708497,
+      "last_source_stamp": 1792895242.7119858,
+      "source_to_pc_time_offset_s": 2281.8601973056793,
+      "observed_hz": 249.85088961570543,
+      "payload_mib_per_s": 0.0,
+      "active_receive_hz": 249.79494022030383,
+      "publishers_discovered": 1
+    },
+    "/sportmodestate": {
+      "count": 4448,
+      "frames": {},
+      "payload_bytes": 0,
+      "max_receive_gap_s": 0.01565998099999888,
+      "stamp_backwards": 0,
+      "first_source_stamp": 1792895227.709122,
+      "last_source_stamp": 1792895242.7069004,
+      "source_to_pc_time_offset_s": 2281.8620777130127,
+      "latest_state": {
+        "mode": 0,
+        "error_code": 100,
+        "position": [
+          0.0017676774878054857,
+          0.0005233496194705367,
+          0.3120330274105072
+        ],
+        "velocity": [
+          7.139439549064264e-05,
+          0.011173823848366737,
+          -0.037908755242824554
+        ],
+        "yaw_speed": 0.017044229432940483,
+        "body_height": 0.3201148211956024
+      },
+      "observed_hz": 296.5146096613281,
+      "payload_mib_per_s": 0.0,
+      "active_receive_hz": 296.5268449316104,
+      "publishers_discovered": 1
+    },
+    "/lf/sportmodestate": {
+      "count": 300,
+      "frames": {},
+      "payload_bytes": 0,
+      "max_receive_gap_s": 0.060227013999906376,
+      "stamp_backwards": 0,
+      "first_source_stamp": 1792895227.7149093,
+      "last_source_stamp": 1792895242.6649265,
+      "source_to_pc_time_offset_s": 2281.861407518387,
+      "latest_state": {
+        "mode": 0,
+        "error_code": 100,
+        "position": [
+          0.0017807073891162872,
+          0.000492297054734081,
+          0.31202229857444763
+        ],
+        "velocity": [
+          -0.003569901455193758,
+          -0.002171729225665331,
+          -0.03846776485443115
+        ],
+        "yaw_speed": 0.009587379172444344,
+        "body_height": 0.3201180398464203
+      },
+      "observed_hz": 19.998737162409718,
+      "payload_mib_per_s": 0.0,
+      "active_receive_hz": 19.999019697550235,
+      "publishers_discovered": 1
+    },
+    "/tf": {
+      "count": 0,
+      "frames": {},
+      "payload_bytes": 0,
+      "max_receive_gap_s": 0.0,
+      "stamp_backwards": 0,
+      "observed_hz": 0.0,
+      "payload_mib_per_s": 0.0,
+      "publishers_discovered": 0
+    },
+    "/tf_static": {
+      "count": 0,
+      "frames": {},
+      "payload_bytes": 0,
+      "max_receive_gap_s": 0.0,
+      "stamp_backwards": 0,
+      "observed_hz": 0.0,
+      "payload_mib_per_s": 0.0,
+      "publishers_discovered": 0
+    }
+  }
+}

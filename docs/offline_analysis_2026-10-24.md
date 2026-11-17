@@ -157,6 +157,10 @@ B 实时地图中途基线 vs 结束快照：
 
 ## 证据位置
 
+2026-11-17 已将本节对应的小型分析、回放参数和质量报告原样复制到
+[仓库证据目录](evidence/README.md)；原始数据仍在下列外盘路径。
+之后的 10/25 实验结果另见[结果记录](field_results_2026-10-25.md)。
+
 - 分析根目录：`/media/yaorz/Elements/unitree_go2/analysis/2026-10-24`。
 - A 漂移/雷达：`stationary_drift_A/`、`stationary_icp_A/`。
 - B 漂移/雷达：`stationary_drift_B/`、`stationary_icp_B/`。

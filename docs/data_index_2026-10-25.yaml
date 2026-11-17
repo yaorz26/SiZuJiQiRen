@@ -1,0 +1,159 @@
+session_id: '2026-10-25'
+documented_at: '2026-11-17'
+robot_id: go2_1
+storage_root: /media/yaorz/Elements/unitree_go2
+policy: Raw recordings and large outputs remain on Elements; Git contains selected
+  evidence and checksums.
+inventory: docs/data_inventory_2026-11-17.csv
+evidence_manifest: docs/evidence/manifest_2026-11-17.json
+result_document: docs/field_results_2026-10-25.md
+known_limitations:
+- 'A2 ten-minute continuity failed: maximum source gap 5.8905 s.'
+- Odometry yaw is not external ground truth; ICP assumes a static scene.
+- Replay configuration differs from committed defaults despite its angle_default directory
+  name.
+- Replay trajectory has timing_caveat; map-pose translation is not map-to-odom translation.
+- Independent distances are unfilled; geometry, loop closure and navigation are not
+  verified by these records.
+- Run metadata still has TO_FILL fields; raw power fields and driver packet-loss units
+  are unverified.
+- Original databases are indexed, not uploaded; independent backup has not been verified.
+runs:
+- name: charged_static_A_110553_5696
+  classification: stationary acquisition; onboard ICP supports small physical motion,
+    not external ground truth
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A_110553_5696
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/bag
+  source_revision: 96483b2d9d1014903e82559ac28fe5d7190cf4a0
+  raw_bag:
+    relative_path: experiments/2026-10-25_go2_1/charged_static_A_110553_5696/bag/bag_0.db3
+    size_bytes: 917680128
+    sha256: 2633bec799be0b9b6abc42037ea67804606957e7211cbb1a71b991d8b86cbfa6
+  duration_s: 641.17058411
+  message_count: 494158
+  input_topics:
+  - /lf/lowstate
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud
+  - /utlidar/cloud_base
+  - /utlidar/imu
+  - /utlidar/lidar_state
+  - /utlidar/robot_odom
+  historical_sqlite_checks:
+    bag_0.db3: ok
+  continuity_observation:
+    path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/continuity_A_110630
+    duration_s: 620.005818437
+    status: passed
+    received_hz: 14.64663674107558
+    maximum_source_gap_s: 0.6944923400878906
+    interval_fraction_over_025s: 0.0004405286343612335
+    host_udp_receive_errors: 0
+    ethernet_receive_errors: 0
+  odometry:
+    net_xy_displacement_m: 0.07503471910295216
+    net_yaw_change_deg: -20.636544626140967
+  lidar_icp:
+    report: docs/evidence/elements/analysis/2026-10-25/icp_A/stationary_icp.json
+    yaw_deg: -0.026659433683011706
+    translation_norm_m: 0.028569655814076573
+    inlier_fraction_10cm: 0.9918622848200312
+  published_evidence_directory: docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696
+  run_metadata_incomplete_fields:
+  - operator
+  - observer
+  - scene
+  - initial_pose_reference
+  - robot_firmware
+- name: charged_static_A2_113502_11761
+  classification: stationary acquisition; onboard ICP supports small physical motion,
+    not external ground truth
+  run_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761
+  bag_path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/bag
+  source_revision: 96483b2d9d1014903e82559ac28fe5d7190cf4a0
+  raw_bag:
+    relative_path: experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/bag/bag_0.db3
+    size_bytes: 892944384
+    sha256: 218f5332c62996000aa31af78f5e1d3df04084360545ae9744b4a3f1f7309a51
+  duration_s: 641.23568063
+  message_count: 491951
+  input_topics:
+  - /lf/lowstate
+  - /lf/sportmodestate
+  - /sportmodestate
+  - /utlidar/cloud
+  - /utlidar/cloud_base
+  - /utlidar/imu
+  - /utlidar/lidar_state
+  - /utlidar/robot_odom
+  historical_sqlite_checks:
+    bag_0.db3: ok
+  continuity_observation:
+    path: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/continuity_A2_113540
+    duration_s: 620.0069518089999
+    status: failed
+    received_hz: 14.196615012651591
+    maximum_source_gap_s: 5.890499830245972
+    interval_fraction_over_025s: 0.005226678786501534
+    host_udp_receive_errors: 0
+    ethernet_receive_errors: 0
+  odometry:
+    net_xy_displacement_m: 0.024185014230616877
+    net_yaw_change_deg: 12.40978861190443
+  lidar_icp:
+    report: docs/evidence/elements/analysis/2026-10-25/icp_A2/stationary_icp.json
+    yaw_deg: -0.0388983361747885
+    translation_norm_m: 0.005774295003179988
+    inlier_fraction_10cm: 0.94679186228482
+  published_evidence_directory: docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761
+  run_metadata_incomplete_fields:
+  - operator
+  - observer
+  - scene
+  - initial_pose_reference
+  - robot_firmware
+replays:
+- name: charged_static_A_110553_5696_112335_891052
+  source_run: charged_static_A_110553_5696
+  run_path: /media/yaorz/Elements/unitree_go2/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052
+  published_evidence_directory: docs/evidence/elements/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052
+  workspace_revision_recorded: 96483b2d9d1014903e82559ac28fe5d7190cf4a0
+  effective_config_sha256: c0b31fd5d19545e638b2211e1e16266e964e431285e03c95ad13005a288f7738
+  effective_penalties:
+    angle_variance_penalty: 1.0
+    minimum_angle_penalty: 0.9
+    distance_variance_penalty: 0.5
+    minimum_distance_penalty: 0.5
+  pipeline_status: passed
+  map_pose_change:
+    first_xy_yaw:
+    - 0.0020203392487019296
+    - -0.0022079760674387212
+    - 0.02245787989521504
+    last_xy_yaw:
+    - -0.024143153133722024
+    - 0.022599772636113916
+    - 0.004318517984451875
+    net_xy_m: 0.03605485722317832
+    net_yaw_deg: -1.03930888054709
+  trajectory_timing:
+    samples: 6170
+    samples_with_tf_time_delta: 6170
+    samples_with_recent_tf: 420
+    samples_outside_tf_time_gate: 5750
+    tf_time_delta_min_s: -0.183432612
+    tf_time_delta_max_s: 9.880983653
+    time_gate_s:
+    - -0.2
+    - 0.5
+    status: timing_caveat
+    interpretation: Latest map alignment is held between scan updates. Old transform
+      stamps do not prove a wrong pose, but these samples are not independently time-verified.
+  independent_geometry_status: pending
+  navigation_readiness: not_verified
+short_observations:
+- name: loadtest_no_record_1150
+  report: docs/evidence/elements/experiments/2026-10-25_go2_1/loadtest_no_record_1150/report.json
+  duration_s: 300.01414644900024
+  ten_minute_gate: not_eligible

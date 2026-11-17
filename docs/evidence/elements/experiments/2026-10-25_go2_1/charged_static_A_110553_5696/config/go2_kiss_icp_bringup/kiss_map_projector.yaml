@@ -1,0 +1,15 @@
+go2_cloud_map_projector:
+  ros__parameters:
+    cloud_topic: /kiss/local_map
+    map_topic: /kiss/map_from_cloud
+    frame_id: kiss_odom
+    resolution: 0.03
+    min_z: -1.00
+    max_z: 2.00
+    min_range: 0.20
+    max_range: 0.0
+    padding: 0.6
+    occupied_threshold: 1
+    publish_period: 0.1
+    max_points_per_cloud: 500000
+    max_cells: 2000000

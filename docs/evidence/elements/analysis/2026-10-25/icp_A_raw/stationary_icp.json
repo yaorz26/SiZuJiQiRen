@@ -1,0 +1,66 @@
+{
+  "bag": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/bag",
+  "duration_s": 640.3704333305359,
+  "window_seconds": 60.0,
+  "early_points": 9811,
+  "late_points": 8704,
+  "best": {
+    "yaw_deg": -0.10283269719359947,
+    "translation_m": [
+      -0.004252537334145025,
+      0.0025759802049677124
+    ],
+    "translation_norm_m": 0.004971895794833473,
+    "rmse_m": 0.02424588217146971,
+    "median_m": 0.013703433712579796,
+    "inlier_fraction_10cm": 0.9962086397058824,
+    "points_source": 8704,
+    "points_target": 9811,
+    "initial_yaw_deg": -0.17453292519943295
+  },
+  "best_three_initial_yaws": [
+    {
+      "yaw_deg": -0.10283269719359947,
+      "translation_m": [
+        -0.004252537334145025,
+        0.0025759802049677124
+      ],
+      "translation_norm_m": 0.004971895794833473,
+      "rmse_m": 0.02424588217146971,
+      "median_m": 0.013703433712579796,
+      "inlier_fraction_10cm": 0.9962086397058824,
+      "points_source": 8704,
+      "points_target": 9811,
+      "initial_yaw_deg": -0.17453292519943295
+    },
+    {
+      "yaw_deg": -0.10283269719359947,
+      "translation_m": [
+        -0.004252537334145025,
+        0.0025759802049677124
+      ],
+      "translation_norm_m": 0.004971895794833473,
+      "rmse_m": 0.02424588217146971,
+      "median_m": 0.013703433712579796,
+      "inlier_fraction_10cm": 0.9962086397058824,
+      "points_source": 8704,
+      "points_target": 9811,
+      "initial_yaw_deg": -0.15707963267948966
+    },
+    {
+      "yaw_deg": -0.10283269719359947,
+      "translation_m": [
+        -0.004252537334145025,
+        0.0025759802049677124
+      ],
+      "translation_norm_m": 0.004971895794833473,
+      "rmse_m": 0.02424588217146971,
+      "median_m": 0.013703433712579796,
+      "inlier_fraction_10cm": 0.9962086397058824,
+      "points_source": 8704,
+      "points_target": 9811,
+      "initial_yaw_deg": -0.13962634015954636
+    }
+  ],
+  "interpretation": "Transform maps late points into the early body frame. If the scene is static, its yaw is the physical robot yaw change between the windows. Multiple distinct low-error minima would indicate ambiguous geometry."
+}

@@ -1,0 +1,25 @@
+session_id: '2026-10-25'
+robot_id: go2_1
+run_label: charged_static_A
+data_root: /media/yaorz/Elements/unitree_go2
+record_profile: light
+optional_low_frequency_power_state: true
+sqlite_storage_config: config/rosbag_sqlite.yaml
+active_inspection_policy: ROS subscriptions only; do not read SQLite until recorder
+  exits
+workspace_root: /home/yaorz/unitree_go2_ws
+prepared_at: '2026-10-25T11:06:11.301777+08:00'
+git_revision: 96483b2d9d1014903e82559ac28fe5d7190cf4a0
+ros_distro: humble
+rmw_implementation: rmw_cyclonedds_cpp
+ros_domain_id: default
+clock_mode: recorder system clock; retain original message header timestamps
+control_mode: manual remote control; recorder publishes no motion commands
+operator: TO_FILL
+observer: TO_FILL
+scene: TO_FILL
+initial_pose_reference: TO_FILL
+robot_firmware: TO_FILL
+source_timestamp_meaning: Original robot source times retained
+result: Readable completed recording; odometry quantified in motion_validation.json
+record_time_minus_odom_source_time_median_seconds: 2281.842143468

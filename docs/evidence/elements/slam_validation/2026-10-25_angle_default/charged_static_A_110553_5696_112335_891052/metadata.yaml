@@ -1,0 +1,19 @@
+source_bag: /media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/bag
+playback_rate: 1.0
+recorded_at: '2026-10-25T11:23:35.900961+08:00'
+workspace_revision: 96483b2d9d1014903e82559ac28fe5d7190cf4a0
+accumulate_scan: true
+accumulation_window_seconds: 1.0
+validation_mode: isolated loopback DDS; replay only cloud_base and robot_odom; no
+  motion publishers
+source_sha256:
+  config/accumulated_scan.yaml: 73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d
+  config/pointcloud_to_laserscan.yaml: 97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a
+  config/slam_toolbox.yaml: c0b31fd5d19545e638b2211e1e16266e964e431285e03c95ad13005a288f7738
+  source/go2_accumulated_scan.py: b92cfb7306fedd4e0da181f127b20cbf9a15f4a93ce9ba1e0c2623dcb0326f49
+  source/go2_sensor_time_bridge.py: 2ae5f2d2ae8ef170915179bb0655a051d9dc7be1f9378e7587f61e5c4c053be1
+  source/go2_slam.launch.py: 3b5de3ad4d48e97542c6c4f4c7105a96fea76c4b9cfe54251427f17a71c400b8
+  source/run_slam_replay.py: 452233161ebc1e34219029d14786efc7edd70f209578cedf145118001655d616
+  source/slam_artifacts.py: 8565115e22d7efcc8773cc1410f9301bb1fe0924d13803746fab5b070092e6dc
+trajectory_method: At odometry time, compose with latest received map->odom TF; record
+  TF time delta; not independent ground truth

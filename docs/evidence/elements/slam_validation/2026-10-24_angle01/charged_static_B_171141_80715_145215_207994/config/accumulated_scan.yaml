@@ -1,0 +1,13 @@
+go2_accumulated_scan:
+  ros__parameters:
+    window_seconds: 1.0
+    minimum_height: -0.2
+    maximum_height: 1.0
+    range_min: 0.2
+    range_max: 5.0
+    angle_increment: 0.0174533
+    gap_reset_seconds: 0.4
+    minimum_publish_translation: 0.05
+    minimum_publish_rotation: 0.05
+    minimum_publish_interval: 0.2
+    stationary_refresh_seconds: 10.0

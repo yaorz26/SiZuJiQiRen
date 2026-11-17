@@ -1,0 +1,8 @@
+{
+  "phase": "no_record_load_test",
+  "started_at": "2026-10-25T11:49:40.266553+08:00",
+  "requested_duration_s": 300.0,
+  "physical_control": "stationary; no motion publishers",
+  "power_state_topic": "/lf/lowstate",
+  "inspection": "ROS subscriptions and /proc network counters; no active SQLite reads"
+}

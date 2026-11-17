@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "indexed_at": "2026-11-17T14:29:47+08:00",
+  "storage_root": "/media/yaorz/Elements/unitree_go2",
+  "drive_label": "Elements",
+  "index": "data_inventory_2026-11-17.csv",
+  "inventory_sha256": "7be4cb77ff97522d76881943ba38408c7ccc16ca50ab0feb45c2e91a6fb1e65c",
+  "workspace_revision_at_index": "96483b2d9d1014903e82559ac28fe5d7190cf4a0",
+  "file_count": 852,
+  "total_size_bytes": 7404969354,
+  "size_bytes_by_directory": {
+    "analysis": 22158811,
+    "data_validation": 1584400,
+    "experiments": 7324223235,
+    "slam_quality": 553404,
+    "slam_validation": 56449504
+  },
+  "size_bytes_by_extension": {
+    ".before_quality_evaluation": 6334,
+    ".cpp": 4039,
+    ".csv": 43228943,
+    ".data": 9639567,
+    ".db3": 7297523712,
+    ".db3-shm": 196608,
+    ".db3-wal": 0,
+    ".h": 66054,
+    ".json": 501870,
+    ".jsonl": 101462,
+    ".log": 220364,
+    ".md": 11474,
+    ".npz": 627533,
+    ".pgm": 805680,
+    ".png": 2012583,
+    ".posegraph": 48587390,
+    ".py": 1047569,
+    ".saver_original": 858,
+    ".sh": 26200,
+    ".txt": 145251,
+    ".yaml": 215863
+  },
+  "raw_bag_files": {
+    "count": 13,
+    "size_bytes": 7297523712
+  },
+  "publication": {
+    "raw_data_uploaded": false,
+    "zip_created": false,
+    "git_lfs_enabled": false,
+    "independent_backup_verified": false
+  },
+  "limitations": [
+    "Snapshot covers only storage_root; other drive contents and legacy workspace artifacts are excluded.",
+    "Hashes identify bytes at indexing time; they do not prove bag integrity, experimental validity or existence of an independent backup.",
+    "Existing incomplete/recovered recordings and SQLite sidecars are preserved and indexed without opening databases.",
+    "workspace_revision_at_index identifies this inventory operation; experiment-specific metadata and source snapshots identify each run."
+  ]
+}

@@ -55,9 +55,18 @@ KISS-ICP 是候选里程计路线，其构建与运行说明已归档：
 - [2026-10-10 实机测试记录](docs/stationary_test_2026-10-10.md)
 - [2026-10-10 SLAM 状态与质量限制](docs/slam_status_2026-10-10.md)
 - [2026-10-10 数据索引](docs/data_index_2026-10-10.yaml)
+- [2026-10-24 离线分析](docs/offline_analysis_2026-10-24.md)
+- [2026-10-25 实验结果与限制](docs/field_results_2026-10-25.md)
+- [2026-10-25 数据索引](docs/data_index_2026-10-25.yaml)
+- [数据提交与备份约定](docs/data_publication.md)
+- [2026-11-17 外盘数据清单与 SHA-256](docs/data_inventory_2026-11-17.csv)
+- [随仓库保存的小型证据](docs/evidence/README.md)
 - [历史计划与指导（归档）](docs/archive/README.md)
 
 录制、点云、地图、视频和大规模实验数据优先保存到
 `/media/yaorz/Elements/unitree_go2`。默认采集入口检查外盘挂载、可用空间
 和写入条件，失败时停止。每次运行独立保存元数据和配置快照。
 源码、配置、脚本、文档及小型数据索引保留在工作区。
+GitHub 同步结论、关键报告、配置快照和校验索引；原始录制、大型点云与
+派生数据保留在外盘。本次不将整盘数据打包为 ZIP，也不把 GitHub 仓库
+视作原始实验数据的备份。具体范围见[数据提交约定](docs/data_publication.md)。

@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "storage_root": "/media/yaorz/Elements/unitree_go2",
+  "copy_policy": "Selected small evidence copied byte-for-byte; embedded absolute paths retain original provenance.",
+  "file_count": 74,
+  "total_size_bytes": 369936,
+  "files": [
+    {
+      "source_path": "analysis/2026-10-24/measurement_2026-10-25.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-24/measurement_2026-10-25.json",
+      "size_bytes": 436,
+      "sha256": "960b6ccde9261d8d2b145e9ffae06e97d6e3d24116066f33c7d03cc26902966d"
+    },
+    {
+      "source_path": "analysis/2026-10-24/stationary_drift_A/stationary_drift.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-24/stationary_drift_A/stationary_drift.json",
+      "size_bytes": 4082,
+      "sha256": "f760a82c725e951b0cdf37c319588d408baa3a2db88fa693ac39f39c2ed9f5da"
+    },
+    {
+      "source_path": "analysis/2026-10-24/stationary_drift_B/stationary_drift.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-24/stationary_drift_B/stationary_drift.json",
+      "size_bytes": 4079,
+      "sha256": "28ddeecd9e0f7bfbd91647d796c2b89acd7c3a75018512df77ff6f5c6a93dd7d"
+    },
+    {
+      "source_path": "analysis/2026-10-24/stationary_icp_A/stationary_icp.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-24/stationary_icp_A/stationary_icp.json",
+      "size_bytes": 2179,
+      "sha256": "b906e92054d5fa22d49dfbd653a13f912af216a30dca5402ffa6529da7376d6d"
+    },
+    {
+      "source_path": "analysis/2026-10-24/stationary_icp_B/stationary_icp.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-24/stationary_icp_B/stationary_icp.json",
+      "size_bytes": 2191,
+      "sha256": "35213f4f34ff4fb14260f24ed080c088595cb33fbc8692d9f127fa15735a49d3"
+    },
+    {
+      "source_path": "analysis/2026-10-24/summary.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-24/summary.json",
+      "size_bytes": 2349,
+      "sha256": "3736476eae1e34ded7c3524e8b72fb1323f4f3d988ca0d9b4fbfe682a4faf984"
+    },
+    {
+      "source_path": "analysis/2026-10-25/drift_A/stationary_drift.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-25/drift_A/stationary_drift.json",
+      "size_bytes": 4065,
+      "sha256": "65136e00e1e4949174c2a60ab68f9b8563ac32ebac8794e428f418a40bfaf754"
+    },
+    {
+      "source_path": "analysis/2026-10-25/icp_A/stationary_icp.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-25/icp_A/stationary_icp.json",
+      "size_bytes": 2170,
+      "sha256": "9621ccac7d46f72da4355c4c3eb2ee5c0a428f9ca5321195efcee1910ec66666"
+    },
+    {
+      "source_path": "analysis/2026-10-25/icp_A2/stationary_icp.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-25/icp_A2/stationary_icp.json",
+      "size_bytes": 2160,
+      "sha256": "0b13ae47912f91f0547ddc3e84af8796f47b520720e260f3cb34b32bdf3c82a6"
+    },
+    {
+      "source_path": "analysis/2026-10-25/icp_A_raw/analyze_stationary_icp.py",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-25/icp_A_raw/analyze_stationary_icp.py",
+      "size_bytes": 6998,
+      "sha256": "7c7e15ae428e6d1d1b17a8a0d1e52f02e3ee9916f280d62270ac651e8260744e"
+    },
+    {
+      "source_path": "analysis/2026-10-25/icp_A_raw/stationary_icp.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-25/icp_A_raw/stationary_icp.json",
+      "size_bytes": 2178,
+      "sha256": "44607c78427152c2f673a26f50ff1a99f1b5508cb705bfaa12bdb70a97b3818d"
+    },
+    {
+      "source_path": "analysis/2026-10-25/precheck/stream_report.json",
+      "repository_path": "docs/evidence/elements/analysis/2026-10-25/precheck/stream_report.json",
+      "size_bytes": 7312,
+      "sha256": "80080053d5d3e0a7b73a99ae9ae863dea9aa7ca80eafc071b7718dc08f76076c"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/bag/metadata.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/bag/metadata.yaml",
+      "size_bytes": 4398,
+      "sha256": "635f05652a00df2ad64968168d9bba07a3a90b6c0bc0a227ccb06463270ba5a6"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_cloud_map_projector/cloud_map_projector.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_cloud_map_projector/cloud_map_projector.yaml",
+      "size_bytes": 351,
+      "sha256": "1b59a321b0bce78e957e1bac6dd352b804bb297b106ea7ee7d2502d715376473"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_kiss_icp_bringup/go2_kiss_icp.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_kiss_icp_bringup/go2_kiss_icp.yaml",
+      "size_bytes": 567,
+      "sha256": "e43d68af1e960de8b46138b158c94aac3698267b440057250d3a5674ce3cac59"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_kiss_icp_bringup/kiss_map_projector.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_kiss_icp_bringup/kiss_map_projector.yaml",
+      "size_bytes": 353,
+      "sha256": "29cf7a0c69180ee651196db901c93897379155ae62b6eca4f18efbfaa9ec58b5"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_slam_bringup/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_slam_bringup/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_slam_bringup/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_slam_bringup/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_slam_bringup/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/go2_slam_bringup/slam_toolbox.yaml",
+      "size_bytes": 2634,
+      "sha256": "ad763b88b8e381c85166d92f7f4177cf6cc2caa68dd034cf53f4e7b048eed6ba"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/rosbag_sqlite.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/config/rosbag_sqlite.yaml",
+      "size_bytes": 224,
+      "sha256": "b3ee7b30ec6f16b067ceaaeb774d69b5d70075f44fdf2e53fb52a142469e1a8d"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/motion_validation.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/motion_validation.json",
+      "size_bytes": 4299,
+      "sha256": "83ec1e952a529d900803385842e3b8e4941b055d7af28e5d0782ade638adc54d"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/run_metadata.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/run_metadata.yaml",
+      "size_bytes": 1018,
+      "sha256": "dde680b9576c27761cd8933ca5079193e3eb8f74908a5c68bec31488da4f5f65"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/bag/metadata.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/bag/metadata.yaml",
+      "size_bytes": 4398,
+      "sha256": "2ed9a3d9d68cb7ac48226109209364517a5c967bc8b01e18ddfa42c369021bbd"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_cloud_map_projector/cloud_map_projector.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_cloud_map_projector/cloud_map_projector.yaml",
+      "size_bytes": 351,
+      "sha256": "1b59a321b0bce78e957e1bac6dd352b804bb297b106ea7ee7d2502d715376473"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_kiss_icp_bringup/go2_kiss_icp.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_kiss_icp_bringup/go2_kiss_icp.yaml",
+      "size_bytes": 567,
+      "sha256": "e43d68af1e960de8b46138b158c94aac3698267b440057250d3a5674ce3cac59"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_kiss_icp_bringup/kiss_map_projector.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_kiss_icp_bringup/kiss_map_projector.yaml",
+      "size_bytes": 353,
+      "sha256": "29cf7a0c69180ee651196db901c93897379155ae62b6eca4f18efbfaa9ec58b5"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_slam_bringup/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_slam_bringup/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_slam_bringup/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_slam_bringup/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_slam_bringup/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/go2_slam_bringup/slam_toolbox.yaml",
+      "size_bytes": 2634,
+      "sha256": "ad763b88b8e381c85166d92f7f4177cf6cc2caa68dd034cf53f4e7b048eed6ba"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/rosbag_sqlite.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/config/rosbag_sqlite.yaml",
+      "size_bytes": 224,
+      "sha256": "b3ee7b30ec6f16b067ceaaeb774d69b5d70075f44fdf2e53fb52a142469e1a8d"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/motion_validation.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/motion_validation.json",
+      "size_bytes": 4294,
+      "sha256": "bd08a591728aa4e4d48516732fb65adc1d1944daba05227cbbf759c14918f3b8"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/charged_static_A_110553_5696/run_metadata.yaml",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/charged_static_A_110553_5696/run_metadata.yaml",
+      "size_bytes": 1017,
+      "sha256": "d0c950ecf7f33c4407465b5b40cc5155062ffcbdd515077f5b46fd22badcd602"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/continuity_A2_113540/assessment.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/continuity_A2_113540/assessment.json",
+      "size_bytes": 2569,
+      "sha256": "fe2a91faeb9df977b614b6887c94d3593c6501dd3f1ff9ad51f28ade141c2a28"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/continuity_A2_113540/metadata.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/continuity_A2_113540/metadata.json",
+      "size_bytes": 304,
+      "sha256": "220a975eee0117ab03cb7ca68e86dfeeeb79ebf9fb4b3806bdf9507edfbb4754"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/continuity_A2_113540/report.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/continuity_A2_113540/report.json",
+      "size_bytes": 28248,
+      "sha256": "014165e69ca34efe1b8b16639b76ae6739550a04da2a0292c788d38bcebc390c"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/continuity_A_110630/assessment.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/continuity_A_110630/assessment.json",
+      "size_bytes": 2559,
+      "sha256": "326a1f5193decad850d28d63a211b15c8f4a748f3ba4a14c68bb067bf508ce4e"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/continuity_A_110630/metadata.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/continuity_A_110630/metadata.json",
+      "size_bytes": 303,
+      "sha256": "8877cb7e44ae79272c8af8032b264775c44ad2300e89d5c299525c2edd344dd0"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/continuity_A_110630/report.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/continuity_A_110630/report.json",
+      "size_bytes": 28229,
+      "sha256": "6ad51d7c69e552c3249b8c5b9b67f121186b7fbe6bc464d46e0987d8ef1ea8c6"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/loadtest_no_record_1150/metadata.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/loadtest_no_record_1150/metadata.json",
+      "size_bytes": 306,
+      "sha256": "c6c39a46ea575894b5c8058a648ba0dc3d8c9a68678626c6100fc32b4ebab46e"
+    },
+    {
+      "source_path": "experiments/2026-10-25_go2_1/loadtest_no_record_1150/report.json",
+      "repository_path": "docs/evidence/elements/experiments/2026-10-25_go2_1/loadtest_no_record_1150/report.json",
+      "size_bytes": 14679,
+      "sha256": "3732decc364601b884b5f949243557507bb9acfdf733478039958b7b10f6b382"
+    },
+    {
+      "source_path": "slam_quality/2026-10-24/145232_072223/map_1.png",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-24/145232_072223/map_1.png",
+      "size_bytes": 48230,
+      "sha256": "8b9afd7b333af8815e1908cfefbc0927d7463690f7737271d0d28ca08cbf1885"
+    },
+    {
+      "source_path": "slam_quality/2026-10-24/145232_072223/quality.json",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-24/145232_072223/quality.json",
+      "size_bytes": 4139,
+      "sha256": "9f47fe73cc67c20479c319ae835ed39018b8ad43fa395d01e0b95bab8d014b7f"
+    },
+    {
+      "source_path": "slam_quality/2026-10-24/145232_072223/quality.md",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-24/145232_072223/quality.md",
+      "size_bytes": 636,
+      "sha256": "d563137c3cb15cef2c7d3e30373bb3f12878a8e2d44ce770e9479f9b5879a289"
+    },
+    {
+      "source_path": "slam_quality/2026-10-24/150339_584750/map_1.png",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-24/150339_584750/map_1.png",
+      "size_bytes": 49048,
+      "sha256": "9c6c078f1677a6ba043844137c49b4175acdfd45d2c1116b5651e97b18f56fbb"
+    },
+    {
+      "source_path": "slam_quality/2026-10-24/150339_584750/quality.json",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-24/150339_584750/quality.json",
+      "size_bytes": 4150,
+      "sha256": "363bc08c2e02c3773f235e97c66826f69993e16a52ce59ba1f93ced5612feea2"
+    },
+    {
+      "source_path": "slam_quality/2026-10-24/150339_584750/quality.md",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-24/150339_584750/quality.md",
+      "size_bytes": 636,
+      "sha256": "bad56e4240a2427b9e3d80ebffeb3df9f6a759ba947f6be9ed3f1379ecece00d"
+    },
+    {
+      "source_path": "slam_quality/2026-10-25/113442_095163/map_1.png",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-25/113442_095163/map_1.png",
+      "size_bytes": 49176,
+      "sha256": "99cf26590992d8420ff2951189344cec93c27c108a92638230bede5a1783c780"
+    },
+    {
+      "source_path": "slam_quality/2026-10-25/113442_095163/quality.json",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-25/113442_095163/quality.json",
+      "size_bytes": 4145,
+      "sha256": "99118f5c7de3adaa84db86d036c54e08562fe3035823dbda08f7b6b7acceb2af"
+    },
+    {
+      "source_path": "slam_quality/2026-10-25/113442_095163/quality.md",
+      "repository_path": "docs/evidence/elements/slam_quality/2026-10-25/113442_095163/quality.md",
+      "size_bytes": 635,
+      "sha256": "8103ab4238726a20f2683fae6af7627fbeb890541c0c42f5ff036961bb7d2d9f"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/config/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/config/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/config/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/config/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/config/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/config/slam_toolbox.yaml",
+      "size_bytes": 2190,
+      "sha256": "156f34a8885a535ef7817f4976c69e28d95d2c1b02ff14e033f2509b35f2b43f"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/metadata.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/metadata.yaml",
+      "size_bytes": 1325,
+      "sha256": "859d2c72a2a68d83cefc9a03c93bea18bf728f96376f47c3e3456b50ad0dbc46"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/metrics.json",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428/metrics.json",
+      "size_bytes": 9279,
+      "sha256": "f901cd167e32637a05bf016994cd7bb17f65c5c6de1d801e164f5dfeed17e0f8"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/config/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/config/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/config/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/config/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/config/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/config/slam_toolbox.yaml",
+      "size_bytes": 2188,
+      "sha256": "4ce88ab7931eadd0fa10585e974f5ccdf35c872d540f52190f15929acb0c872e"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/metadata.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/metadata.yaml",
+      "size_bytes": 1325,
+      "sha256": "dbb73825902f8c407de9319dc5862713a2879039cbd7401d9ef3cc7823466ca9"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/metrics.json",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994/metrics.json",
+      "size_bytes": 9292,
+      "sha256": "a30624a4b10671bdd73b2b189fadc67b03cdf3b7573428f72fb3b83bc8b64c58"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/config/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/config/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/config/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/config/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/config/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/config/slam_toolbox.yaml",
+      "size_bytes": 2188,
+      "sha256": "4ce88ab7931eadd0fa10585e974f5ccdf35c872d540f52190f15929acb0c872e"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/metadata.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/metadata.yaml",
+      "size_bytes": 1317,
+      "sha256": "aea39ffa4fae42a3cc08a8b9c3d4604f1c5c7244dd0fdab887c52662d9c21aea"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/metrics.json",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_old_turn/manual_turn_01_114932_9423_150949_887570/metrics.json",
+      "size_bytes": 5460,
+      "sha256": "487b2875d9587da20689fd426a649713e6ec41db2fce73396f37dc08e26ccabf"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/config/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/config/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/config/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/config/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/config/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/config/slam_toolbox.yaml",
+      "size_bytes": 2188,
+      "sha256": "4ce88ab7931eadd0fa10585e974f5ccdf35c872d540f52190f15929acb0c872e"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/metadata.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/metadata.yaml",
+      "size_bytes": 1325,
+      "sha256": "dcdc8020cd98de46201f310c6ad4ba7e796cac9e85055174f515f06e0abc92ce"
+    },
+    {
+      "source_path": "slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/metrics.json",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-24_angle01_turn/quality_turn_final_01_143300_56186_150327_269807/metrics.json",
+      "size_bytes": 6884,
+      "sha256": "4073af08d3e6b8336333dc9b6a8477b3a41f6cb328364f75176a05a5f389009f"
+    },
+    {
+      "source_path": "slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/config/accumulated_scan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/config/accumulated_scan.yaml",
+      "size_bytes": 354,
+      "sha256": "73c55b18112550729700a1125e6c37136696828b7e697ecc43db4d64b994bb3d"
+    },
+    {
+      "source_path": "slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/config/pointcloud_to_laserscan.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/config/pointcloud_to_laserscan.yaml",
+      "size_bytes": 483,
+      "sha256": "97fb837253205880b0cf44f8e7c2de57c9e5ed1a2bee0936c2edeb2d4ab1294a"
+    },
+    {
+      "source_path": "slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/config/slam_toolbox.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/config/slam_toolbox.yaml",
+      "size_bytes": 2634,
+      "sha256": "c0b31fd5d19545e638b2211e1e16266e964e431285e03c95ad13005a288f7738"
+    },
+    {
+      "source_path": "slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/metadata.yaml",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/metadata.yaml",
+      "size_bytes": 1316,
+      "sha256": "d710f1d26223d48a5939ca06c84145edfa5276d005b274e117e5c551557f2c85"
+    },
+    {
+      "source_path": "slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/metrics.json",
+      "repository_path": "docs/evidence/elements/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/metrics.json",
+      "size_bytes": 9293,
+      "sha256": "d9a9d73d4444167c8321c43f2867f8ff5a0dae003c111f08a374cb3914987a69"
+    }
+  ]
+}

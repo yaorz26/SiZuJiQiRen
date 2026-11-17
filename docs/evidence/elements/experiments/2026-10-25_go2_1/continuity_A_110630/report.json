@@ -1,0 +1,872 @@
+{
+  "duration_s": 620.005818437,
+  "message_counts": {
+    "/utlidar/robot_odom": 92966,
+    "/utlidar/imu": 154698,
+    "/utlidar/cloud_base": 9081,
+    "/utlidar/lidar_state": 3096,
+    "/lf/lowstate": 12399
+  },
+  "stop_reason": "requested_duration_completed",
+  "topic_receive_coverage": {
+    "/utlidar/robot_odom": {
+      "first_receive_elapsed_s": 0.06859783699997024,
+      "last_receive_elapsed_s": 619.9995263609999,
+      "active_receive_span_s": 619.9309285239999,
+      "active_receive_hz": 149.96025480022647
+    },
+    "/utlidar/imu": {
+      "first_receive_elapsed_s": 0.06877684899995984,
+      "last_receive_elapsed_s": 620.00176891,
+      "active_receive_span_s": 619.932992061,
+      "active_receive_hz": 249.53825974917328
+    },
+    "/utlidar/cloud_base": {
+      "first_receive_elapsed_s": 0.07460503999993762,
+      "last_receive_elapsed_s": 619.9393235109999,
+      "active_receive_span_s": 619.864718471,
+      "active_receive_hz": 14.648357503549065
+    },
+    "/utlidar/lidar_state": {
+      "first_receive_elapsed_s": 0.08368365699993774,
+      "last_receive_elapsed_s": 619.978360646,
+      "active_receive_span_s": 619.8946769890001,
+      "active_receive_hz": 4.99278363710634
+    },
+    "/lf/lowstate": {
+      "first_receive_elapsed_s": 0.09051860399995348,
+      "last_receive_elapsed_s": 619.959686869,
+      "active_receive_span_s": 619.8691682650001,
+      "active_receive_hz": 20.000994782014605
+    }
+  },
+  "windows": [
+    {
+      "end_elapsed_s": 60.00451692999991,
+      "duration_s": 60.00451692999991,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 8998,
+          "received_hz": 149.95537770093026,
+          "source_interval_median_s": 0.006661415100097656,
+          "source_interval_max_s": 0.01902174949645996,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14973,
+          "received_hz": 249.53121474950308,
+          "source_interval_median_s": 0.004000186920166016,
+          "source_interval_max_s": 0.016993284225463867,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 880,
+          "received_hz": 14.665562611337922,
+          "source_interval_median_s": 0.06697583198547363,
+          "source_interval_max_s": 0.08350872993469238,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 300,
+          "received_hz": 4.999623617501564,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1199,
+          "received_hz": 19.98182905794792,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.07948782294988632,
+      "lidar_error_state_counts": {
+        "0": 300
+      },
+      "driver_cloud_frequency_median": 14.735663890838623,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 159981,
+        "udp_NoPorts": 0,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1066,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150519554,
+        "enp2s0_rx_packets": 135415,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 142822
+      }
+    },
+    {
+      "end_elapsed_s": 120.00746205199994,
+      "duration_s": 60.00294512200003,
+      "streams": {
+        "/utlidar/cloud_base": {
+          "count": 880,
+          "received_hz": 14.665946783291288,
+          "source_interval_median_s": 0.0669701099395752,
+          "source_interval_max_s": 0.0835103988647461,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/robot_odom": {
+          "count": 8978,
+          "received_hz": 149.62598888680589,
+          "source_interval_median_s": 0.00666201114654541,
+          "source_interval_max_s": 0.045169830322265625,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14974,
+          "received_hz": 249.55441719659518,
+          "source_interval_median_s": 0.004000425338745117,
+          "source_interval_max_s": 0.05250382423400879,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.999018340851755,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 299,
+          "received_hz": 4.983088736595563,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.07887890189886093,
+      "lidar_error_state_counts": {
+        "0": 299
+      },
+      "driver_cloud_frequency_median": 14.721014022827148,
+      "driver_packet_loss_field_median": 3.3149170875549316,
+      "network_counter_change": {
+        "udp_InDatagrams": 159608,
+        "udp_NoPorts": 0,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 923,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 27,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150304674,
+        "enp2s0_rx_packets": 135080,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 101586
+      }
+    },
+    {
+      "end_elapsed_s": 180.00869837599998,
+      "duration_s": 60.00123632400005,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 8983,
+          "received_hz": 149.71358175842897,
+          "source_interval_median_s": 0.006662845611572266,
+          "source_interval_max_s": 0.024081945419311523,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14986,
+          "received_hz": 249.7615202306375,
+          "source_interval_median_s": 0.004001140594482422,
+          "source_interval_max_s": 0.018320798873901367,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.99958790049146,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 879,
+          "received_hz": 14.649698137109993,
+          "source_interval_median_s": 0.06698870658874512,
+          "source_interval_max_s": 0.08391165733337402,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 300,
+          "received_hz": 4.999896975122865,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.08074835687875748,
+      "lidar_error_state_counts": {
+        "0": 300
+      },
+      "driver_cloud_frequency_median": 14.659295558929443,
+      "driver_packet_loss_field_median": 3.3149170875549316,
+      "network_counter_change": {
+        "udp_InDatagrams": 160515,
+        "udp_NoPorts": 9,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1733,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 15,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150176058,
+        "enp2s0_rx_packets": 134953,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 100582
+      }
+    },
+    {
+      "end_elapsed_s": 240.00887871400005,
+      "duration_s": 60.000180338000064,
+      "streams": {
+        "/utlidar/cloud_base": {
+          "count": 883,
+          "received_hz": 14.71662243389571,
+          "source_interval_median_s": 0.0669558048248291,
+          "source_interval_max_s": 0.08402395248413086,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/robot_odom": {
+          "count": 9006,
+          "received_hz": 150.09954885579248,
+          "source_interval_median_s": 0.006661653518676758,
+          "source_interval_max_s": 0.02165961265563965,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14982,
+          "received_hz": 249.69924949561215,
+          "source_interval_median_s": 0.004000186920166016,
+          "source_interval_max_s": 0.019496679306030273,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.99993988751399,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 299,
+          "received_hz": 4.983318355305569,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.08125428110361099,
+      "lidar_error_state_counts": {
+        "0": 299
+      },
+      "driver_cloud_frequency_median": 14.72899341583252,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 160612,
+        "udp_NoPorts": 5,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1537,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150830008,
+        "enp2s0_rx_packets": 135468,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 101692
+      }
+    },
+    {
+      "end_elapsed_s": 300.009758056,
+      "duration_s": 60.00087934199996,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 9015,
+          "received_hz": 150.24779801334674,
+          "source_interval_median_s": 0.006661891937255859,
+          "source_interval_max_s": 0.01901555061340332,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14986,
+          "received_hz": 249.76300621497663,
+          "source_interval_median_s": 0.004001617431640625,
+          "source_interval_max_s": 0.015993833541870117,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.99970689029574,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 300,
+          "received_hz": 4.999926722573935,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 882,
+          "received_hz": 14.69978456436737,
+          "source_interval_median_s": 0.06697189807891846,
+          "source_interval_max_s": 0.07866907119750977,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.07525519281625748,
+      "lidar_error_state_counts": {
+        "0": 300
+      },
+      "driver_cloud_frequency_median": 14.729150772094727,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 160682,
+        "udp_NoPorts": 0,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1402,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150730822,
+        "enp2s0_rx_packets": 135371,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 100684
+      }
+    },
+    {
+      "end_elapsed_s": 360.012332477,
+      "duration_s": 60.00257442099996,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 9000,
+          "received_hz": 149.99356422364005,
+          "source_interval_median_s": 0.006662845611572266,
+          "source_interval_max_s": 0.022283077239990234,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14981,
+          "received_hz": 249.67262062603908,
+          "source_interval_median_s": 0.003999948501586914,
+          "source_interval_max_s": 0.02170085906982422,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.99914189648534,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 881,
+          "received_hz": 14.682703342336321,
+          "source_interval_median_s": 0.06697964668273926,
+          "source_interval_max_s": 0.08019638061523438,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 300,
+          "received_hz": 4.999785474121335,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.07503656297922134,
+      "lidar_error_state_counts": {
+        "0": 300
+      },
+      "driver_cloud_frequency_median": 14.729174613952637,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 160624,
+        "udp_NoPorts": 1,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1615,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150541676,
+        "enp2s0_rx_packets": 135235,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 101118
+      }
+    },
+    {
+      "end_elapsed_s": 420.01511705999997,
+      "duration_s": 60.00278458299999,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 9006,
+          "received_hz": 150.093034224808,
+          "source_interval_median_s": 0.006661891937255859,
+          "source_interval_max_s": 0.019373178482055664,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14986,
+          "received_hz": 249.75507560437183,
+          "source_interval_median_s": 0.003999948501586914,
+          "source_interval_max_s": 0.018506765365600586,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.999071848741906,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 882,
+          "received_hz": 14.6993178088253,
+          "source_interval_median_s": 0.06697356700897217,
+          "source_interval_max_s": 0.08299875259399414,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 299,
+          "received_hz": 4.983102068978192,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.08027724176645279,
+      "lidar_error_state_counts": {
+        "0": 299
+      },
+      "driver_cloud_frequency_median": 14.737022399902344,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 160502,
+        "udp_NoPorts": 1,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1545,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150680036,
+        "enp2s0_rx_packets": 135323,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 100554
+      }
+    },
+    {
+      "end_elapsed_s": 480.01609397699985,
+      "duration_s": 60.00097691699989,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 8984,
+          "received_hz": 149.73089542238088,
+          "source_interval_median_s": 0.0066640377044677734,
+          "source_interval_max_s": 0.021419525146484375,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14985,
+          "received_hz": 249.74593364919608,
+          "source_interval_median_s": 0.00400090217590332,
+          "source_interval_max_s": 0.018935203552246094,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1201,
+          "received_hz": 20.01634076160724,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 881,
+          "received_hz": 14.68309426392671,
+          "source_interval_median_s": 0.06697463989257812,
+          "source_interval_max_s": 0.08350014686584473,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 300,
+          "received_hz": 4.999918591575497,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.0802476778626442,
+      "lidar_error_state_counts": {
+        "0": 300
+      },
+      "driver_cloud_frequency_median": 14.721183776855469,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 160420,
+        "udp_NoPorts": 5,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 1602,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150498382,
+        "enp2s0_rx_packets": 135202,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 101564
+      }
+    },
+    {
+      "end_elapsed_s": 540.0177873370001,
+      "duration_s": 60.00169336000022,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 8997,
+          "received_hz": 149.94576813056744,
+          "source_interval_median_s": 0.0066623687744140625,
+          "source_interval_max_s": 0.02807903289794922,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14986,
+          "received_hz": 249.75961778422624,
+          "source_interval_median_s": 0.004000425338745117,
+          "source_interval_max_s": 0.016468524932861328,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 881,
+          "received_hz": 14.68291894220628,
+          "source_interval_median_s": 0.06695699691772461,
+          "source_interval_max_s": 0.07802200317382812,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.999435562596524,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 299,
+          "received_hz": 4.983192694346967,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.07549408823251724,
+      "lidar_error_state_counts": {
+        "0": 299
+      },
+      "driver_cloud_frequency_median": 14.729310989379883,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 163019,
+        "udp_NoPorts": 6,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 2696,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 26,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 150488902,
+        "enp2s0_rx_packets": 135195,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 102092
+      }
+    },
+    {
+      "end_elapsed_s": 600.017879986,
+      "duration_s": 60.00009264899995,
+      "streams": {
+        "/utlidar/cloud_base": {
+          "count": 859,
+          "received_hz": 14.31664455961998,
+          "source_interval_median_s": 0.06698417663574219,
+          "source_interval_max_s": 0.6944923400878906,
+          "gaps_over_025s": 4,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/robot_odom": {
+          "count": 9007,
+          "received_hz": 150.1164348643739,
+          "source_interval_median_s": 0.0066623687744140625,
+          "source_interval_max_s": 0.019487619400024414,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 14868,
+          "received_hz": 247.79961736022105,
+          "source_interval_median_s": 0.003999471664428711,
+          "source_interval_max_s": 0.23743224143981934,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 300,
+          "received_hz": 4.999992279261926,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 1200,
+          "received_hz": 19.999969117047705,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.6532466411590576,
+      "lidar_error_state_counts": {
+        "0": 300
+      },
+      "driver_cloud_frequency_median": 14.651979923248291,
+      "driver_packet_loss_field_median": 2.7624309062957764,
+      "network_counter_change": {
+        "udp_InDatagrams": 163290,
+        "udp_NoPorts": 2,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 3452,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 147455642,
+        "enp2s0_rx_packets": 132948,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 103352
+      }
+    },
+    {
+      "end_elapsed_s": 620.0018058379999,
+      "duration_s": 19.983925851999857,
+      "streams": {
+        "/utlidar/robot_odom": {
+          "count": 2992,
+          "received_hz": 149.72033133822805,
+          "source_interval_median_s": 0.006662845611572266,
+          "source_interval_max_s": 0.018656253814697266,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/imu": {
+          "count": 4991,
+          "received_hz": 249.75072650705087,
+          "source_interval_median_s": 0.003998756408691406,
+          "source_interval_max_s": 0.018523693084716797,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/cloud_base": {
+          "count": 293,
+          "received_hz": 14.661783784124607,
+          "source_interval_median_s": 0.06695938110351562,
+          "source_interval_max_s": 0.08350753784179688,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/lf/lowstate": {
+          "count": 399,
+          "received_hz": 19.966046859609957,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        },
+        "/utlidar/lidar_state": {
+          "count": 100,
+          "received_hz": 5.004021769325804,
+          "source_interval_median_s": null,
+          "source_interval_max_s": null,
+          "gaps_over_025s": 0,
+          "nonincreasing_stamps": 0
+        }
+      },
+      "maximum_relative_point_time_s": 0.08076027780771255,
+      "lidar_error_state_counts": {
+        "0": 100
+      },
+      "driver_cloud_frequency_median": 14.653228282928467,
+      "driver_packet_loss_field_median": 3.3149170875549316,
+      "network_counter_change": {
+        "udp_InDatagrams": 53722,
+        "udp_NoPorts": 0,
+        "udp_InErrors": 0,
+        "udp_OutDatagrams": 695,
+        "udp_RcvbufErrors": 0,
+        "udp_SndbufErrors": 0,
+        "udp_InCsumErrors": 0,
+        "udp_IgnoredMulti": 0,
+        "udp_MemErrors": 0,
+        "enp2s0_rx_bytes": 50005350,
+        "enp2s0_rx_packets": 44925,
+        "enp2s0_rx_errors": 0,
+        "enp2s0_rx_dropped": 0,
+        "enp2s0_tx_bytes": 33464
+      }
+    }
+  ],
+  "latest_lidar_state": {
+    "firmware_version": "1.2.3",
+    "software_version": "1.0.0.38",
+    "sdk_version": "1.0.9",
+    "error_state": 0,
+    "cloud_frequency": 14.909139633178711,
+    "cloud_packet_loss_rate": 2.209944725036621,
+    "serial_buffer_size": 0,
+    "serial_buffer_read": 11,
+    "sys_rotation_speed": 10801.080078125,
+    "com_rotation_speed": 662.0908813476562
+  },
+  "power_state_topic": "/lf/lowstate",
+  "latest_power_state": {
+    "receive_elapsed_s": 619.959686869,
+    "state_tick_raw": 859620,
+    "bms_soc_raw": 63,
+    "bms_status_raw": 8,
+    "power_v_raw": 29.747596740722656,
+    "power_a_raw": 0.9229075312614441,
+    "bms_current_raw": -2387,
+    "bq_ntc_raw": [
+      28,
+      27
+    ],
+    "mcu_ntc_raw": [
+      31,
+      29
+    ],
+    "cell_vol_raw": [
+      3818,
+      3826,
+      3827,
+      3826,
+      3827,
+      3827,
+      3827,
+      3820,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "board_temperature_ntc1_raw": 41,
+    "board_temperature_ntc2_raw": 36,
+    "fan_frequency_raw": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "robot_server_logs": [],
+  "network_delta": {
+    "udp_InDatagrams": 1662994,
+    "udp_NoPorts": 29,
+    "udp_InErrors": 0,
+    "udp_OutDatagrams": 18266,
+    "udp_RcvbufErrors": 0,
+    "udp_SndbufErrors": 0,
+    "udp_InCsumErrors": 0,
+    "udp_IgnoredMulti": 68,
+    "udp_MemErrors": 0,
+    "enp2s0_rx_bytes": 1552301060,
+    "enp2s0_rx_packets": 1395167,
+    "enp2s0_rx_errors": 0,
+    "enp2s0_rx_dropped": 0,
+    "enp2s0_tx_bytes": 1089510
+  },
+  "limitations": [
+    "UDP counters are host-wide, not robot-only",
+    "Driver packet-loss field units are not confirmed",
+    "Power/BMS fields retain raw message values; units and zero-value validity need verification",
+    "Partial or disconnected windows must not be interpreted as sensor-only frequency",
+    "Receiving gaps alone does not prove the originating component"
+  ]
+}

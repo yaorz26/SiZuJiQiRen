@@ -1,0 +1,490 @@
+{
+  "received_messages": {
+    "/clock": 64319,
+    "/go2/slam/scan_diagnostics": 322,
+    "/go2/slam/time_diagnostics": 322,
+    "/go2/slam/odom": 96089,
+    "/tf": 128269,
+    "/go2/slam/cloud_base": 9388,
+    "/scan": 66,
+    "/slam_toolbox/graph_visualization": 322,
+    "/map": 322
+  },
+  "tf_edges": [
+    [
+      "map",
+      "odom"
+    ],
+    [
+      "odom",
+      "base_link"
+    ]
+  ],
+  "time_diagnostics": {
+    "go2/slam/accumulated_scan": {
+      "scans": "66",
+      "window_seconds": "1.0",
+      "valid_points": "1774",
+      "finite_directions": "185",
+      "gap_resets": "1",
+      "dropped_clouds": "0"
+    },
+    "go2/slam/time_alignment": {
+      "offset_seconds": "2281.852982125",
+      "aligned_clouds": "9371",
+      "aligned_odometry": "95915",
+      "maximum_source_cloud_gap_seconds": "0.69449234",
+      "source_cloud_gaps_over_0_25_seconds": "4",
+      "clock_resets": "0"
+    }
+  },
+  "pose_graph_markers": [
+    {
+      "namespace": "",
+      "type": 0,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox_edges",
+      "type": 5,
+      "points": 226
+    },
+    {
+      "namespace": "slam_toolbox_edges",
+      "type": 5,
+      "points": 0
+    }
+  ],
+  "scan_finite_bins": {
+    "min": 170,
+    "max": 190,
+    "median": 182.0
+  },
+  "cloud_clock_delta_seconds": {
+    "min": 0.024409178,
+    "max": 0.625099373
+  },
+  "slam_pose_change": {
+    "first_xy_yaw": [
+      0.0020203392487019296,
+      -0.0022079760674387212,
+      0.02245787989521504
+    ],
+    "last_xy_yaw": [
+      -0.024143153133722024,
+      0.022599772636113916,
+      0.004318517984451875
+    ],
+    "net_xy_m": 0.03605485722317832,
+    "net_yaw_deg": -1.03930888054709
+  },
+  "map": {
+    "frame": "map",
+    "width": 148,
+    "height": 144,
+    "resolution_m": 0.029999999329447746,
+    "cells": {
+      "-1": 12030,
+      "100": 1232,
+      "0": 8050
+    },
+    "origin": [
+      -0.21810556221871477,
+      -1.629497159894601,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "map_save_exit_code": 0,
+  "posegraph_save_result": 0,
+  "saved_files": [
+    "map.pgm",
+    "map.yaml",
+    "map.yaml.saver_original",
+    "posegraph.data",
+    "posegraph.posegraph"
+  ],
+  "map_yaml_geometry": {
+    "original_saver_geometry": {
+      "resolution": 0.03,
+      "origin": [
+        -0.218,
+        -1.63,
+        0
+      ]
+    },
+    "saved_resolution": 0.029999999329447746,
+    "saved_origin_xy_yaw": [
+      -0.21810556221871477,
+      -1.629497159894601,
+      0.0
+    ],
+    "original_saver_file": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-10-25_angle_default/charged_static_A_110553_5696_112335_891052/maps/map.yaml.saver_original"
+  },
+  "map_reload": {
+    "width": 148,
+    "height": 144,
+    "resolution_m": 0.029999999329447746,
+    "data_cells": 21312,
+    "origin": [
+      -0.21810556221871477,
+      -1.629497159894601,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "cells": {
+      "-1": 12030,
+      "100": 1232,
+      "0": 8050
+    },
+    "exact_cell_match": true,
+    "geometry_matches": true
+  },
+  "pose_graph_vertices": 63,
+  "motion_consistency": {
+    "reference": "Recorded odometry; this is not independent ground truth",
+    "odometry_yaw_deg": -20.636544626140967,
+    "slam_yaw_deg": -1.03930888054709,
+    "yaw_difference_deg": 19.597235745593878,
+    "odometry_net_xy_m": 0.07503471910295216,
+    "slam_net_xy_m": 0.03605485722317832
+  },
+  "geometry_accuracy": "Not independently ground-truth validated",
+  "pipeline_status": "passed",
+  "status": "success",
+  "trajectory_timing": {
+    "samples": 6170,
+    "samples_with_tf_time_delta": 6170,
+    "samples_with_recent_tf": 420,
+    "samples_outside_tf_time_gate": 5750,
+    "tf_time_delta_min_s": -0.183432612,
+    "tf_time_delta_max_s": 9.880983653,
+    "time_gate_s": [
+      -0.2,
+      0.5
+    ],
+    "status": "timing_caveat",
+    "interpretation": "Latest map alignment is held between scan updates. Old transform stamps do not prove a wrong pose, but these samples are not independently time-verified."
+  }
+}

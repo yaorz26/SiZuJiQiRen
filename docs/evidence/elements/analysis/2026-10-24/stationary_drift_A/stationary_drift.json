@@ -1,0 +1,126 @@
+{
+  "bag": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_A_165710_77486/bag",
+  "duration_s": 640.855578660965,
+  "odometry": {
+    "samples": 96195,
+    "rate_hz": 150.0967649584884,
+    "net_yaw_deg": -3.4559885269976043,
+    "maximum_absolute_yaw_deg": 3.472842145359029,
+    "net_xy_m": 0.008051944934958841,
+    "yaw_fit_deg_per_minute": -0.3207055844590891
+  },
+  "gyro": {
+    "samples": 159470,
+    "rate_hz": 249.94362672069602,
+    "initial_bias_estimate_rad_s": 0.0020533771021291614,
+    "bias_window_s": 30.0,
+    "net_yaw_deg_zero_bias": 106.66186182734157,
+    "net_yaw_deg_initial_bias_removed": 31.26618058368191,
+    "odometry_yaw_same_interval_zero_bias_deg": -3.4559885269976043,
+    "odometry_yaw_same_interval_corrected_deg": -3.4559885269976043,
+    "difference_zero_bias_deg": 110.11785035433917,
+    "difference_corrected_deg": 34.722169110679516,
+    "finite_orientation_samples": 159471
+  },
+  "lidar_bearing": {
+    "first_last": {
+      "window_seconds": 60.0,
+      "frames": 115,
+      "shift_bins": 0,
+      "bearing_shift_deg": 0.0,
+      "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+      "normalized_correlation": 0.0035523597181292997
+    },
+    "per_minute": [
+      {
+        "minute": 0,
+        "frames": 58,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.003785033646134235
+      },
+      {
+        "minute": 1,
+        "frames": 59,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0035717281565519465
+      },
+      {
+        "minute": 2,
+        "frames": 59,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.003548906544197266
+      },
+      {
+        "minute": 3,
+        "frames": 59,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0034997180231447662
+      },
+      {
+        "minute": 4,
+        "frames": 58,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0034434001579332807
+      },
+      {
+        "minute": 5,
+        "frames": 59,
+        "shift_bins": -1,
+        "bearing_shift_deg": 0.5,
+        "implied_robot_yaw_change_deg_if_static_scene": -0.5,
+        "normalized_correlation": 0.0034876916106622332
+      },
+      {
+        "minute": 6,
+        "frames": 59,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0035217555000809564
+      },
+      {
+        "minute": 7,
+        "frames": 59,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.003570653644108655
+      },
+      {
+        "minute": 8,
+        "frames": 58,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0035053921386276206
+      },
+      {
+        "minute": 9,
+        "frames": 57,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0034866038119558385
+      },
+      {
+        "minute": 10,
+        "frames": 39,
+        "shift_bins": 0,
+        "bearing_shift_deg": 0.0,
+        "implied_robot_yaw_change_deg_if_static_scene": 0.0,
+        "normalized_correlation": 0.0035092698398472367
+      }
+    ]
+  },
+  "interpretation": "All signals are onboard observations. Odometry yaw and gyro yaw describe the robot estimate; lidar bearings describe the environment orientation in base_link. This does not establish external ground truth."
+}

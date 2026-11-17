@@ -1,0 +1,86 @@
+{
+  "observation_directory": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/continuity_A_110630",
+  "phase": "charged_static_A",
+  "requested_duration_s": 620.0,
+  "assessed_duration_s": 620.005818437,
+  "complete_requested_observation": true,
+  "stop_reason": "requested_duration_completed",
+  "known_disconnected_windows_excluded": false,
+  "continuity": {
+    "status": "passed",
+    "observed_sample": "passed",
+    "duration_verified": true,
+    "duration_s": 620.005818437,
+    "received_hz": 14.64663674107558,
+    "maximum_source_gap_s": 0.6944923400878906,
+    "interval_fraction_over_025s": 0.0004405286343612335,
+    "checks": {
+      "frequency": true,
+      "maximum_source_gap": true,
+      "gap_fraction": true,
+      "strictly_increasing_source_time": true,
+      "nonempty_clouds": true,
+      "no_long_receive_silence_including_edges": true
+    },
+    "thresholds": {
+      "minimum_hz": 12.0,
+      "maximum_gap_s": 1.0,
+      "maximum_fraction_of_intervals_over_025s": 0.01,
+      "minimum_observation_duration_s": 600.0,
+      "meaning": "Provisional project gates, not vendor specifications"
+    }
+  },
+  "maximum_receive_silence_s": 0.6716877089997979,
+  "raw_power_summary": {
+    "bms_soc_raw": {
+      "first": 66.0,
+      "last": 63.0,
+      "min": 63.0,
+      "median": 64.0,
+      "max": 66.0
+    },
+    "power_v_raw": {
+      "first": 30.013200759887695,
+      "last": 29.747596740722656,
+      "min": 29.729888916015625,
+      "median": 29.836132049560547,
+      "max": 30.039758682250977
+    },
+    "power_a_raw": {
+      "first": 0.8203622102737427,
+      "last": 0.9229075312614441,
+      "min": 0.7519987225532532,
+      "median": 0.9229075312614441,
+      "max": 1.0938162803649902
+    },
+    "bms_current_raw": {
+      "first": -2372.0,
+      "last": -2387.0,
+      "min": -2432.0,
+      "median": -2391.0,
+      "max": -2349.0
+    },
+    "board_temperature_ntc1_raw": {
+      "first": 36.0,
+      "last": 41.0,
+      "min": 36.0,
+      "median": 39.0,
+      "max": 41.0
+    },
+    "board_temperature_ntc2_raw": {
+      "first": 32.0,
+      "last": 36.0,
+      "min": 32.0,
+      "median": 34.0,
+      "max": 36.0
+    },
+    "messages": 12399,
+    "interpretation": "Raw LowState fields; units/calibration and zero-value validity are not independently verified"
+  },
+  "host_udp_receive_errors": 0,
+  "ethernet_receive_errors": 0,
+  "limitations": [
+    "Sequential tests do not isolate all reboot, charge and thermal effects",
+    "Passing source quality does not verify map geometry or navigation"
+  ]
+}

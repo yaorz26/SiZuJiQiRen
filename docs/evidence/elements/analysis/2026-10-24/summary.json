@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-10-24T15:14:51.095006+08:00",
+  "report": "/home/yaorz/unitree_go2_ws/docs/offline_analysis_2026-10-24.md",
+  "inputs": {
+    "A": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_A_165710_77486",
+    "B": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-10_charged_go2_1/charged_static_B_171141_80715"
+  },
+  "stationary": {
+    "A": {
+      "odometry_net_yaw_deg": -3.4559885269976043,
+      "odometry_net_xy_m": 0.008051944934958841,
+      "odometry_yaw_deg_per_min": -0.3207055844590891,
+      "gyro_raw_net_yaw_deg": 106.66186182734157,
+      "gyro_bias_removed_net_yaw_deg": 31.26618058368191,
+      "lidar_icp_yaw_deg": 0.08632139471429898,
+      "lidar_icp_translation_m": 0.022568447833744402,
+      "lidar_icp_median_m": 0.017389534803273897,
+      "lidar_icp_inlier_fraction_10cm": 0.9539384028345598
+    },
+    "B": {
+      "odometry_net_yaw_deg": -3.761943685294547,
+      "odometry_net_xy_m": 0.007508678006863553,
+      "odometry_yaw_deg_per_min": -0.35915511298481867,
+      "gyro_raw_net_yaw_deg": 21.5402554728172,
+      "gyro_bias_removed_net_yaw_deg": -15.088520616662471,
+      "lidar_icp_yaw_deg": 0.05971616704057609,
+      "lidar_icp_translation_m": 0.006093041661695708,
+      "lidar_icp_median_m": 0.012552518706838196,
+      "lidar_icp_inlier_fraction_10cm": 0.9888024883359253
+    }
+  },
+  "live_B_decomposition": {
+    "map_to_odom_translation_change_m": 0.1044,
+    "odom_to_base_translation_change_m": 0.009,
+    "combined_translation_change_m": 0.1021,
+    "map_to_odom_yaw_change_deg": 0.0,
+    "odometry_yaw_change_deg": -4.2975,
+    "estimated_map_yaw_change_deg": -4.2975,
+    "note": "midrun baseline to end check; whole-run odometry yaw is -3.768 deg"
+  },
+  "baseline_replay": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-10-24/charged_static_B_171141_80715_144009_249428",
+  "candidate_replay": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-10-24_angle01/charged_static_B_171141_80715_145215_207994",
+  "candidate_config": {
+    "angle_variance_penalty": 0.1,
+    "minimum_angle_penalty": 0.3
+  },
+  "limitations": [
+    "Lidar ICP is an onboard consistency check, not external ground truth",
+    "Turn differences have no independent angle reference",
+    "Raw gyro integration is not reliable over ten minutes"
+  ]
+}

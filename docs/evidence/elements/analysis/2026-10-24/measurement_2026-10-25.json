@@ -1,0 +1,6 @@
+{
+  "description": "Fill only independently tape-measured distances and corresponding endpoints in the saved map frame. Empty measurements mean geometry has not been checked.",
+  "session": "2026-10-25",
+  "note": "Add two entries after measuring; map_points_m are metres in the saved map frame, selected from the evaluation map preview. Record the operator, method, uncertainty, photo IDs and endpoint markers.",
+  "measurements": []
+}

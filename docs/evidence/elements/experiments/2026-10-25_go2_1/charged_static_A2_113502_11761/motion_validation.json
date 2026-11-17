@@ -1,0 +1,156 @@
+{
+  "checked_at": "2026-10-25T11:46:20.252520+08:00",
+  "run_path": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761",
+  "bag_path": "/media/yaorz/Elements/unitree_go2/experiments/2026-10-25_go2_1/charged_static_A2_113502_11761/bag",
+  "duration_s": 641.23568063,
+  "recording_completion": "completed_file",
+  "total_messages": 491951,
+  "bag_size_mib": 851.578125,
+  "streams": {
+    "/lf/lowstate": {
+      "messages": 12826,
+      "received_hz": 20.002006107019398
+    },
+    "/lf/sportmodestate": {
+      "messages": 12824,
+      "received_hz": 19.9988871289893
+    },
+    "/sportmodestate": {
+      "messages": 190744,
+      "received_hz": 297.4631726865202
+    },
+    "/utlidar/cloud_base": {
+      "messages": 9096,
+      "empty_clouds": 0,
+      "invalid_relative_time_clouds": 0,
+      "maximum_relative_point_time_s": 5.809512138366699,
+      "clouds_with_relative_times_over_3s": 1,
+      "received_hz": 14.185112080886357,
+      "source_interval_s": {
+        "median": 0.066978217,
+        "maximum": 5.89049983,
+        "gaps_over_025s": 47,
+        "nonincreasing": 0
+      },
+      "receive_interval_s": {
+        "median": 0.067042419,
+        "maximum": 5.858129129,
+        "gaps_over_025s": 46,
+        "nonincreasing": 0
+      }
+    },
+    "/utlidar/cloud": {
+      "messages": 9096,
+      "empty_clouds": 0,
+      "invalid_relative_time_clouds": 0,
+      "maximum_relative_point_time_s": 5.810773849487305,
+      "clouds_with_relative_times_over_3s": 1,
+      "received_hz": 14.185112080886357,
+      "source_interval_s": {
+        "median": 0.066978217,
+        "maximum": 5.89049983,
+        "gaps_over_025s": 47,
+        "nonincreasing": 0
+      },
+      "receive_interval_s": {
+        "median": 0.066982017,
+        "maximum": 5.857787959,
+        "gaps_over_025s": 46,
+        "nonincreasing": 0
+      }
+    },
+    "/utlidar/imu": {
+      "messages": 157886,
+      "received_hz": 246.22148263003777
+    },
+    "/utlidar/lidar_state": {
+      "messages": 3201,
+      "received_hz": 4.991924337172079
+    },
+    "/utlidar/robot_odom": {
+      "messages": 96278,
+      "received_hz": 150.14448339089455
+    }
+  },
+  "sqlite_checks": {
+    "bag_0.db3": "ok"
+  },
+  "reported_error_codes": {
+    "100": 190744
+  },
+  "reported_modes": {
+    "0": 190744
+  },
+  "raw_power_fields": {
+    "samples": 12826,
+    "status_counts": {
+      "8": 12826
+    },
+    "fields": {
+      "bms_soc_raw": {
+        "first": 59,
+        "last": 57,
+        "min": 57,
+        "max": 59
+      },
+      "bms_current_raw": {
+        "first": -2517,
+        "last": -2529,
+        "min": -2599,
+        "max": -2433
+      },
+      "power_v_raw": {
+        "first": 29.481992721557617,
+        "last": 29.30492401123047,
+        "min": 29.296072006225586,
+        "max": 29.490846633911133
+      },
+      "power_a_raw": {
+        "first": 1.0938162803649902,
+        "last": 1.0938162803649902,
+        "min": 0.9912710189819336,
+        "max": 1.2647250890731812
+      },
+      "board_temperature_ntc1_raw": {
+        "first": 44,
+        "last": 45,
+        "min": 43,
+        "max": 45
+      },
+      "board_temperature_ntc2_raw": {
+        "first": 38,
+        "last": 39,
+        "min": 38,
+        "max": 39
+      }
+    },
+    "interpretation": "Raw LowState fields; units/calibration and zero values require verification"
+  },
+  "odometry_motion": {
+    "measurement": "Recorded odometry estimate; independent ground truth not measured",
+    "start_pose_median_xyz_yaw": [
+      0.0012494465336203575,
+      0.02791876345872879,
+      0.3122263252735138,
+      0.23870905986141305
+    ],
+    "end_pose_median_xyz_yaw": [
+      -0.004212234867736697,
+      0.05147900432348251,
+      0.31213296949863434,
+      0.45530073061564214
+    ],
+    "net_xy_displacement_m": 0.024185014230616877,
+    "forward_projection_m": 0.0002639732639189724,
+    "lateral_projection_m": 0.02418357358727359,
+    "net_yaw_change_deg": 12.40978861190443,
+    "maximum_yaw_change_from_start_deg": 12.434683333191364,
+    "max_distance_from_start_m": 0.024284653608743656,
+    "last_5s_position_range_m": {
+      "x": 0.00021202443167567253,
+      "y": 0.0003477446734905243,
+      "z": 0.0001773238182067871
+    },
+    "last_5s_yaw_range_deg": 0.11505911959967977
+  }
+}

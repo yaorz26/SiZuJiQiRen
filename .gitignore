@@ -19,6 +19,7 @@ venv/
 *.swp
 *.swo
 *~
+/.vscode/settings.json
 
 # Recordings and large experiment outputs belong on the Elements drive.
 /bags/
@@ -33,7 +34,13 @@ venv/
 *.db3
 *.db3-shm
 *.db3-wal
+*.db3-journal
 *.mcap
+/*.zip
+/*.7z
+/*.tar
+/*.tar.gz
+/*.tar.zst
 /*.csv
 /*.ply
 /*.pcd
