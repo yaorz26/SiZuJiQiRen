@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-11-18T18:51:37.138087+08:00",
+  "run_path": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_static_gap86_184933_57204",
+  "bag_path": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_static_gap86_184933_57204/bag",
+  "duration_s": 60.164234828,
+  "recording_completion": "completed_file",
+  "total_messages": 42813,
+  "bag_size_mib": 188.2109375,
+  "streams": {
+    "/utlidar/robot_odom": {
+      "messages": 8884,
+      "received_hz": 147.66247797213654
+    },
+    "/utlidar/lidar_state": {
+      "messages": 301,
+      "received_hz": 5.002972295093775
+    },
+    "/utlidar/imu": {
+      "messages": 14204,
+      "received_hz": 236.0871045830963
+    },
+    "/utlidar/cloud": {
+      "messages": 926,
+      "empty_clouds": 0,
+      "invalid_relative_time_clouds": 0,
+      "maximum_relative_point_time_s": 0.06470651179552078,
+      "clouds_with_relative_times_over_3s": 0,
+      "received_hz": 15.391203804839986,
+      "source_interval_s": {
+        "median": 0.064969302,
+        "maximum": 0.078656435,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      },
+      "receive_interval_s": {
+        "median": 0.064800962,
+        "maximum": 0.13898429,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      }
+    },
+    "/utlidar/cloud_base": {
+      "messages": 926,
+      "empty_clouds": 0,
+      "invalid_relative_time_clouds": 0,
+      "maximum_relative_point_time_s": 0.06470651179552078,
+      "clouds_with_relative_times_over_3s": 0,
+      "received_hz": 15.391203804839986,
+      "source_interval_s": {
+        "median": 0.064969302,
+        "maximum": 0.078656435,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      },
+      "receive_interval_s": {
+        "median": 0.064664743,
+        "maximum": 0.1431415,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      }
+    },
+    "/sportmodestate": {
+      "messages": 16368,
+      "received_hz": 272.0553173624416
+    },
+    "/lf/sportmodestate": {
+      "messages": 1204,
+      "received_hz": 20.0118891803751
+    }
+  },
+  "sqlite_checks": {
+    "bag_0.db3": "ok"
+  },
+  "reported_error_codes": {
+    "100": 16368
+  },
+  "reported_modes": {
+    "0": 16368
+  },
+  "odometry_motion": {
+    "measurement": "Recorded odometry estimate; independent ground truth not measured",
+    "start_pose_median_xyz_yaw": [
+      0.36738714575767517,
+      0.27460458874702454,
+      0.3082905411720276,
+      -0.2028507451614169
+    ],
+    "end_pose_median_xyz_yaw": [
+      0.3677552193403244,
+      0.2734903544187546,
+      0.30834756791591644,
+      -0.2082586447536838
+    ],
+    "net_xy_displacement_m": 0.0011734548566261277,
+    "forward_projection_m": 0.000585003056749481,
+    "lateral_projection_m": -0.0010172353337026833,
+    "net_yaw_change_deg": -0.30984982266741184,
+    "maximum_yaw_change_from_start_deg": 0.3776896319707513,
+    "max_distance_from_start_m": 0.001469792128684403,
+    "last_5s_position_range_m": {
+      "x": 0.0003170967102050781,
+      "y": 0.00030541419982910156,
+      "z": 9.313225746154785e-05
+    },
+    "last_5s_yaw_range_deg": 0.07412595281385845
+  }
+}

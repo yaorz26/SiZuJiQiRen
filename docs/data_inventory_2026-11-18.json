@@ -1,0 +1,87 @@
+{
+  "experiment_date": "2026-11-18",
+  "archive_date": "2026-11-19",
+  "timezone": "Asia/Shanghai",
+  "scope_root": "E:/unitree_go2",
+  "scopes": [
+    "analysis/2026-11-18",
+    "experiments/2026-11-18_two_boxes_go2_replacement_01",
+    "experiments/2026-11-18_stop_baseline",
+    "slam_validation/2026-11-18"
+  ],
+  "files": 149,
+  "bytes": 481415843,
+  "github_evidence_files": 40,
+  "inventory_sha256": "0c139b005fcd7ec144ef0bf21e0b5961fbf5d8969d0da4ee5a1abed7d6b561ea",
+  "historical_checksums_matched": 129,
+  "receipts": [
+    {
+      "path": "analysis/2026-11-18/handset_takeover_2004/transfer_sha256.txt",
+      "entries": 6
+    },
+    {
+      "path": "analysis/2026-11-18/radio_link_2013/transfer_sha256.txt",
+      "entries": 13
+    },
+    {
+      "path": "experiments/2026-11-18_stop_baseline/manual_stop_2026-11-18_202930_CHl6wgDl/transfer_sha256.txt",
+      "entries": 8
+    },
+    {
+      "path": "experiments/2026-11-18_stop_baseline/manual_stop_repeat_2026-11-18_203117_8dg53ZF8/analysis/telemetry/transfer_sha256.txt",
+      "entries": 4
+    },
+    {
+      "path": "experiments/2026-11-18_stop_baseline/manual_stop_repeat_2026-11-18_203117_8dg53ZF8/transfer_sha256.txt",
+      "entries": 8
+    },
+    {
+      "path": "experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794/bag_source.sha256",
+      "entries": 2
+    },
+    {
+      "path": "experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794/motion_analysis_v1/transfer_sha256.txt",
+      "entries": 6
+    },
+    {
+      "path": "experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794/transfer_sha256.txt",
+      "entries": 29
+    },
+    {
+      "path": "experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_static_gap86_184933_57204/transfer_sha256.txt",
+      "entries": 32
+    },
+    {
+      "path": "slam_validation/2026-11-18/two_boxes_dynamic_86cm/two_boxes_dynamic_gap86_190437_58794_190825_259417/transfer_sha256.txt",
+      "entries": 21
+    }
+  ],
+  "bags": [
+    {
+      "path": "experiments/2026-11-18_stop_baseline/manual_stop_2026-11-18_202930_CHl6wgDl/bag/bag_0.db3",
+      "messages": 35648,
+      "metadata_message_count_matches": true,
+      "sqlite_quick_check": "ok"
+    },
+    {
+      "path": "experiments/2026-11-18_stop_baseline/manual_stop_repeat_2026-11-18_203117_8dg53ZF8/bag/bag_0.db3",
+      "messages": 18081,
+      "metadata_message_count_matches": true,
+      "sqlite_quick_check": "ok"
+    },
+    {
+      "path": "experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794/bag/bag_0.db3",
+      "messages": 48636,
+      "metadata_message_count_matches": true,
+      "sqlite_quick_check": "ok"
+    },
+    {
+      "path": "experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_static_gap86_184933_57204/bag/bag_0.db3",
+      "messages": 42813,
+      "metadata_message_count_matches": true,
+      "sqlite_quick_check": "ok"
+    }
+  ],
+  "media_download_originals_checked": 4,
+  "backup_status": "Only local files verified during this archive. No SSH or independent disk check. Remote-only static A/B, earlier routes and frontier simulation runs are outside this inventory."
+}

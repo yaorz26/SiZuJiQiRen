@@ -116,6 +116,31 @@ rotation, with a minimum interval of 0.2 seconds. Three bootstrap updates preced
 these motion gates, and a stationary refresh is sent every ten seconds. These
 gates avoid repeatedly matching almost identical sparse scans while stationary.
 
+### Filtering transient returns during mapping
+
+For an indoor run with people walking beside the robot, compare the default
+accumulated scan with a second replay of the same bag:
+
+```bash
+python3 scripts/run_slam_replay.py /absolute/path/to/run/bag
+python3 scripts/run_slam_replay.py /absolute/path/to/run/bag --scan-min-observation-span 0.2
+```
+
+The default span of 0 s preserves the existing scan. With 0.2 s, an endpoint
+within 2 m needs returns from clouds at least 0.2 s apart in the same 10 cm XY
+cell in the motion-compensated window. Two offset grids allow for points near
+a cell boundary. A rejected nearest echo leaves the bin at infinity. The same
+height slice and range limits apply in both runs. The corresponding launch
+argument is `scan_min_observation_span:=0.2`; cell size and radius are in
+`config/accumulated_scan.yaml`. Scan diagnostics report the number of rejected
+bins on the latest published scan (`unconfirmed_bins_last_scan`).
+
+This option trades sparse or newly visible features for fewer short-lived
+endpoints. A stationary leg or repeated returns in a cell can pass the test.
+Use it on the mapping stream only; collision sensing needs the instantaneous
+returns. To check the tradeoff, compare fixed landmarks as well as areas where
+a person walked. Body-frame heights vary with posture and terrain.
+
 The Humble SLAM implementation checks translation before admitting subsequent
 scans. Therefore `minimum_travel_distance` is zero and `minimum_time_interval` is
 0.5 seconds; the converter applies the explicit motion gates. Otherwise a turn

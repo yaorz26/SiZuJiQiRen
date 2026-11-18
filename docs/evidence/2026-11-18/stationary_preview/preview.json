@@ -1,0 +1,26 @@
+{
+  "map_shape": [
+    252,
+    191
+  ],
+  "free_m2": 4.252499809898438,
+  "occupied_m2": 0.15479999307990083,
+  "map_frame": "map",
+  "origin": [
+    -1.5530214675937686,
+    -3.9878106405668277,
+    0.0
+  ],
+  "robot_xy_yaw": [
+    -0.5014248081187775,
+    -0.7986164668394143,
+    0.18712115564119786
+  ],
+  "candidate": null,
+  "clearance_m": 0.36,
+  "robot_cell": 0,
+  "robot_known_free_margin_m": 0.029999999329447746,
+  "safe_at_start": true,
+  "connected_safe_cells": 1,
+  "nearest_occupied_centre_m": 0.6708203782559328
+}

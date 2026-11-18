@@ -183,6 +183,8 @@ def main():
     parser.add_argument('--single-frame-scan', action='store_false', dest='accumulate_scan')
     parser.set_defaults(accumulate_scan=True)
     parser.add_argument('--accumulation-window', type=float, default=1.0)
+    parser.add_argument('--scan-min-observation-span', type=float, default=0.0,
+                        help='Seconds of repeated near-field observations for accumulated mapping scans (0 disables)')
     parser.add_argument('--output-root', type=Path, default=Path(
         '/media/yaorz/Elements/unitree_go2/slam_validation') / datetime.now(ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d'))
     args = parser.parse_args()
@@ -190,6 +192,10 @@ def main():
         parser.error('--rate must be positive')
     if not math.isfinite(args.accumulation_window) or args.accumulation_window <= 0:
         parser.error('--accumulation-window must be finite and positive')
+    if not 0 <= args.scan_min_observation_span < args.accumulation_window:
+        parser.error('--scan-min-observation-span must be >= 0 and shorter than --accumulation-window')
+    if args.scan_min_observation_span and not args.accumulate_scan:
+        parser.error('--scan-min-observation-span requires accumulated scans')
     args.bag = args.bag.resolve()
     if not (args.bag / 'metadata.yaml').is_file():
         parser.error('Bag metadata is missing; finalize or recover the recording first')
@@ -225,6 +231,7 @@ def main():
                 'workspace_revision': revision,
                 'accumulate_scan': args.accumulate_scan,
                 'accumulation_window_seconds': args.accumulation_window,
+                'scan_min_observation_span': args.scan_min_observation_span,
                 'validation_mode': 'isolated loopback DDS; replay only cloud_base and robot_odom; no motion publishers',
                 'source_sha256': {str(source.relative_to(out)): hashlib.sha256(source.read_bytes()).hexdigest()
                                   for source in sorted(out.rglob('*')) if source.is_file()},
@@ -239,7 +246,9 @@ def main():
         launch_log = (out/'launch.log').open('w'); handles.append(launch_log)
         launch = subprocess.Popen(['ros2', 'launch', 'go2_slam_bringup', 'go2_slam.launch.py', 'use_sim_time:=true',
                                     f'accumulate_scan:={str(args.accumulate_scan).lower()}',
-                                    f'accumulation_window:={args.accumulation_window}'],
+                                    f'accumulation_window:={args.accumulation_window}',
+                                    f'accumulated_scan_params:={out.resolve() / "config/accumulated_scan.yaml"}',
+                                    f'scan_min_observation_span:={args.scan_min_observation_span}'],
                                   stdout=launch_log, stderr=subprocess.STDOUT, start_new_session=True)
         processes.append(launch)
         node.spin_for(5)

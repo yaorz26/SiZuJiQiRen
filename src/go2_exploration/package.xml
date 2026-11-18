@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>go2_exploration</name>
+  <version>0.1.0</version>
+  <description>Frontier goals for Nav2 and an isolated indoor exploration simulation.</description>
+  <maintainer email="yaorz@todo.todo">yaorz</maintainer>
+  <license>TODO: License declaration</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>nav2_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>tf2_ros_py</exec_depend>
+  <exec_depend>lifecycle_msgs</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <exec_depend>slam_toolbox</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>navigation2</exec_depend>
+  <exec_depend>unitree_go</exec_depend>
+  <exec_depend>unitree_api</exec_depend>
+  <exec_depend>nav2_map_server</exec_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

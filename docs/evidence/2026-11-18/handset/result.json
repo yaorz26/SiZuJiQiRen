@@ -1,0 +1,21 @@
+{
+  "bag": "/media/yaorz/9050F32A50F31626/go2_data/experiments/2026-11-18_dynamic_go2_replacement_01/box_loop_01_173625_27265/bag",
+  "sha256_bridge": "e09187ddda679475ae5d7500543cbcb633a894b76283bca5fe814098ce37230d",
+  "source": "recorded /lf/lowstate and /utlidar/robot_odom; synthetic velocity to preview in domain 86 on lo",
+  "simulated_input_vx_m_s": 0.12,
+  "sampled_physical_publishers_max": 0,
+  "recorded_lowstate_messages": 1162,
+  "first_recorded_manual_s": 3.200020932,
+  "received_lowstate_messages": 1162,
+  "first_observed_tick": 226319,
+  "observed_first_input_source_s": 3.200020932,
+  "observer_stop_minus_input_ms": 0.7,
+  "command_messages_sent": 1224,
+  "command_messages_sent_after_stop": 1132,
+  "move_previews_before_stop": 49,
+  "stop_previews": 1,
+  "move_previews_after_stop": 0,
+  "neutral_frames_after_stop": 801,
+  "observation_after_stop_s": 56.52,
+  "status": "passed"
+}

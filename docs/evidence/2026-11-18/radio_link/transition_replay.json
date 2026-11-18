@@ -1,0 +1,15 @@
+{
+  "domain": 86,
+  "transport": "loopback",
+  "rc": "original 20 Hz frames around both transitions; middle of stable off interval omitted",
+  "odometry": "synthetic",
+  "cmd_vel": "synthetic, 0.12 m/s",
+  "first_zero_to_preview_stop_ms": 3.04,
+  "stop_previews": 1,
+  "moves_before_zero": 50,
+  "moves_after_stop": 0,
+  "moves_after_restore": 0,
+  "velocity_inputs_after_restore": 60,
+  "velocity_inputs_total": 200,
+  "status": "passed"
+}

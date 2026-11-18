@@ -1,0 +1,81 @@
+{
+  "run": "manual_stop_repeat_2026-11-18_203117_8dg53ZF8",
+  "start_unix_s": 1795005079.9621155,
+  "duration_s": 37.174,
+  "lowstate_n": 743,
+  "odom_n": 5553,
+  "sport_n": 11041,
+  "invalid_rc_packets": 0,
+  "first_active_s": 27.7355829,
+  "last_active_s": 28.985511916,
+  "last_sample_before_neutral_s": 28.985511916,
+  "t_release": 29.03557008,
+  "t_release_deadband_10": 29.03557008,
+  "t_still": 30.523697613999985,
+  "stop_time_s": 1.488127533999986,
+  "net_stop_distance_m": 0.15756324012510617,
+  "along_path_stop_m": 0.15729501204361163,
+  "net_run_m": 0.9184500340485235,
+  "release_xy": [
+    1.3943039423787624,
+    0.3606558009919918
+  ],
+  "stop_xy": [
+    1.5488474002704145,
+    0.39135587039929187
+  ],
+  "final_xy": [
+    1.5396265983581543,
+    0.3929465264081955
+  ],
+  "distance_to_final_from_release_m": 0.1488669381992165,
+  "speed_at_release_m_s": 0.7166645887171885,
+  "peak_speed_m_s": 1.1262617150610232,
+  "pre_release_speed_m_s": 0.9065578163165573,
+  "poststop_max_speed_m_s": 0.0036551954026636285,
+  "threshold_sensitivity": [
+    [
+      0.02,
+      1.618,
+      15.46
+    ],
+    [
+      0.03,
+      1.488,
+      15.76
+    ],
+    [
+      0.04,
+      0.988,
+      16.08
+    ],
+    [
+      0.05,
+      0.918,
+      15.79
+    ]
+  ],
+  "sport_stop_time_s": 1.4381275339999853,
+  "sport_peak_speed_m_s": 1.1355480249733734,
+  "max_axis": [
+    0.0,
+    0.901368260383606,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "max_odom_receive_gap_s": 0.022546725999998074,
+  "max_rc_receive_gap_s": 0.05127377200000005,
+  "tail_xy_range_m": [
+    0.0002764463424682617,
+    0.00020292401313781738
+  ],
+  "max_yaw_change_deg": 3.26534458610735,
+  "max_forward_excursion_m": 0.16639643457158598,
+  "peak_excursion_time_s": 1.1481275339999861,
+  "forward_to_final_m": 0.14837994412684577,
+  "joystick_sample_bracket_s": 0.050058163999999294,
+  "method": "Timebase: common host bag receive time. Neutral starts at first valid keys=0 axes <0.03 sustained 0.30s after last >=0.12. XY speed is a centered 100ms position difference sampled at 100Hz. Translational standstill: <0.03m/s for 0.50 s. Projected distances use the run direction.",
+  "turn_or_multidirection": false,
+  "operator_note": "Operator reported repeat completed; use telemetry to locate release and standstill."
+}

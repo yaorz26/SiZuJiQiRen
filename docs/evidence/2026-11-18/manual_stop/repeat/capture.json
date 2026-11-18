@@ -1,0 +1,37 @@
+{
+  "mode": "manual handset stopping baseline; passive subscriptions",
+  "start_publishers": {
+    "/lf/lowstate": 1,
+    "/utlidar/robot_odom": 1,
+    "/sportmodestate": 1,
+    "/lf/sportmodestate": 1
+  },
+  "counts": {
+    "/lf/lowstate": 790,
+    "/utlidar/robot_odom": 5896,
+    "/sportmodestate": 11724,
+    "/lf/sportmodestate": 790
+  },
+  "events": [
+    {
+      "event": "READY",
+      "local": "2026-11-18T20:31:20.933+08:00",
+      "elapsed": 3.316,
+      "counts": {
+        "/lf/lowstate": 66,
+        "/utlidar/robot_odom": 487,
+        "/sportmodestate": 970,
+        "/lf/sportmodestate": 65
+      }
+    },
+    {
+      "event": "JOYSTICK_ACTIVE",
+      "local": "2026-11-18T20:31:47.848+08:00",
+      "elapsed": 30.232
+    }
+  ],
+  "reason": "eight_seconds_after_release",
+  "invalid_remote_packets": 0,
+  "recorder_exit": 0,
+  "storage": "RAM staging if Elements absent; Windows E archive"
+}

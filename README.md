@@ -31,6 +31,7 @@ git submodule update --init --recursive
 | `src/go2_lidar_snapshot`、`src/go2_lidar_filter` | 点云保存和过滤 |
 | `src/go2_state_logger` | 机器人状态记录 |
 | `src/go2_slam_bringup` | 时钟对齐、运动补偿扫描与二维 SLAM 启动配置 |
+| `src/go2_exploration` | 单狗前沿探索仿真、目标预览和手柄接管验证 |
 | `src/go2_cloud_map_projector` | 将三维点云投影为二维占据栅格 |
 | `src/go2_kiss_icp_bringup` | Go2 KISS-ICP 里程计与地图投影配置（候选路线） |
 | `scripts/` | 现场录制、连续性观察、回放、地图保存与质量评估 |
@@ -59,6 +60,7 @@ KISS-ICP 是候选里程计路线，其构建与运行说明已归档：
 - [2026-10-25 实验结果与限制](docs/field_results_2026-10-25.md)
 - [2026-10-25 数据索引](docs/data_index_2026-10-25.yaml)
 - [数据提交与备份约定](docs/data_publication.md)
+- [2026-11-18 实验记录：移动建图、双箱和停车](docs/field_results_2026-11-18.md) · [本机数据与校验清单](docs/data_inventory_2026-11-18.csv)
 - [2026-11-17 外盘数据清单与 SHA-256](docs/data_inventory_2026-11-17.csv)
 - [随仓库保存的小型证据](docs/evidence/README.md)
 - [历史计划与指导（归档）](docs/archive/README.md)

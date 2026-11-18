@@ -1,0 +1,107 @@
+{
+  "checked_at": "2026-11-18T19:07:14.671093+08:00",
+  "run_path": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794",
+  "bag_path": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794/bag",
+  "duration_s": 64.630108636,
+  "recording_completion": "completed_file",
+  "total_messages": 48636,
+  "bag_size_mib": 200.93359375,
+  "streams": {
+    "/lf/sportmodestate": {
+      "messages": 1293,
+      "received_hz": 20.006155448109187
+    },
+    "/sportmodestate": {
+      "messages": 19122,
+      "received_hz": 295.8682942604361
+    },
+    "/utlidar/cloud_base": {
+      "messages": 995,
+      "empty_clouds": 0,
+      "invalid_relative_time_clouds": 0,
+      "maximum_relative_point_time_s": 0.0654638484120369,
+      "clouds_with_relative_times_over_3s": 0,
+      "received_hz": 15.395301369581315,
+      "source_interval_s": {
+        "median": 0.064992189,
+        "maximum": 0.079998254,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      },
+      "receive_interval_s": {
+        "median": 0.064946141,
+        "maximum": 0.07266427,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      }
+    },
+    "/utlidar/cloud": {
+      "messages": 995,
+      "empty_clouds": 0,
+      "invalid_relative_time_clouds": 0,
+      "maximum_relative_point_time_s": 0.0654638484120369,
+      "clouds_with_relative_times_over_3s": 0,
+      "received_hz": 15.395301369581315,
+      "source_interval_s": {
+        "median": 0.064992189,
+        "maximum": 0.079998254,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      },
+      "receive_interval_s": {
+        "median": 0.06497829199999999,
+        "maximum": 0.07290903,
+        "gaps_over_025s": 0,
+        "nonincreasing": 0
+      }
+    },
+    "/utlidar/imu": {
+      "messages": 16275,
+      "received_hz": 251.81761787933257
+    },
+    "/utlidar/lidar_state": {
+      "messages": 323,
+      "received_hz": 4.997670695854035
+    },
+    "/utlidar/robot_odom": {
+      "messages": 9633,
+      "received_hz": 149.0481789881174
+    }
+  },
+  "sqlite_checks": {
+    "bag_0.db3": "ok"
+  },
+  "reported_error_codes": {
+    "100": 19122
+  },
+  "reported_modes": {
+    "0": 19122
+  },
+  "odometry_motion": {
+    "measurement": "Recorded odometry estimate; independent ground truth not measured",
+    "start_pose_median_xyz_yaw": [
+      0.21665186434984207,
+      0.2971237599849701,
+      0.3123714029788971,
+      -0.21708906709074297
+    ],
+    "end_pose_median_xyz_yaw": [
+      0.8627695441246033,
+      0.48584769666194916,
+      0.3016436845064163,
+      -0.30321137935985565
+    ],
+    "net_xy_displacement_m": 0.673115725854312,
+    "forward_projection_m": 0.5903035128685871,
+    "lateral_projection_m": 0.32346026508271947,
+    "net_yaw_change_deg": -4.934445014927904,
+    "maximum_yaw_change_from_start_deg": 4.950574848408334,
+    "max_distance_from_start_m": 0.6911028605164955,
+    "last_5s_position_range_m": {
+      "x": 0.0002751350402832031,
+      "y": 0.0003248751163482666,
+      "z": 5.8710575103759766e-06
+    },
+    "last_5s_yaw_range_deg": 0.02913232681216599
+  }
+}

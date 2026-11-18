@@ -42,6 +42,23 @@ def test_heading_wrap_uses_short_rotation():
     np.testing.assert_allclose(vector, [[-1, 0, 0]], atol=1e-12)
 
 
+def test_repeated_box_edge_survives_short_lived_returns():
+    # Stationary edge jitters across a grid boundary. The other cluster is
+    # dense, but all three hits come from just one cloud.
+    xy = np.array([[.99, 0.], [1.01, 0.], [.48, .2], [.49, .2], [.50, .2]])
+    frames = np.array([1., 1.25, 1.25, 1.25, 1.25])
+    np.testing.assert_array_equal(MODULE.persistent_returns(xy, frames, .10, .20),
+                                  [True, True, False, False, False])
+
+
+def test_rejected_foreground_does_not_reveal_a_farther_echo():
+    distances = np.array([.6, 1., np.inf], dtype=np.float32)
+    n = MODULE.filter_unconfirmed_bins(
+        distances, np.array([0, 0, 1]), np.array([.6, 3., 1.]), [False, True, True])
+    assert n == 1
+    np.testing.assert_array_equal(distances, [np.inf, 1., np.inf])
+
+
 def test_organized_cloud_respects_row_padding_and_point_times():
     """Padding bytes between rows must not be read as valid points."""
     message = PointCloud2()

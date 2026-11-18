@@ -1,0 +1,240 @@
+{
+  "received_messages": {
+    "/clock": 6663,
+    "/go2/slam/time_diagnostics": 34,
+    "/go2/slam/scan_diagnostics": 34,
+    "/go2/slam/odom": 9595,
+    "/tf": 12947,
+    "/go2/slam/cloud_base": 991,
+    "/scan": 19,
+    "/map": 34,
+    "/slam_toolbox/graph_visualization": 34
+  },
+  "tf_edges": [
+    [
+      "map",
+      "odom"
+    ],
+    [
+      "odom",
+      "base_link"
+    ]
+  ],
+  "time_diagnostics": {
+    "go2/slam/time_alignment": {
+      "offset_seconds": "2646.38962179",
+      "aligned_clouds": "981",
+      "aligned_odometry": "9502",
+      "maximum_source_cloud_gap_seconds": "0.079998254",
+      "source_cloud_gaps_over_0_25_seconds": "0",
+      "clock_resets": "0"
+    },
+    "go2/slam/accumulated_scan": {
+      "scans": "19",
+      "window_seconds": "1.0",
+      "valid_points": "3068",
+      "finite_directions": "168",
+      "gap_resets": "0",
+      "dropped_clouds": "1"
+    }
+  },
+  "pose_graph_markers": [
+    {
+      "namespace": "",
+      "type": 0,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox",
+      "type": 2,
+      "points": 0
+    },
+    {
+      "namespace": "slam_toolbox_edges",
+      "type": 5,
+      "points": 40
+    },
+    {
+      "namespace": "slam_toolbox_edges",
+      "type": 5,
+      "points": 0
+    }
+  ],
+  "scan_finite_bins": {
+    "min": 164,
+    "max": 200,
+    "median": 179
+  },
+  "cloud_clock_delta_seconds": {
+    "min": 0.052297171,
+    "max": 0.092047261
+  },
+  "slam_pose_change": {
+    "first_xy_yaw": [
+      0.21664749085903165,
+      0.2971336245536804,
+      -0.2171304601736263
+    ],
+    "last_xy_yaw": [
+      0.9617967130865068,
+      0.5397529451988681,
+      -0.2786879353896345
+    ],
+    "net_xy_m": 0.7836526642183663,
+    "net_yaw_deg": -3.5269835273584347
+  },
+  "map": {
+    "frame": "map",
+    "width": 213,
+    "height": 276,
+    "resolution_m": 0.029999999329447746,
+    "cells": {
+      "-1": 43721,
+      "100": 901,
+      "0": 14166
+    },
+    "origin": [
+      -0.8265595839436282,
+      -4.449304554076664,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  },
+  "map_save_exit_code": 0,
+  "posegraph_save_result": 0,
+  "saved_files": [
+    "map.pgm",
+    "map.yaml",
+    "map.yaml.saver_original",
+    "posegraph.data",
+    "posegraph.posegraph"
+  ],
+  "map_yaml_geometry": {
+    "original_saver_geometry": {
+      "resolution": 0.03,
+      "origin": [
+        -0.827,
+        -4.45,
+        0
+      ]
+    },
+    "saved_resolution": 0.029999999329447746,
+    "saved_origin_xy_yaw": [
+      -0.8265595839436282,
+      -4.449304554076664,
+      0.0
+    ],
+    "original_saver_file": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-11-18/two_boxes_dynamic_86cm/two_boxes_dynamic_gap86_190437_58794_190825_259417/maps/map.yaml.saver_original"
+  },
+  "map_reload": {
+    "width": 213,
+    "height": 276,
+    "resolution_m": 0.029999999329447746,
+    "data_cells": 58788,
+    "origin": [
+      -0.8265595839436282,
+      -4.449304554076664,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "cells": {
+      "-1": 43721,
+      "100": 901,
+      "0": 14166
+    },
+    "exact_cell_match": true,
+    "geometry_matches": true
+  },
+  "pose_graph_vertices": 13,
+  "motion_consistency": {
+    "reference": "Recorded odometry; this is not independent ground truth",
+    "odometry_yaw_deg": -4.934445014927904,
+    "slam_yaw_deg": -3.5269835273584347,
+    "yaw_difference_deg": 1.4074614875694698,
+    "odometry_net_xy_m": 0.673115725854312,
+    "slam_net_xy_m": 0.7836526642183663
+  },
+  "geometry_accuracy": "Not independently ground-truth validated",
+  "pipeline_status": "passed",
+  "status": "success",
+  "trajectory_timing": {
+    "samples": 613,
+    "samples_with_tf_time_delta": 613,
+    "samples_with_recent_tf": 103,
+    "samples_outside_tf_time_gate": 510,
+    "tf_time_delta_min_s": -0.169892885,
+    "tf_time_delta_max_s": 9.812586367,
+    "time_gate_s": [
+      -0.2,
+      0.5
+    ],
+    "status": "timing_caveat",
+    "interpretation": "Latest map alignment is held between scan updates. Old transform stamps do not prove a wrong pose, but these samples are not independently time-verified."
+  }
+}

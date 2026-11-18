@@ -66,6 +66,36 @@ def read_points(message):
     return xyz[valid], offsets[valid]
 
 
+def persistent_returns(xy, frame_times, cell_size, min_span):
+    """Find XY cells seen in multiple clouds spanning min_span seconds."""
+    supported = np.zeros(len(xy), dtype=bool)
+    if not len(xy) or np.ptp(frame_times) < min_span:
+        return supported
+    # A second, offset grid keeps a small shift across a cell edge from
+    # discarding an otherwise repeatable return. All points share one pose.
+    for shift in (0., .5):
+        cells = np.floor(xy / cell_size + shift).astype(np.int64)
+        cells -= cells.min(axis=0)
+        keys = cells[:, 0] + (cells[:, 0].max() + 1) * cells[:, 1]
+        unique, indices = np.unique(keys, return_inverse=True)
+        earliest = np.full(len(unique), np.inf)
+        latest = np.full(len(unique), -np.inf)
+        np.minimum.at(earliest, indices, frame_times)
+        np.maximum.at(latest, indices, frame_times)
+        supported |= (latest - earliest >= min_span)[indices]
+    return supported
+
+
+def filter_unconfirmed_bins(distances, bins, ranges, supported):
+    """Invalidate an unconfirmed nearest return without exposing a farther one."""
+    confirmed = np.zeros(len(distances), dtype=bool)
+    nearest = ranges.astype(distances.dtype) == distances[bins]
+    confirmed[bins[nearest & supported]] = True
+    rejected = np.isfinite(distances) & ~confirmed
+    distances[rejected] = np.inf
+    return int(rejected.sum())
+
+
 class AccumulatedScan(Node):
     def __init__(self):
         super().__init__('go2_accumulated_scan')
@@ -75,6 +105,8 @@ class AccumulatedScan(Node):
                 ('minimum_height', -0.2), ('maximum_height', 1.0),
                 ('range_min', 0.2), ('range_max', 5.0),
                 ('angle_increment', math.pi / 180), ('gap_reset_seconds', .4),
+                ('scan_min_observation_span', 0.0), ('persistence_cell_size', .10),
+                ('persistence_max_range', 2.0),
                 ('minimum_publish_translation', .05), ('minimum_publish_rotation', .05),
                 ('minimum_publish_interval', .2), ('stationary_refresh_seconds', 10.0)):
             self.declare_parameter(name, value)
@@ -85,6 +117,15 @@ class AccumulatedScan(Node):
         self.maximum_range = float(self.get_parameter('range_max').value)
         self.increment = float(self.get_parameter('angle_increment').value)
         self.gap_reset = float(self.get_parameter('gap_reset_seconds').value)
+        self.min_span = float(self.get_parameter('scan_min_observation_span').value)
+        self.cell_size = float(self.get_parameter('persistence_cell_size').value)
+        self.persistence_range = float(self.get_parameter('persistence_max_range').value)
+        if not 0 <= self.min_span < self.window:
+            raise ValueError('scan_min_observation_span must be in [0, window_seconds)')
+        if self.min_span and (not math.isfinite(self.cell_size) or self.cell_size <= 0 or
+                              not math.isfinite(self.persistence_range) or
+                              self.persistence_range < self.minimum_range):
+            raise ValueError('Invalid persistence_cell_size or persistence_max_range')
         self.publish_translation = float(self.get_parameter('minimum_publish_translation').value)
         self.publish_rotation = float(self.get_parameter('minimum_publish_rotation').value)
         self.publish_interval = float(self.get_parameter('minimum_publish_interval').value)
@@ -99,6 +140,7 @@ class AccumulatedScan(Node):
         self.last_frame = None
         self.processed = self.resets = self.dropped = 0
         self.latest_directions = self.latest_points = 0
+        self.latest_rejected_bins = 0
         self.publisher = self.create_publisher(
             LaserScan, self.get_parameter('scan_topic').value, qos_profile_sensor_data)
         self.diagnostics = self.create_publisher(
@@ -180,31 +222,15 @@ class AccumulatedScan(Node):
             self.clouds.append((reference, world, times))
             while self.clouds and reference - self.clouds[0][0] > self.window:
                 self.clouds.popleft()
-            world = np.concatenate([cloud[1] for cloud in self.clouds])
-            point_times = np.concatenate([cloud[2] for cloud in self.clouds])
-            world = world[point_times >= reference - self.window]
-            position, quaternion = interpolate_poses(self.history, np.array([reference]))
-            inverse = quaternion.copy()
-            inverse[:, :3] *= -1
-            current = rotate_points(world - position, inverse)
-            ranges = np.linalg.norm(current[:, :2], axis=1)
-            keep = ((current[:, 2] >= self.low) & (current[:, 2] <= self.high)
-                    & (ranges >= self.minimum_range) & (ranges <= self.maximum_range))
-            current, ranges = current[keep], ranges[keep]
-            bins = np.floor(
-                (np.arctan2(current[:, 1], current[:, 0]) + math.pi)
-                / self.increment).astype(int)
-            size = math.ceil(2 * math.pi / self.increment)
-            valid = (bins >= 0) & (bins < size)
-            distances = np.full(size, np.inf, dtype=np.float32)
-            np.minimum.at(distances, bins[valid], ranges[valid])
-            self.latest_points = int(keep.sum())
-            self.latest_directions = int(np.isfinite(distances).sum())
             self.last_cloud_time = reference
             if reference - self.clouds[0][0] < min(.5, self.window * .8):
                 continue
-            qx, qy, qz, qw = quaternion[0]
-            pose = (position[0, 0], position[0, 1],
+            # The reference is the latest supported point. Its interpolated
+            # pose is already available, even in a cloud with unsorted times.
+            last = times.argmax()
+            reference_position, reference_quaternion = position[last], quaternion[last]
+            qx, qy, qz, qw = reference_quaternion
+            pose = (reference_position[0], reference_position[1],
                     math.atan2(2*(qw*qz+qx*qy), 1-2*(qy*qy+qz*qz)))
             if self.last_publish_time is not None:
                 elapsed = reference - self.last_publish_time
@@ -217,6 +243,36 @@ class AccumulatedScan(Node):
                 bootstrap = self.bootstrap_scans < 3 and elapsed >= .5
                 if not (moved or refresh or bootstrap):
                     continue
+            world = np.concatenate([cloud[1] for cloud in self.clouds])
+            point_times = np.concatenate([cloud[2] for cloud in self.clouds])
+            in_window = point_times >= reference - self.window
+            inverse = reference_quaternion.copy()
+            inverse[:3] *= -1
+            current = rotate_points(world[in_window] - reference_position, inverse)
+            ranges = np.linalg.norm(current[:, :2], axis=1)
+            keep = ((current[:, 2] >= self.low) & (current[:, 2] <= self.high)
+                    & (ranges >= self.minimum_range) & (ranges <= self.maximum_range))
+            current, ranges = current[keep], ranges[keep]
+            bins = np.floor(
+                (np.arctan2(current[:, 1], current[:, 0]) + math.pi)
+                / self.increment).astype(int)
+            size = math.ceil(2 * math.pi / self.increment)
+            valid = (bins >= 0) & (bins < size)
+            distances = np.full(size, np.inf, dtype=np.float32)
+            np.minimum.at(distances, bins[valid], ranges[valid])
+            self.latest_rejected_bins = 0
+            if self.min_span:
+                frame_times = np.repeat([cloud[0] for cloud in self.clouds],
+                                        [len(cloud[2]) for cloud in self.clouds])
+                near = valid & (ranges <= self.persistence_range)
+                supported = ~near
+                supported[near] = persistent_returns(
+                    current[near, :2], frame_times[in_window][keep][near],
+                    self.cell_size, self.min_span)
+                self.latest_rejected_bins = filter_unconfirmed_bins(
+                    distances, bins[valid], ranges[valid], supported[valid])
+            self.latest_points = int(keep.sum())
+            self.latest_directions = int(np.isfinite(distances).sum())
             msg = LaserScan()
             ns = round(reference * 1e9)
             msg.header.stamp.sec, msg.header.stamp.nanosec = divmod(ns, 1000000000)
@@ -242,6 +298,8 @@ class AccumulatedScan(Node):
         status.message = 'Measured points accumulated with per-point odometry compensation'
         values = {'scans': self.processed, 'window_seconds': self.window,
                   'valid_points': self.latest_points, 'finite_directions': self.latest_directions,
+                  'scan_min_observation_span': self.min_span,
+                  'unconfirmed_bins_last_scan': self.latest_rejected_bins,
                   'gap_resets': self.resets, 'dropped_clouds': self.dropped}
         status.values = [KeyValue(key=k, value=str(v)) for k, v in values.items()]
         message = DiagnosticArray()

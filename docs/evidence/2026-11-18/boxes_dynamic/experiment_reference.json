@@ -1,0 +1,18 @@
+{
+  "experiment": "two boxes; user-controlled dynamic observation",
+  "reported_gap_m": 0.86,
+  "gap_precision": "approximate; operator provided, uncertainty unknown",
+  "box_dimensions_cm_previously_reported": [
+    43,
+    22,
+    41
+  ],
+  "second_box_dimensions": "unconfirmed",
+  "target_observation_s": 90,
+  "mode": "sensor recording only; no movement requests",
+  "recording_closed_normally": true,
+  "stop_reason": "operator requested stop",
+  "actual_bag_duration_s": 64.630108636,
+  "archive_location": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794",
+  "remote_volume_label": "Elements"
+}

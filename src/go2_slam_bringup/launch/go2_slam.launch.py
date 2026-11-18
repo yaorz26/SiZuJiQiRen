@@ -3,6 +3,7 @@ from launch.actions import DeclareLaunchArgument
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
+from launch_ros.parameter_descriptions import ParameterValue
 from launch_ros.substitutions import FindPackageShare
 from launch.substitutions import PathJoinSubstitution
 
@@ -50,6 +51,8 @@ def generate_launch_description():
         DeclareLaunchArgument("aligned_cloud_topic", default_value="/go2/slam/cloud_base"),
         DeclareLaunchArgument("aligned_odom_topic", default_value="/go2/slam/odom"),
         DeclareLaunchArgument("accumulate_scan", default_value="true"),
+        DeclareLaunchArgument("scan_min_observation_span", default_value="0.0",
+                              description="Near-field observation span in seconds"),
         DeclareLaunchArgument("accumulation_window", default_value="1.0"),
         DeclareLaunchArgument(
             "accumulated_scan_params", default_value=default_accumulated_scan_params),
@@ -103,6 +106,8 @@ def generate_launch_description():
                 "odom_topic": aligned_odom_topic,
                 "scan_topic": scan_topic,
                 "window_seconds": accumulation_window,
+                "scan_min_observation_span": ParameterValue(
+                    LaunchConfiguration("scan_min_observation_span"), value_type=float),
             }],
         ),
 

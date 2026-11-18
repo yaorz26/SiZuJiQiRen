@@ -1,0 +1,81 @@
+{
+  "run": "manual_stop_2026-11-18_202930_CHl6wgDl",
+  "start_unix_s": 1795004973.447813,
+  "duration_s": 73.673,
+  "lowstate_n": 1470,
+  "odom_n": 10950,
+  "sport_n": 21759,
+  "invalid_rc_packets": 0,
+  "first_active_s": 23.202762563,
+  "last_active_s": 65.402894182,
+  "last_sample_before_neutral_s": 65.402894182,
+  "t_release": 65.45291713,
+  "t_release_deadband_10": 65.45291713,
+  "t_still": 65.73252628999997,
+  "stop_time_s": 0.27960915999996416,
+  "net_stop_distance_m": 0.005425101389344445,
+  "along_path_stop_m": 0.00043293092269431526,
+  "net_run_m": 0.44162556166453465,
+  "release_xy": [
+    0.6034696307824022,
+    0.25154304053071486
+  ],
+  "stop_xy": [
+    0.6022215448643469,
+    0.2568226244751009
+  ],
+  "final_xy": [
+    0.5946138501167297,
+    0.25838446617126465
+  ],
+  "distance_to_final_from_release_m": 0.011190619106808655,
+  "speed_at_release_m_s": 0.08539139652664325,
+  "peak_speed_m_s": 1.2093133911037253,
+  "pre_release_speed_m_s": 0.048814311294612237,
+  "poststop_max_speed_m_s": 0.006131601592601696,
+  "threshold_sensitivity": [
+    [
+      0.02,
+      0.31,
+      0.61
+    ],
+    [
+      0.03,
+      0.28,
+      0.54
+    ],
+    [
+      0.04,
+      0.24,
+      0.45
+    ],
+    [
+      0.05,
+      0.22,
+      0.41
+    ]
+  ],
+  "sport_stop_time_s": 0.26960915999995905,
+  "sport_peak_speed_m_s": 1.2355706528055421,
+  "max_axis": [
+    1.0,
+    0.9913448095321655,
+    0.9737029075622559,
+    0.13530655205249786,
+    0.0
+  ],
+  "max_odom_receive_gap_s": 0.18605152299999972,
+  "max_rc_receive_gap_s": 0.2500293209999995,
+  "tail_xy_range_m": [
+    0.00039708614349365234,
+    0.00022202730178833008
+  ],
+  "max_yaw_change_deg": 184.83028070034163,
+  "max_forward_excursion_m": 0.005236729865498048,
+  "peak_excursion_time_s": 0.07960915999996132,
+  "forward_to_final_m": -0.006327960005614797,
+  "joystick_sample_bracket_s": 0.05002294800000584,
+  "method": "Timebase: common host bag receive time. Neutral starts at first valid keys=0 axes <0.03 sustained 0.30s after last >=0.12. XY speed is a centered 100ms position difference sampled at 100Hz. Translational standstill: <0.03m/s for 0.50 s. Projected distances use the run direction.",
+  "turn_or_multidirection": true,
+  "operator_note": "User requested a repeat: first approach longer than intended; retain as a separate trial."
+}

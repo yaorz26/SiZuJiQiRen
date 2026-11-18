@@ -1,0 +1,124 @@
+{
+  "baseline": {
+    "n": 100,
+    "tick_span": 4950,
+    "steady_s": 4.95,
+    "raw_distinct": 1,
+    "raw_common": [
+      [
+        "55510000000000800000008000000080000000000000000000000000000000000000000000000180",
+        100
+      ]
+    ],
+    "keys": [
+      0
+    ],
+    "axes_peak": 0.0,
+    "odom": 604,
+    "wireless": 0,
+    "radio_unprocessed": 0
+  },
+  "confirmed_off": {
+    "n": 230,
+    "tick_span": 11450,
+    "steady_s": 11.45,
+    "raw_distinct": 1,
+    "raw_common": [
+      [
+        "00000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        230
+      ]
+    ],
+    "keys": [
+      0
+    ],
+    "axes_peak": 0.0,
+    "odom": 1486,
+    "wireless": 0,
+    "radio_unprocessed": 0
+  },
+  "confirmed_restored": {
+    "n": 220,
+    "tick_span": 10950,
+    "steady_s": 10.95,
+    "raw_distinct": 1,
+    "raw_common": [
+      [
+        "55510000000000800000008000000080000000000000000000000000000000000000000000000180",
+        220
+      ]
+    ],
+    "keys": [
+      0
+    ],
+    "axes_peak": 0.0,
+    "odom": 1493,
+    "wireless": 0,
+    "radio_unprocessed": 0
+  },
+  "confirmed_ranges_s": {
+    "on": [
+      1.0,
+      6.0
+    ],
+    "off": [
+      153.23630571365356,
+      164.73630571365356
+    ],
+    "restored": [
+      215.40402698516846,
+      226.40402698516846
+    ]
+  },
+  "operator_markers": {
+    "off_prompt_sent": 36.99099683761597,
+    "operator_confirmed_off": 152.73630571365356,
+    "on_prompt_sent": 192.8758978843689,
+    "operator_confirmed_dl_restored": 214.90402698516846
+  },
+  "segments": [
+    {
+      "kind": "header_5551",
+      "start_s": 0.056,
+      "first_tick": 1510360,
+      "n": 2688,
+      "last_s": 134.4073,
+      "last_tick": 1644710
+    },
+    {
+      "kind": "zero",
+      "start_s": 134.4579,
+      "first_tick": 1644760,
+      "n": 1101,
+      "last_s": 189.4578,
+      "last_tick": 1699761
+    },
+    {
+      "kind": "header_5551",
+      "start_s": 189.5078,
+      "first_tick": 1699810,
+      "n": 975,
+      "last_s": 238.2085,
+      "last_tick": 1748511
+    }
+  ],
+  "capture": {
+    "start_epoch": 1795003984.6000779,
+    "end_epoch": 1795004222.8095279,
+    "stop": "operator check completed",
+    "duration_s": 238.20945088399822,
+    "counts": {
+      "/lowstate": 119041,
+      "/utlidar/robot_odom": 35612,
+      "/lf/lowstate": 4764
+    },
+    "max_receive_gaps_s": {
+      "/lowstate": 0.009456986001168843,
+      "/utlidar/robot_odom": 0.02506520899987663,
+      "/lf/lowstate": 0.051095675997203216
+    },
+    "lf_distinct_total": 2,
+    "data_source": "read-only ROS subscriptions; operator observations recorded separately"
+  },
+  "scope": "Single handset / Go2 session. Wall-clock operator acknowledgements do not timestamp the exact physical power transitions."
+}

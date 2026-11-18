@@ -1,0 +1,69 @@
+{
+  "xyz": {
+    "side": [
+      {
+        "n": 990,
+        "median": 0.5407404899597168
+      },
+      {
+        "n": 1715,
+        "median": -0.41505512595176697
+      }
+    ],
+    "gap": 0.9557956159114838
+  },
+  "scan": {
+    "side": [
+      {
+        "n": 4,
+        "median": 0.4816782636853177
+      },
+      {
+        "n": 9,
+        "median": -0.40769556871011015
+      }
+    ],
+    "gap": 0.8893738323954279
+  },
+  "scan_filtered": {
+    "side": [
+      {
+        "n": 4,
+        "median": 0.4816782636853177
+      },
+      {
+        "n": 8,
+        "median": -0.4067842411861338
+      }
+    ],
+    "gap": 0.8884625048714515
+  },
+  "map": {
+    "side": [
+      {
+        "n": 2,
+        "median": 0.5086913911959363
+      },
+      {
+        "n": 2,
+        "median": -0.39140166565775236
+      }
+    ],
+    "gap": 0.9000930568536887
+  },
+  "splits": [
+    0.9535774290561676,
+    0.9552793800830841,
+    0.9563752114772797,
+    0.9579622149467468
+  ],
+  "reconstructed_scans": 8,
+  "run": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_static_gap86_184933_57204",
+  "replay_dir": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-11-18/two_boxes_86cm/two_boxes_static_gap86_184933_57204_185138_918606",
+  "reported_gap_m_approximate": 0.86,
+  "method": "Lateral separation of median y at body x=[1.39,1.51] m. Left ROI y=[0.36,0.69], right y=[-0.58,-0.27]. Raw cloud: every other frame, unchanged height and range slice. Rebuilt scans use per-scan body frame; map occupied cell centres in first reported map pose. Not independent ground truth.",
+  "sources": {
+    "candidate_scan.py": "b9a670666cce1e6535623e6296c060a7e50ece5b65cad11cd1ae1337d338b709",
+    "go2_accumulated_scan.py": "b92cfb7306fedd4e0da181f127b20cbf9a15f4a93ce9ba1e0c2623dcb0326f49"
+  }
+}

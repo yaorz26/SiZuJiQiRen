@@ -1,0 +1,13 @@
+{
+  "experiment": "two boxes; robot stationary per operator",
+  "reported_gap_m": 0.86,
+  "gap_precision": "approximate; operator provided, uncertainty unknown",
+  "box_dimensions_cm_previously_reported": [
+    43,
+    22,
+    41
+  ],
+  "second_box_dimensions": "unconfirmed",
+  "target_observation_s": 60,
+  "mode": "sensor recording only; no movement requests"
+}

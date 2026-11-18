@@ -1,0 +1,349 @@
+{
+  "before": {
+    "inner_sides": {
+      "sides": [
+        {
+          "n": 1617,
+          "median_y": 0.46625767766151627
+        },
+        {
+          "n": 729,
+          "median_y": -0.5075795210185308
+        }
+      ],
+      "lateral_gap_m": 0.973837198680047
+    },
+    "window_sensitivity": {
+      "1.56": {
+        "sides": [
+          {
+            "n": 2147,
+            "median_y": 0.49288418216185437
+          },
+          {
+            "n": 1701,
+            "median_y": -0.5401054897325883
+          }
+        ],
+        "lateral_gap_m": 1.0329896718944427
+      },
+      "1.59": {
+        "sides": [
+          {
+            "n": 1617,
+            "median_y": 0.46625767766151627
+          },
+          {
+            "n": 729,
+            "median_y": -0.5075795210185308
+          }
+        ],
+        "lateral_gap_m": 0.973837198680047
+      },
+      "1.62": {
+        "sides": [
+          {
+            "n": 705,
+            "median_y": 0.4404630930974507
+          },
+          {
+            "n": 384,
+            "median_y": -0.5076104109357786
+          }
+        ],
+        "lateral_gap_m": 0.9480735040332293
+      }
+    },
+    "fronts": {
+      "left": {
+        "median_forward_m": 1.5486626196539954,
+        "lateral_bins": 11
+      },
+      "right": {
+        "median_forward_m": 1.5196672328287857,
+        "lateral_bins": 10
+      }
+    }
+  },
+  "moving": {
+    "inner_sides": {
+      "sides": [
+        {
+          "n": 251,
+          "median_y": 0.44627198846420263
+        },
+        {
+          "n": 248,
+          "median_y": -0.5433528000900695
+        }
+      ],
+      "lateral_gap_m": 0.9896247885542722
+    },
+    "window_sensitivity": {
+      "1.56": {
+        "sides": [
+          {
+            "n": 355,
+            "median_y": 0.4489040558221063
+          },
+          {
+            "n": 380,
+            "median_y": -0.5485555030841258
+          }
+        ],
+        "lateral_gap_m": 0.9974595589062321
+      },
+      "1.59": {
+        "sides": [
+          {
+            "n": 251,
+            "median_y": 0.44627198846420263
+          },
+          {
+            "n": 248,
+            "median_y": -0.5433528000900695
+          }
+        ],
+        "lateral_gap_m": 0.9896247885542722
+      },
+      "1.62": {
+        "sides": [
+          {
+            "n": 148,
+            "median_y": 0.4449523886179618
+          },
+          {
+            "n": 137,
+            "median_y": -0.5459125865907738
+          }
+        ],
+        "lateral_gap_m": 0.9908649752087356
+      }
+    },
+    "fronts": {
+      "left": {
+        "median_forward_m": 1.4820440919209303,
+        "lateral_bins": 11
+      },
+      "right": {
+        "median_forward_m": 1.4506712449053032,
+        "lateral_bins": 10
+      }
+    }
+  },
+  "after": {
+    "inner_sides": {
+      "sides": [
+        {
+          "n": 235,
+          "median_y": 0.4048931181117246
+        },
+        {
+          "n": 1401,
+          "median_y": -0.5681211094923595
+        }
+      ],
+      "lateral_gap_m": 0.9730142276040841
+    },
+    "window_sensitivity": {
+      "1.56": {
+        "sides": [
+          {
+            "n": 389,
+            "median_y": 0.40525516830543823
+          },
+          {
+            "n": 2153,
+            "median_y": -0.5746391604418601
+          }
+        ],
+        "lateral_gap_m": 0.9798943287472983
+      },
+      "1.59": {
+        "sides": [
+          {
+            "n": 235,
+            "median_y": 0.4048931181117246
+          },
+          {
+            "n": 1401,
+            "median_y": -0.5681211094923595
+          }
+        ],
+        "lateral_gap_m": 0.9730142276040841
+      },
+      "1.62": {
+        "sides": [
+          {
+            "n": 158,
+            "median_y": 0.40518759910059055
+          },
+          {
+            "n": 606,
+            "median_y": -0.5810879670929708
+          }
+        ],
+        "lateral_gap_m": 0.9862755661935614
+      }
+    },
+    "fronts": {
+      "left": {
+        "median_forward_m": 1.4792372667011253,
+        "lateral_bins": 11
+      },
+      "right": {
+        "median_forward_m": 1.4358528820926917,
+        "lateral_bins": 10
+      }
+    }
+  },
+  "final_map": {
+    "inner_sides": {
+      "sides": [
+        {
+          "n": 4,
+          "median_y": 0.4303348672921417
+        },
+        {
+          "n": 7,
+          "median_y": -0.4970041754012914
+        }
+      ],
+      "lateral_gap_m": 0.9273390426934331
+    },
+    "window_sensitivity": {
+      "1.56": {
+        "sides": [
+          {
+            "n": 5,
+            "median_y": 0.4335662924976299
+          },
+          {
+            "n": 10,
+            "median_y": -0.5002356006067796
+          }
+        ],
+        "lateral_gap_m": 0.9338018931044095
+      },
+      "1.59": {
+        "sides": [
+          {
+            "n": 4,
+            "median_y": 0.4303348672921417
+          },
+          {
+            "n": 7,
+            "median_y": -0.4970041754012914
+          }
+        ],
+        "lateral_gap_m": 0.9273390426934331
+      },
+      "1.62": {
+        "sides": [
+          {
+            "n": 1,
+            "median_y": 0.4335662924976299
+          },
+          {
+            "n": 3,
+            "median_y": -0.49054132499031494
+          }
+        ],
+        "lateral_gap_m": 0.9241076174879448
+      }
+    },
+    "fronts": {
+      "left": {
+        "median_forward_m": 1.483345155566468,
+        "lateral_bins": 11
+      },
+      "right": {
+        "median_forward_m": 1.4377096754783105,
+        "lateral_bins": 10
+      }
+    }
+  },
+  "central_patch": {
+    "254": 222
+  },
+  "run": {
+    "duration": 64.630108636,
+    "cloud_hz": 15.395301369581315,
+    "cloud_frames": 995,
+    "net_odom_xy_m": 0.673115725854312,
+    "net_odom_yaw_deg": -4.934445014927904,
+    "net_slam_xy_m": 0.7836526642183663,
+    "net_slam_yaw_deg": -3.5269835273584347,
+    "scan_count": 19,
+    "vertices": 13,
+    "trajectory_timing": {
+      "samples": 613,
+      "samples_with_tf_time_delta": 613,
+      "samples_with_recent_tf": 103,
+      "samples_outside_tf_time_gate": 510,
+      "tf_time_delta_min_s": -0.169892885,
+      "tf_time_delta_max_s": 9.812586367,
+      "time_gate_s": [
+        -0.2,
+        0.5
+      ],
+      "status": "timing_caveat",
+      "interpretation": "Latest map alignment is held between scan updates. Old transform stamps do not prove a wrong pose, but these samples are not independently time-verified."
+    },
+    "source_max_gap_s": 0.079998254
+  },
+  "phase_windows": {
+    "before": {
+      "seconds": [
+        2,
+        21
+      ],
+      "cloud_frames": 292
+    },
+    "moving": {
+      "seconds": [
+        24,
+        30
+      ],
+      "cloud_frames": 92
+    },
+    "after": {
+      "seconds": [
+        35,
+        62
+      ],
+      "cloud_frames": 416
+    }
+  },
+  "static_map_gap_m": 0.9000930568536887,
+  "coordinate_method": "Per-point body data transformed by interpolated full odometry, then latest sampled replay map-to-odom; all layers expressed in the start body XY axes. Registered positions can contain pose/timing and view effects.",
+  "distance_method": "Median separation of opposite side-face returns/cell centres in x=[1.59,1.71] m. Nearby 12cm strips tested with left edges 1.56,1.59,1.62 m; static result used a strip relative to its own starting pose. All heights from the configured -0.2 to +1.0 m body slice. Front depths are balanced over lateral 2.5cm bins.",
+  "offline_scan_comparison": {
+    "default": {
+      "scans": 19,
+      "finite": 3415,
+      "near_40cm": 0,
+      "inner_gap_patch": 0,
+      "box_region": 869
+    },
+    "span_0.2s": {
+      "scans": 19,
+      "finite": 3297,
+      "near_40cm": 0,
+      "inner_gap_patch": 0,
+      "box_region": 865
+    },
+    "scope": "in-memory scan endpoints; no ground-truth leg labels"
+  },
+  "paths": {
+    "bag": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_dynamic_gap86_190437_58794/bag/bag_0.db3",
+    "map": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-11-18/two_boxes_dynamic_86cm/two_boxes_dynamic_gap86_190437_58794_190825_259417/maps/map.pgm",
+    "metrics": "/media/yaorz/Elements/unitree_go2/slam_validation/2026-11-18/two_boxes_dynamic_86cm/two_boxes_dynamic_gap86_190437_58794_190825_259417/metrics.json",
+    "static": "/media/yaorz/Elements/unitree_go2/experiments/2026-11-18_two_boxes_go2_replacement_01/two_boxes_static_gap86_184933_57204/gap_analysis_v1/gap_metrics.json"
+  },
+  "sha256": {
+    "map": "3f46a694d44ffa3e33b2faae86bac8430ce2a00ec6807a3050fa676745161cd1",
+    "metrics": "925e37a61e6817ddaeaac06b588680a8d29ac511cb97d9e28cc5b2e2d0d6f25a",
+    "static": "ac5b09e102250f6adf5975b6642aaccb43b2238ff9d53a93d69311d37bd494a9"
+  }
+}
